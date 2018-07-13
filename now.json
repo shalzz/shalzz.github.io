@@ -1,0 +1,12 @@
+{
+    "name": "jain.sh",
+    "alias": [
+        "jain.sh"
+    ],
+    "public": true,
+    "files": [
+        "index.html",
+        "psychedelic-cat.webp",
+        "techno-cat.gif"
+    ]
+}
