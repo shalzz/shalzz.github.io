@@ -5,13 +5,13 @@ Hello, World! I'm Shaleen Jain, a free software (free as in freedom) and free cu
 Some of my work includes contributions to [VLC][3], [LineageOS][4] and [OpenWRT][5].
 I hope to help create a major free software project having a wide reaching impact.
 
-* Email: [{{ config.extra.author.email.htmlencode }}]({{ config.extra.author.email.id | prepend:"mailto:" }})
+* Email: [shaleen@jain.sh](mailto:shaleen@jain.sh)
 
-* Github: [{{ config.extra.author.github.username }}]({{ config.extra.author.github.link }})
+* Github: [shalzz](https://github/shalzz)
 
 * OpenHub: [shalzz][openhub]
 
-* Twitter: [{{ config.extra.author.twitter.username }}]({{ config.extra.author.twitter.link }})
+* Twitter: [shalzzj](https://twitter.com/shalzzj)
 
 * GPG Key: [E6E4FF30][1]
 

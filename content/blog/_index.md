@@ -1,7 +1,9 @@
 +++
 title = "Shaleen Jain's Blog"
-template = 
+template = "blog.html"
 permalink = "/blog/"
+sort_by = "date"
+insert_anchor_links = "left"
 [extra]
-custom_header = ''
+hide_title = true
 +++

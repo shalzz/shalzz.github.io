@@ -1,8 +1,10 @@
 # The URL the site will be built for
-base_url = "https =//shaleenjain.com"
+base_url = "https://shaleenjain.com"
 
 title = "Shaleen Jain"
 description = "Personal and technical musings"
+# the default language, used in RSS and coming i18n
+default_language = "en"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -10,9 +12,13 @@ compile_sass = true
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Gutenberg
 highlight_code = true
+highlight_theme = "monokai"
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+
+# Whether to generate a RSS feed automatically
+generate_rss = true
 
 theme = "butler"
 
@@ -22,31 +28,8 @@ keywords = "web, android, technology, docker, javascript, java, python, blog, co
 [extra.author]
 name = "Shaleen Jain"
 
-email.id = "shaleen@jain.sh"
-email.htmlencode = "shaleen@jain.sh"
-
 twitter.username = "shalzzj"
 twitter.link = "https://twitter.com/shalzzj"
-
-docker.username = "shalzz"
-docker.link = "https://hub.docker.com/u/shalzz"
-
-stackexchange.link = "https://stackexchange.com/users/1676129/shalzz?tab=accounts"
-linkedin.username = "shaleen-jain"
-linkedin.link = "https://www.linkedin.com/in/shaleen-jain"
-
-github.username = "shalzz"
-github.link = "https://github.com/shalzz"
-
-playstore.link = "https://play.google.com/store/apps/dev?id=6362297435335536825"
-
-paypal.username = "shalzz"
-paypal.link = "https://www.paypal.me/shalzz"
-
-angelist.username = "shaleenj"
-angelist.link = "https://angel.co/shaleenj"
-
-bitcoin.address = "3Mzy33LHooQSp3bNgwA3siCCDPzLJ9pGzL"
 
 [extra.disqus]
 shortname = "shalzz"
