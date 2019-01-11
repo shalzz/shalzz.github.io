@@ -19,6 +19,7 @@ configure our HTTP client library to just not verify the site hostname with the 
 But then again that is not a good solution and defeats the whole purpose of encryption.
 
 <!-- more -->
+
 A more elegant solution is to tell the client library to explicitly trust a certificate.
 We'll have to manually get a copy of the site's self-signed certificate that we can use
 to tell our client to trust.
