@@ -1,5 +1,7 @@
 +++
 title="Example content"
+draft=true
+date=2015-05-19
 [extra]
 +++
 

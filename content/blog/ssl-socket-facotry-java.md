@@ -1,5 +1,6 @@
 +++
 title="Trusting a Self-signed SSL Certificate"
+date=2013-12-27
 [extra]
 tags="java, android, SSL, SSLException, self-signed"
 +++

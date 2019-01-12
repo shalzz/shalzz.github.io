@@ -1,8 +1,9 @@
 +++
 title="VLC Media Player and Fuzz testing"
+date=2017-05-15
 [extra]
 tags="libfuzzer, libvlc, vlc, fuzzing, gsoc-2017, gsoc"
-last_modified_at="2017-07-08T00:00:00+05:30"
+last_modified_at=2017-07-08T00:00:00+05:30
 +++
 Software bugs and vulnerabilities can be difficult to detect and slow to find
 even when actively searched for by developers and users who usually look for
