@@ -28,6 +28,8 @@ keywords = "web, android, technology, docker, javascript, java, python, blog, co
 [extra.author]
 name = "Shaleen Jain"
 
+email.id="shaleen@jain.sh"
+
 twitter.username = "shalzzj"
 twitter.link = "https://twitter.com/shalzzj"
 
