@@ -12,10 +12,7 @@ This allows you to cast any video or audio from any other device to your connect
 <!-- more -->
 
 ## Content
-{:.no_toc}
-
-1. Table of contents
-{:toc}
+{{ toc() }}
 
 ## Discoverying Devices
 
@@ -32,9 +29,7 @@ I explained and solved in the previous post of this series. After adapting that
 patch we were now able to discover and list any DLNA renderers available
 on the same network.
 
-<div>
-{% include asset.html src="vlc-dlna-discover-clip.jpg" %}
-</div>
+{{ resize_image(path="vlc-dlna-discover-clip.jpg") }}
 
 ## Casting to the Device
 
