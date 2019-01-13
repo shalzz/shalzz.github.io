@@ -1,6 +1,3 @@
 [submodule "themes/butler"]
 	path = themes/butler
 	url = git@github.com:shalzz/bulter.git
-[submodule "themes/even"]
-	path = themes/even
-	url = git@github.com:Keats/even.git
