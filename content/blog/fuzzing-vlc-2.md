@@ -175,8 +175,8 @@ Unfortunately I cannot publish my source code yet or start integrating with oss-
 by Google as VideoLAN/Labs is still undecided and would rather do this privately, mostly because they
 don't want to be bound by Google's [bug disclosure][5] policy.
 
-~~I think they are just confused that they have to do a software release within the specified
-deadline when it's just a bug disclosure, but whatever.~~
+<del>I think they are just confused that they have to do a software release within the specified
+deadline when it's just a bug disclosure, but whatever.</del>
 (There's no longer any confusion.)
 
 > Update: You can find all my bug fixes and patches [here][6]
