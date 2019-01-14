@@ -12,7 +12,14 @@ This allows you to cast any video or audio from any other device to your connect
 <!-- more -->
 
 ## Content
-{{ toc() }}
+1. [Discoverying Devices](#discoverying-devices)
+1. [Casting to the Device](#casting-to-the-device)
+1. [Device Media Formats](#device-media-formats)
+1. [Future](#future)
+    1. [Demux Filter](#demux-filter)
+    1. [DLNA v1.5](#dlna-v1-5)
+1. [Code](#code)
+1. [Release](#release)
 
 ## Discoverying Devices
 
