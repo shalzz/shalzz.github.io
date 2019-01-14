@@ -2,7 +2,7 @@
 title="My Vim and Tmux Setup"
 date=2018-05-27
 [extra]
-image="nvim-and-tmux.png"
+image="nvim-and-tmux.jpg"
 tags="vim, tmux, dotfiles, dotconfig, .vimrc, personal, vim config, plugins, cpp, rust, c/cpp, c++/c, c++ , c, .tmux.conf, nvim, neovim"
 +++
 
@@ -27,7 +27,7 @@ seamlessly.
 One thing that does trip you up while setting up both vim/nvim and tmux is 
 enabling true color support, [this][3] blog helped me sort that out rather quickly.
 
-![screenshot](nvim-and-tmux.png "screenshot on my vim setup")
+![screenshot](nvim-and-tmux.jpg "screenshot of my vim setup")
 
 That's what my development environment looks like now.
 
