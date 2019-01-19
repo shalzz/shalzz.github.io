@@ -38,7 +38,9 @@ in Paris for a "GSoC conference" to discuss and help setting up the project
 and get me started.
 
 [^fn-cite_report_random_testing]: ["A report on random testing"][5]
+
 [^fn-cite_heartbleed]: ["How Heartbleed could've been found (in English)"][6]
+
 [^fn-cite_shellshock]: ["Bash bug: the other two RCEs, or how we chipped away at the original fix (CVE-2014-6277 and '78)"][7]
 
 [1]: https://en.wikipedia.org/wiki/Heartbleed
