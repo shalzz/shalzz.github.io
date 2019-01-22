@@ -11,6 +11,7 @@ if you'd like to donate using a different method.
 
 - [LiberaPay][2]
 - Bitcoin: [3Mzy33LHooQSp3bNgwA3siCCDPzLJ9pGzL][1]
+- Bitcoin Lighting Network: [tippin @shalzzj](https://tippin.me/@shalzzj)
 - Unified Payments Interface: [shaleen.jain95@oksbi (VPA)][3]
 
 
