@@ -7,7 +7,7 @@ I hope to help create a major free software project having a wide reaching impac
 
 * Email: [shaleen@jain.sh](mailto:shaleen@jain.sh)
 
-* Github: [shalzz](https://github/shalzz)
+* Github: [shalzz](https://github.com/shalzz)
 
 * OpenHub: [shalzz][openhub]
 

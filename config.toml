@@ -17,6 +17,9 @@ highlight_theme = "monokai"
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
+# Check for dead links
+check_external_links = false 
+
 # Whether to generate a RSS feed automatically
 generate_rss = true
 

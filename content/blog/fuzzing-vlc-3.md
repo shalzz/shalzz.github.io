@@ -67,7 +67,7 @@ completed or if it's ever merged into the VLC codebase.
 
 [1]: http://llvm.org/docs/LibFuzzer.html#startup-initialization
 [2]: http://lcamtuf.coredump.cx/afl/
-[3]: https://github.com/llvm-mirror/llvm/blob/master/lib/Fuzzer/afl/afl_driver.cpp
+[3]: https://github.com/llvm-mirror/compiler-rt/blob/58d43607862096aeb32d72173911c9df244a30f1/lib/fuzzer/afl/afl_driver.cpp
 [4]: https://github.com/mcarpenter/afl/blob/master/dictionaries/jpeg.dict
 [5]: https://github.com/mcarpenter/afl/blob/master/dictionaries/gif.dict
 [6]: https://github.com/mcarpenter/afl/blob/master/dictionaries/png.dict
