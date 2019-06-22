@@ -5,7 +5,7 @@ date=2018-01-08
 tags="nextjs, apollo, apollo-server, next.js, prefetch, performance, graphql, react, react.js, apollo-client"
 +++
 
-> Update: My pull requests implementing the techniques discussed here were merged into the zeit/next.js [with-data-prefetch][11] and [with-apollo][12] examples. You can easily combine the various examples (including the above two) to achieve your desired functionality.
+> Update: My pull requests implementing the techniques discussed here were merged into the zeit/next.js [with-data-prefetch][11] and [with-apollo][1] examples. You can easily combine the various examples (including the above two) to achieve your desired functionality.
 
 For most modern web apps, network speed and latency is still the biggest constraint for high performance and great UX. Universally rendered Isomorphic applications do a great job to solve that to some extent without sacrificing interactivity by processing the complete DOM of the first request on the server and subsequent requests on the client. But there is a lot more we can do.
 
@@ -161,7 +161,7 @@ We can then call this throughout our application, like for example:
 
  This will load not only our product.js page but also all the specific graphql queries into the ApolloClient store.
 
-[1]: https://github.com/Shalzz/next.js/tree/canary/examples/with-apollo
+[1]: https://github.com/zeit/next.js/tree/canary/examples/with-apollo
 [2]: https://github.com/zeit/next.js#with-link-1
 [3]: https://dev-blog.apollodata.com/@adamsoffer
 [4]: https://dev-blog.apollodata.com/whats-next-js-for-apollo-e4dfe835d070
@@ -171,4 +171,3 @@ We can then call this throughout our application, like for example:
 [9]: https://github.com/zeit/next.js/pull/3973
 [10]: https://github.com/zeit/next.js/pull/3525
 [11]: https://github.com/zeit/next.js/tree/canary/examples/with-data-prefetch
-[12]: https://github.com/zeit/next.js/tree/canary/examples/with-apollo

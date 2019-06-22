@@ -7,7 +7,7 @@ tags="libfuzzer, libvlc, vlc, fuzzing, gsoc-2017, gsoc"
 last_modified_at=2017-06-24T00:00:00+05:30
 +++
 
->_Introduction to this blog post [here](./blog/why-fuzz-vlc.md)_
+>_Introduction to this blog post [here](@/blog/why-fuzz-vlc.md)_
 
 ### The Architecture
 

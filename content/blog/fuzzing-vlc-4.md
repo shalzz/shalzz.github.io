@@ -8,7 +8,7 @@ last_modified_at=2018-01-10T00:00:00+05:30
 
 > Update: My fuzz targets have been merged into the VLC mainline tree by commits [74e7bd2][14], [b83e9f2][15].
 
->_Introduction to my GSoC project [here](/blog/why-fuzz-vlc)_
+>_Introduction to my GSoC project [here](@/blog/why-fuzz-vlc.md)_
 
 Majority of the parsing code of VLC has been successfully setup to be fuzzed by:
 

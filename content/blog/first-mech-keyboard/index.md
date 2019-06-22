@@ -215,7 +215,7 @@ in India and the people get over the illusion that skipping over the manufacturi
 sector and directly into the service sector by a country as a whole is a good sign of
 development.
 
-[vim-blog]: /blog/vim-and-tmux
+[vim-blog]: @/blog/vim-and-tmux/index.md
 [bluefruit]: https://www.adafruit.com/product/2829
 [Massdrop]: https://www.massdrop.com/buy/keywalker-68-bluetooth-mechanical-keyboard#description?referer=8MUP7X
 [TADA68]: https://kbdfans.cn/products/tada68-mechanical-keyboard-gateron-swtich-65-layout-dye-sub-keycaps-cherry-profils?spr_ref=5b12bce
