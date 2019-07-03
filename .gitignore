@@ -3,3 +3,5 @@
 _drafts
 _site
 vendor
+well-known/openpgpkey/hu/*
+!well-known/openpgpkey/hu/test

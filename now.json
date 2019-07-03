@@ -1,12 +1,12 @@
 {
+    "version": 2,
     "name": "jain.sh",
     "alias": [
         "jain.sh"
     ],
-    "public": true,
-    "files": [
-        "index.html",
-        "psychedelic-cat.webp",
-        "techno-cat.gif"
+    "routes": [
+        { "src": "/.well-known/openpgpkey/hu(/)?", "dest": "/404.html", "status": 404 },
+        { "src": "/.well-known/(.*)", "dest": "/well-known/$1" },
+        { "src": "/(.*)", "status": 301, "headers": { "Location": "https://shaleenjain.com/$1" }}
     ]
 }
