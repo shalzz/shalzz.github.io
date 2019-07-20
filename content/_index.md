@@ -1,7 +1,7 @@
 +++
 +++
 
-Hello, World! I'm Shaleen Jain, a free software (free as in freedom) and free culture activist.
+Hello World! I'm Shaleen Jain, a free software (free as in freedom) and free culture activist.
 Some of my work includes contributions to [VLC][3], [LineageOS][4] and [OpenWRT][5].
 I hope to help create a major free software project having a wide reaching impact.
 
