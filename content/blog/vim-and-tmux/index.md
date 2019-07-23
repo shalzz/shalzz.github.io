@@ -2,7 +2,7 @@
 title="My Vim and Tmux Setup"
 date=2018-05-27
 [extra]
-image="nvim-and-tmux.jpg"
+image="nvim-and-tmux.png"
 tags="vim, tmux, dotfiles, dotconfig, .vimrc, personal, vim config, plugins, cpp, rust, c/cpp, c++/c, c++ , c, .tmux.conf, nvim, neovim"
 +++
 
