@@ -3,7 +3,7 @@ layout="post"
 title="The Year of Blockchain"
 date=2019-07-22
 [extra]
-tags="blockchain, bitcoin"
+tags="blockchain, bitcoin, ban, cryptocurrencies, cryptocurrency, ethereum, india, libra, facebook, crypto ban, calibra"
 +++
 
 The year of 2019 has been a wild ride for the blockchain industry.
