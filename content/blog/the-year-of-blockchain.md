@@ -26,23 +26,23 @@ Andreas M. Antonopoulos lists out [three elements][1] to success in this industr
 Market, Timing and Sequencing.
 
   * *Market*: At this point we can all agree there is a market for cryptocurrencies
-	and gaps in the financial technologies that bitcoin and others fill.
+	and gaps in the financial system that bitcoin and others fill.
 
   * *Timing*: After the 2008 stock market crash and the Nov 2016 demonetisation by the
 	Indian government, people are seeing the frailty of the traditional
 	financial systems and their faith that their money is safe is diminishing.
 
-  * *Sequencing/Prerequisites*: Andreas describes this as the density of adoption
+  * *Sequencing/Prerequisites*: Andreas describes this as having density of adoption
  of the underlying technology. In the case of internet, layer 2 solutions like
 Facebook and Google where possible only because email drove the adoption of the
-internet to the point where every had to have email for work. This insured there
-was enough users already on the internet, the infrastructure was already laid out
-and people had the technical skills to get on the internet.
+internet to the point where everyone had to have email for work. This insured there
+were enough users already on the internet, the infrastructure was already laid out
+and people had the technical skills to navigate the internet.
 
 ### Currency is the email of blockchain
 
 Here I'll try and describe how the current circumstances will help accelerate the
-adoption of the blockchain technologies
+adoption of the blockchain technologies.
  
 First, the Indian governments proposed [draft bill][3] blanket banning the
 use and holding of cryptocurrencies of any kind.
@@ -65,19 +65,30 @@ But the government with its limited resources and knowledge about the blockchain
 technology and its use cases will not be able to prevent the p2p and decentralized use
 of the technology, which is precisely the features and use case that bitcoin and
 others aim to provide. Albeit many business will not be to accept bitcoin upfront
-and do not do so anyways do to its currently limited transactional throughput
+and do not anyways do so due to its currently limited transactional throughput
 capabilities, people will not cease to buy and invest in what they will see as 
 an excellent store of value akin to digital gold and few will even continue to
 trade.
 
 The government in its draft bill has effectively proposed a ban on the flow and
-storing of information where anyone holding 12 words on a piece of paper representing
+storage of information where anyone holding 12 words on a piece of paper representing
 their digital wallets private keys will be prosecuted and sentenced to a possible
 of 10 years in jail. This is nothing short of a surveillance state trying their
 best to siphon and hold onto any control and power they can, withstanding
 the title of the worlds largest democracy.
 
-Second, the announcement and launch of libra. The aol of money/cryptocurrencies.
+Second, the announcement and launch of libra and calibra by Facebook which is it's own
+cryptocurrency described as a global digital coin that is pegged to a basket of
+fiat currencies.
+A lot of people have rightly said Facebook's [libra][4] is not a blockchain with none
+of the characteristics and principals that govern a cryptocurrency like
+bitcoin, Facebook's libra is close enough and if they are successful in launching
+libra, it will bring positive regulations for cryptocurrencies but at the same time
+complying with the governments KYC and AML requirements from a wallets point of view
+but having no such requirements or restricts on the protocol or the libra associations level.
+
+bait and switch.
+The aol of money/cryptocurrencies.
 introduction to the world of cryptocurrencies, main driver of adoption.
 Too big to ban. creates enough grey area. Not exactly blockchain but enough to fools
 regulators and governments. Comply with traditional laws on the surface but create
