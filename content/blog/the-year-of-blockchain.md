@@ -40,7 +40,7 @@ and people had the technical skills to navigate the internet.
 
 ### Currency is the email of blockchain
 
-Here I'll try and describe how the current circumstances will help accelerate the
+Here I'll try and describe how the latest circumstances will help accelerate the
 adoption of the blockchain technologies.
 
 First, the Indian governments proposed [draft bill][3] blanket banning the
@@ -113,7 +113,7 @@ and drive the adoption as well as the development, discovery and use of 2nd laye
 blockchain solutions, bringing the open and decentralized nature of blockchains
 and the decentralized internet to different industries and use cases.
 
-The above events concluding in an scenario with even the slightest similarity might
+The above events concluding in a scenario with even the slightest similarity might
 just result in 2020 being the year of blockchain.
 
 [1]: https://www.youtube.com/watch?v=SMEOKDVXlUo&t=1490s
