@@ -101,7 +101,7 @@ described as part of their roadmap on their site. If that happens they will no
 longer be able to exert any definite control on their currency outside of their wallet.
 
 This is obviously good for the adoption of cryptocurrencies and hence blockchains
-as a whole. Libra with introduce possibly all of their 2.4 billion users to the
+as a whole. With Libra Facebook will introduce possibly all of their 2.4 billion users to the
 world of cryptocurrencies even though it is not exactly a cryptocurrency at this
 time, similar to how AOL introduced people to a permissioned/walled version of internet.
 
