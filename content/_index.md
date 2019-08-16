@@ -13,7 +13,7 @@ I hope to help create a major free software project having a wide reaching impac
 
 * Twitter: [shalzzj](https://twitter.com/shalzzj)
 
-* GPG Key: [E6E4FF30][1]
+* GPG Key: `gpg2 --locate-keys shaleen@jain.sh`
 
 [1]: https://keyserver.ubuntu.com/pks/lookup?op=vindex&search=shaleen.jain95@gmail.com&fingerprint=on
 [2]: http://pgp.mit.edu/pks/lookup?op=vindex&fingerprint=on&search=0x27B7EB19E6E4FF30
