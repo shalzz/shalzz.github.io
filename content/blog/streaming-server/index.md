@@ -10,23 +10,23 @@ tags="openwrt, wireguard, streaming, video, media, home media, samba server, sam
 ### Background and motivation
 
 Used to be that Netflix was the only streaming service who's subscription you needed,
-sparing sharing with your friends and family providing access to every video content out there.
-Long gone are the good ole days. If you haven't noticed now-a-days there's a different streaming
+sparingly sharing with your friends and family that provided access to every video content out there.
+Long gone are the good ole days if you haven't noticed now-a-days there's a different streaming
 service by every big producer and publisher with exclusive content as the only selling
 point to drive adoption.
 
 For some it's perfectly reasonable subscribing to every service exclusively streaming
-the new TV series. For other's it the constant juggle between one or two services every month.
+the new TV series. For other's its the constant juggle between one or two services every month.
 
 <!-- more -->
 
 If like me you don't have any qualms with piracy and are safe from law enforcement
 then you might say there's an easy solution.
 
-This fragmentation of the streaming market it the single biggest reason for the
+This fragmentation of the streaming market is the single biggest reason for the
 subsequent re-rise of the piracy industry. (citation)
 
-Pirating leads to problems of it's own, that of storage space. Deleting old files to make space for
+Pirating leads to some problems of it's own, that of storage space. Deleting old files to make space for
 new downloads, being tied down to a single device, scrubbing to 
 exactly where you left off an episode on another device after taking the pains to 
 copy the gigabytes of data between devices.
@@ -37,18 +37,18 @@ of the paper cuts from pirating.
 ### Abstract
 
 This is an overview of how you can effectively have your own streaming server 
-with zero running cost, setup at your home with consumer hardware you most likely
-already own allowing you to stream your entire media library via your WI-FI 
-connection when your at home and through a [Wireguard] VPN connecting to you home
-router when you on the move.
+with zero running costs, setup at your home with consumer hardware you most likely
+already own, allowing you to stream your entire media library via your WI-FI 
+connection when you're at home and through a [Wireguard] VPN connecting to your home
+router when you're on the move.
 
 ### Prerequisites
 
 Most of the hardware used here is pretty standard and should be easy to acquire.
 But this whole setup is contingent on having a router with [OpenWRT] installed
 or one that is supported by the OpenWRT project and you are not afraid of tinkering
-with you router to install OpenWRT on it yourself.
-Besides the hardware requirements general familiarity with *nix systems and
+with you're router to install OpenWRT on it yourself.
+Besides the hardware requirements, general familiarity with *nix systems and
 command line would make this very easy for you. 
 
 ### Disclaimer
@@ -73,7 +73,7 @@ Our Software stack would comprise of mainly these three main technologies.
 * DDNS: Dynamic DNS to remotely access our home router
 
 <figure style="width:75%;margin:auto;">
-    {{ resize_image(path="Streaming Server@2x.png") }}
+    {{ resize_image(path="streaming-server.png") }}
 <figcaption style="text-align:center;">Fig 1: Network Architecture</figcaption>
 <br/>
 </figure>
@@ -81,7 +81,7 @@ Our Software stack would comprise of mainly these three main technologies.
 #### Samba
 
 The premiss of our setup is having a Network Attached Storage (NAS). Off the shelf
-NAS boxes are generally more expensive but they do allow you setup hard-drives
+NAS boxes are generally more expensive but they do allow you to setup hard-drives
 in a RAID configuration providing redundancy and backup. If you already have a 
 NAS box you can use it instead otherwise if you're not doing any content creation
 and don't need high write throughput then a single drive is more than enough.
