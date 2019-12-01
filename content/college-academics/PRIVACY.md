@@ -2,6 +2,7 @@
 title="College Academics"
 date=2019-05-05
 slug="PRIVACY.md"
+draft=true
 [extra]
 +++
 
