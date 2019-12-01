@@ -9,25 +9,27 @@ tags="openwrt, wireguard, streaming, video, media, home media, samba server, sam
 
 ### Background and motivation
 
-Used to be that Netflix was the only streaming service who's subscription you needed,
-sparingly sharing with your friends and family that provided access to every video content out there.
-Long gone are the good ole days if you haven't noticed now-a-days there's a different streaming
-service by every big producer and publisher with exclusive content as the only selling
+Long gone are the good ole days where Netflix used to be the only streaming service
+you subscribed to and sparingly shared with your friends and family
+providing access to virtually every video content out there.
+But now if you haven't noticed there's a new streaming service rolled out by 
+every big producer and publisher with its exclusive content as the only selling
 point to drive adoption.
 
-For some it's perfectly reasonable subscribing to every service exclusively streaming
+In this new world, for some it's perfectly reasonable to subscribe to every service exclusively streaming
 the new TV series. For other's its the constant juggle between one or two services every month.
 
 <!-- more -->
 
-If like me you don't have any qualms with piracy and are safe from law enforcement
-then you might say there's an easy solution.
+If like me you don't have any qualms with piracy and are relatively safe from
+law enforcement in your jurisdiction then you might say there's an easy solution
+and you'd not be alone.
 
 This fragmentation of the streaming market is the single biggest reason for the
-subsequent re-rise of the piracy industry. (citation)
+subsequent re-rise of the piracy industry ([vice.com][5]).
 
-Pirating leads to some problems of it's own, that of storage space. Deleting old files to make space for
-new downloads, being tied down to a single device, scrubbing to 
+Pirating leads to some problems of it's own though, that of storage space.
+Deleting old files to make space for new downloads, being tied down to a single device, scrubbing to 
 exactly where you left off an episode on another device after taking the pains to 
 copy the gigabytes of data between devices.
 
@@ -148,3 +150,4 @@ connected to you router downloading with the full bandwidth of your home connect
 [2]: https://openwrt.org/docs/guide-user/services/vpn/wireguard/start
 [3]: https://www.stavros.io/posts/how-to-configure-wireguard/
 [4]: https://openwrt.org/docs/guide-user/services/downloading_and_filesharing/transmission
+[5]: https://www.vice.com/en_us/article/d3q45v/bittorrent-usage-increases-netflix-streaming-sites
