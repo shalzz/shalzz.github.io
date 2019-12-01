@@ -1,7 +1,7 @@
 +++
 layout="post"
 title="Home Media Streaming Server with Wireguard and OpenWRT"
-date=2019-11-28
+date=2019-12-01
 [extra]
 tags="openwrt, wireguard, streaming, video, media, home media, samba server, samba, torrent, transmission, netflix, piracy, solution, netflix alternative, home server, openwrt samba"
 +++
