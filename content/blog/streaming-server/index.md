@@ -3,7 +3,7 @@ layout="post"
 title="Home Media Streaming Server with Wireguard and OpenWRT"
 date=2019-12-01
 [extra]
-tags="openwrt, wireguard, streaming, video, media, home media, samba server, samba, torrent, transmission, netflix, piracy, solution, netflix alternative, home server, openwrt samba"
+tags="openwrt, wireguard, streaming, video, media, home media, samba server, samba, torrent, transmission, netflix, piracy, netflix alternative, home server, openwrt samba, nas, ddns, network attached storage, home media server, media server, nas with openwrt"
 +++
 
 ### Background and motivation
@@ -15,8 +15,9 @@ But now if you haven't noticed there's a new streaming service rolled out by
 every other big producer and publisher with their exclusive content as the only selling
 point to drive adoption.
 
-In this new world, for some it's perfectly reasonable to subscribe to every service exclusively streaming
-the new TV series. For others it's the constant juggle between one or two services every month.
+In this new world, for some it's perfectly reasonable to subscribe to every
+service exclusively streaming the new TV series. For others it's the constant
+juggle between one or two services every month.
 
 <!-- more -->
 
@@ -26,9 +27,9 @@ and you'd not be alone. The fragmentation of the streaming market is the single
 biggest reason for the subsequent re-rise of the piracy industry ([vice.com][5]).
 
 Pirating leads to some problems of it's own though, that of storage space.
-Deleting old files to make space for new downloads, being tied down to a single device, scrubbing to 
-exactly where you left off an episode on another device after taking the pains to 
-copy the gigabytes of data between devices.
+Deleting old files to make space for new downloads, being tied down to a single
+device, scrubbing to exactly where you left off an episode on another device
+after taking the pains to copy the gigabytes of data between devices.
 
 This inspired me to come up with an alternative that solves most if not all
 of the paper cuts from pirating.
