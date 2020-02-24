@@ -34,6 +34,8 @@ after taking the pains to copy the gigabytes of data between devices.
 This inspired me to come up with an alternative that solves most if not all
 of the paper cuts from pirating.
 
+<!-- toc -->
+
 ### Abstract
 
 This is an overview of how you can effectively have your own streaming server 
