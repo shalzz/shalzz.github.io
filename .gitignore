@@ -6,3 +6,5 @@ vendor
 well-known/openpgpkey/hu/*
 !well-known/openpgpkey/hu/test
 static/Resume.pdf
+
+.now
