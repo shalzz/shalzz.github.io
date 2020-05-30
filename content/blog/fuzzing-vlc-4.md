@@ -1,9 +1,9 @@
 +++
 title="Fuzzing libVLC - Final Report"
 date=2017-08-28
+updated=2018-01-10T00:00:00+05:30
 [extra]
 tags="libfuzzer, libvlc, vlc, fuzzing, gsoc-2017, gsoc"
-last_modified_at=2018-01-10T00:00:00+05:30
 +++
 
 > Update: My fuzz targets have been merged into the VLC mainline tree by commits [74e7bd2][14], [b83e9f2][15].

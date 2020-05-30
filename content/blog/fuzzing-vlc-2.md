@@ -1,9 +1,9 @@
 +++
 title="Fuzzing libVLC - De-multiplexer"
 date=2017-06-24
+updated=2017-07-05T00:00:00+05:30
 [extra]
 tags="libfuzzer, libvlc, vlc, fuzzing, gsoc-2017, gsoc"
-last_modified_at=2017-07-05T00:00:00+05:30
 +++
 
 So, I have been working on writing a fuzz target for the demux API for the past
