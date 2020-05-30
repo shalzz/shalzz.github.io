@@ -8,7 +8,10 @@ tags="political, governance, federal modal, india, indian governance, indian gov
 
 <!-- more -->
 
-1. Independent State Governments
+## Closer to the people Governance
+
+### Mayor system
+
 1. Mayor and the Council System
 1. Individual Representatives Elected at district level
 1. District Representatives form a Council to the city/town
@@ -23,11 +26,23 @@ tags="political, governance, federal modal, india, indian governance, indian gov
     themselves who fight for the peoples vote to become the Prime Minister.
 1. Once a Mayor is elected as the Prime Minister, that Mayor's council votes again to
     elect another mayor for the city/state.
+1. Any Individual convicted of a major crime (more than 5 years in jail) cannot run
+    as a candidate for state or federal government.
+
+### State Independence
+
+Majority of powers at the lowest levels.
+
+1. Independent State Governments
 1. State Governments are completely independent. Can chose to enact their own laws.
 1. Federal Laws need majority approval from all states.
 1. State Governments control all local laws, municipal corporations,
     Public sector Utilities (PSU), Police, etc
-1. People can directly hold accountable the state government, the mayor and the council.
+
+### Political Accountability
+
+Expresses dissent via digital means i.e. quicker redressal
+
 1. People can via protests, debates, civil right law suites and court rulings decide
     to remove a Mayor from office before his term is over.
 1. In case a Mayor is removed before his term is over either the council elects another
@@ -41,8 +56,9 @@ tags="political, governance, federal modal, india, indian governance, indian gov
 1. The judiciary maintains a district attorney office that has the power to prosecute
     and bring to court any government official in the police force,
     state government or the federal government.
-1. Any Individual convicted of a major crime (more than 5 years in jail) cannot run
-    as a candidate for state or federal government.
+
+### Abuse of powers due to ambiguity in laws
+
 1. No political party can contest for elections with a religious motive or have any
     specific religious issues as part of their manifesto to uphold the constitution
     right of secularism (This has to be enforced by the Election Commission among others).
@@ -54,7 +70,7 @@ tags="political, governance, federal modal, india, indian governance, indian gov
     and various NGO's and organisations)
 1. Any law that aims to preemptively arrest, prosecute or justify violence or police
     action leading to lose of life or fundamental rights of citizens with the pretense
-    of preventing harm to anyone or general public cannot be allowed due to undermining
+    of preventing a crime or harm to anyone or general public cannot be allowed due to undermining
     civil liberties and general abuse of power. Any such actions if absolutely
     necessary has to be taken with explicit permission from a public court.
 

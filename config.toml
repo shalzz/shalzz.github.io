@@ -21,7 +21,7 @@ build_search_index = false
 check_external_links = false 
 
 # Whether to generate a RSS feed automatically
-generate_rss = true
+generate_feed = true
 
 theme = "butler"
 
