@@ -55,7 +55,14 @@ Expresses dissent via digital means i.e. quicker redressal
     yearly audits and inspections.
 1. The judiciary maintains a district attorney office that has the power to prosecute
     and bring to court any government official in the police force,
-    state government or the federal government.
+    state government or the federal government and can bring lawsuits on its own
+    or on behalf of a citizen.
+1. A clear distinction between police and military to be maintained at all times.
+1. At no point is it justified to militarise the police.
+1. Community-led policing show be encourages and enforced in rural areas/low density
+   areas and not have a state back police in force.
+1. Areas that do have an active police force will be under the purview of a civilian
+    oversight committee to keep in check abuse of power and conflicts of interests.
 
 ### Abuse of powers due to ambiguity in laws
 
