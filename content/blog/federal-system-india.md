@@ -1,14 +1,20 @@
 +++
-title="Giving power back to the Indian people"
-date=2020-05-27
-draft=true
+title="Giving Power Back to the Indian People"
+date=2020-06-10
+draft=false
 [extra]
 tags="political, governance, federal modal, india, indian governance, indian government, federal government of india,"
 +++
 
-<!-- more -->
-
 ## Closer to the people Governance
+
+> This is my rough draft on points I think are important to have a health
+> people-centric democracy. I'll update this post after I try and expand these
+> points to make them more coherent when I get the time to learn and research
+> more about political science. I'm publishing this in its current unfinished
+> form in the hope that someone else can take a cue from this in the mean time.
+
+<!-- more -->
 
 ### Mayor system
 
@@ -80,5 +86,23 @@ Expresses dissent via digital means i.e. quicker redressal
     of preventing a crime or harm to anyone or general public cannot be allowed due to undermining
     civil liberties and general abuse of power. Any such actions if absolutely
     necessary has to be taken with explicit permission from a public court.
+
+### Effect
+
+This brings the question; How does a democratic society goes on to bring about a
+change as drastic as some of these to the point of needing to redraft the constitution.
+
+It is clear that a system is resistant to change to anything that undermines the
+fundamental structure of a system: in other words a broken system cannot possibly
+be used to fix that very system.
+
+Therefore, we as a society, need to be aware of this and come up with means of
+overthrowing a governance model that is by consensus broken beyond repair.
+
+Some of the traditional mechanisms so far have been that have been used:
+* Large scale Protests
+* Armed Revolution
+* Civil War Movements
+* Non-Violent Revolution (but self-infecting violence; hunger strikes, shutdown strikes, etc)
 
 [1]: https://www.britannica.com/topic/mayor-and-council-system
