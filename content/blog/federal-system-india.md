@@ -37,7 +37,7 @@ tags="political, governance, federal modal, india, indian governance, indian gov
 
 ### State Independence
 
-Majority of powers at the lowest levels.
+Majority of power at the lowest levels.
 
 1. Independent State Governments
 1. State Governments are completely independent. Can chose to enact their own laws.
@@ -46,8 +46,6 @@ Majority of powers at the lowest levels.
     Public sector Utilities (PSU), Police, etc
 
 ### Political Accountability
-
-Expresses dissent via digital means i.e. quicker redressal
 
 1. People can via protests, debates, civil right law suites and court rulings decide
     to remove a Mayor from office before his term is over.
@@ -103,6 +101,6 @@ Some of the traditional mechanisms so far have been that have been used:
 * Large scale Protests
 * Armed Revolution
 * Civil War Movements
-* Non-Violent Revolution (but self-infecting violence; hunger strikes, shutdown strikes, etc)
+* Non-Violent Revolution (but self-inflicting violence; hunger strikes, shutdown strikes, etc)
 
 [1]: https://www.britannica.com/topic/mayor-and-council-system
