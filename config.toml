@@ -39,5 +39,5 @@ twitter.link = "https://twitter.com/shalzzj"
 [extra.disqus]
 shortname = "shalzz"
 
-[extra.google_analytics]
-id = "UA-48815638-5"
+[extra.analytics]
+code = "personal"
