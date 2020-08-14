@@ -11,6 +11,7 @@ if you'd like to donate using a different method.
 
 - [LiberaPay][2]
 - Bitcoin: [3AbKDU3iLmoZZECiDYs5p3XMWQGyXjZXAc][1]
+- Ethereum: [shalzz.argent.xyz](https://shalzz.argent.xyz)
 - Bitcoin Lighting Network: [tippin.me/@shalzzj](https://tippin.me/@shalzzj)
 - Unified Payments Interface: [shaleen.jain95@oksbi (VPA)][3]
 
@@ -20,4 +21,3 @@ if you'd like to donate using a different method.
 [3]: upi://pay?pa=shaleen.jain95%40oksbi&pn=Shaleen%20jain&am=500
 [4]: https://www.patreon.com/shalzz
 [5]: https://www.paypal.me/shalzz
-
