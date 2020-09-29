@@ -52,7 +52,8 @@ With all these factors it was a no-brainer to buy the TADA68 and so I did!
 
 <figure>
 <div class="image-row">
-    {{ resize_image(path="tada68-box.jpg",class="image-column") }} {{ resize_image(path="tada68-plastic-top.jpg",class="image-column") }}
+    {{ resize_image(path="tada68-box.jpg",class="image-column") }}
+    {{ resize_image(path="tada68-plastic-top.jpg",class="image-column") }}
 </div>
 <figcaption>TADA68 in its original box and on the right with its stock plastic case</figcaption>
 </figure>
