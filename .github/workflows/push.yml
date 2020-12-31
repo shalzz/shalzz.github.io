@@ -11,4 +11,3 @@ jobs:
       env:
         PAGES_BRANCH: master
         TOKEN: ${{ secrets.TOKEN }}
-        BUILD_FLAGS: --drafts
