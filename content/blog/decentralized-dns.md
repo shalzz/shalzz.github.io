@@ -74,20 +74,28 @@ your Wi-Fi router if you have access to it.
 
 Since it's a full node we are gonna need to maintain the full chain state which
 can easily take multiple gigabytes of storage in addition to a 24x7 running system
-on you home network. The requirement hardware for this is:
+on you home network. The recommended hardware for this is:
 
 * A Raspberry Pi or any other single board computer with atleast 2 GB of Ram
-* At least a 500GB portable HDD/SDD
+* A portable/external HDD/SDD with least a 500GB storage space.
 
 Once you have the required hardware we can start setting up the software. I'd
 recommended use docker images to avoid dependency hell.
 
-hsd:
+You can build your own docker image from the [hsd][4] repo or use a pre-built
+one I have over at docker hub at [shalzz/hsd][7].
+
+```
+docker pull shalzz/hsd
+```
+
+Add a volume mapping a folder on your external hdd to `/root/.hsd` and expose the
+required ports according to the command line
+`hsd --ns-host 0.0.0.0 --ns-port 5300 --rs-host 0.0.0.0 --rs-port 53`
+
+Here is the complete `docker-compose.yaml` file for reference:
 
 ```yaml
-version: "3"
-
-services:
   hsd:
     container_name: hsd
     image: hsd:2.2.0-a1409dc4
@@ -112,6 +120,13 @@ services:
 
 ```
 
+Once you have the hsd daemon running you can point your router or individual clients to
+its IP address.
+
+It's recommended to setup a static IP/lease to your local server to prevent
+breakage. Here's a guide to do so with the [OpenWrt][8] firmware.
+
+## Adguard
 
 ```yaml
 services:
@@ -145,3 +160,5 @@ services:
 [4]: https://github.com/handshake-org/hsd
 [5]: https://github.com/handshake-org/hnsd
 [6]: https://gist.github.com/shalzz/e30d41403f92feef0d2688d081336dbd
+[7]: https://hub.docker.com/r/shalzz/hsd
+[8]: https://openwrt.org/docs/guide-user/luci/static_ip
