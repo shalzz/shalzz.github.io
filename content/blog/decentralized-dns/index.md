@@ -1,6 +1,6 @@
 +++
 title="Owning your DNS Stack: Towards a more Decentralized Internet"
-date=2021-01-04
+date=2021-01-08
 draft=false
 [extra]
 tags="dns, handshake, adguard, pihole, pi-hole, server, dns server"
