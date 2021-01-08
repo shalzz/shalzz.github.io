@@ -1,17 +1,17 @@
 +++
 title="Owning your DNS Stack: Towards a more Decentralized Internet"
-date=2020-12-30
-draft=true
+date=2021-01-04
+draft=false
 [extra]
 tags="dns, handshake, adguard, pihole, pi-hole, server, dns server"
 +++
 
 ## Introduction
 
-Domain Name System (DNS) is a protocol for naming servers on the internet that hosts
-a website. Servers on the internet are recognizable only by their IP addresses
-which are unique numerical labels. For convenience every website uses a
-fairly recognizable domain name (www.ietf.org) to
+Domain Name System ([DNS][9]) is a protocol for naming servers on the internet that host
+websites. Since computers on the internet are recognizable to each other 
+only by their IP addresses which is a unique numerical label, for convenience
+every website uses a fairly recognizable domain name (www.ietf.org) to
 point users to their own servers (4.31.198.44) hosting the website by the means
 of the DNS system, where a DNS server provides the mapping between the domain
 name and the server IP address.
@@ -67,20 +67,21 @@ built according to the Handshake protocol spec and has mainly two kinds of nodes
 * Full node: [hsd][4]
 * Light node: [hnsd][5]
 
-We are gonna setup the full node `hsd` daemon as our DNS resolver. You can override
-the DNS server settings for either your individual device on you home network
-(desktop, Smart TV) but it's recommended to override the DNS server settings in
-your Wi-Fi router if you have access to it.
-
+We are gonna setup the full node `hsd` daemon as our DNS resolver. 
 Since it's a full node we are gonna need to maintain the full chain state which
-can easily take multiple gigabytes of storage in addition to a 24x7 running system
-on you home network. The recommended hardware for this is:
+can easily take multiple gigabytes (around 3-4 GB) of storage along with a 24*7 running system
+on your home network. The recommended hardware for this is:
 
-* A Raspberry Pi or any other single board computer with atleast 2 GB of Ram
+* A Raspberry Pi or any other single board computer with at least 2 GB of Ram running a Linux OS
 * A portable/external HDD/SDD with least a 500GB storage space.
 
+If you'd rather not run the full node or don't have a device with sufficient storage
+space you can setup a light node instead which will only take up a few megabytes
+of storage instead of gigabytes. For brevity I'm only gonna discuss setting up
+the full node here.
+
 Once you have the required hardware we can start setting up the software. I'd
-recommended use docker images to avoid dependency hell.
+recommend using docker images to avoid dependency hell.
 
 You can build your own docker image from the [hsd][4] repo or use a pre-built
 one I have over at docker hub at [shalzz/hsd][7].
@@ -96,6 +97,7 @@ required ports according to the command line
 Here is the complete `docker-compose.yaml` file for reference:
 
 ```yaml
+services:
   hsd:
     container_name: hsd
     image: hsd:2.2.0-a1409dc4
@@ -117,37 +119,90 @@ Here is the complete `docker-compose.yaml` file for reference:
       - '--rs-port'
       - '53'
     restart: unless-stopped
-
 ```
 
-Once you have the hsd daemon running you can point your router or individual clients to
-its IP address.
+Once you have the hsd daemon running you can override the DNS server settings for either your
+individual devices on your home network
+(desktop, Smart TV) but it's better and easier to override the DNS server settings in
+your Wi-Fi router.
 
 It's recommended to setup a static IP/lease to your local server to prevent
 breakage. Here's a guide to do so with the [OpenWrt][8] firmware.
 
+## Test
+
+To make sure everything is working as expected you can query your DNS server specifically
+by its IP address. For e.g. if the device your hosting the server on has the IP
+address `192.168.1.224` on your home network, you can query it for a name via the
+`dig` program
+
+```
+$ dig @192.168.1.224 example.com
+
+; <<>> DiG 9.16.10 <<>> @192.168.1.224 example.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18916
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 2
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 4096
+; COOKIE: b07a0053413fad96 (echoed)
+;; QUESTION SECTION:
+;example.com.                   IN      A
+
+;; ANSWER SECTION:
+example.com.            86396   IN      A       93.184.216.34
+
+;; SIG0 PSEUDOSECTION:
+.                       0       ANY     SIG     0 253 0 0 20210108123100 20210108003100 32465 . 2MVUz5L0LOAi6RO5e2lZJTwmnSvVancyyVdSeAyp3lAxkcCtp7CD8HVx alVG4G/MfkUg9GIicKp/ZpQyY7BHpQ==
+
+;; Query time: 36 msec
+;; SERVER: 192.168.1.224#53(192.168.1.224)
+;; WHEN: Fri Jan 08 12:01:00 IST 2021
+;; MSG SIZE  rcvd: 162
+```
+
+If the status here is `NOERROR` and you see any entries under the ANSWER Section,
+you have successfully setup your own DNS server.
+
+An additional benefit of using handshake network here is now in addition to traditional
+domain names you can resolve handshake names as well. Try visiting or resolving `http://welcome.nb./`
+
 ## Adguard
 
-```yaml
-services:
-  adguard:
-    container_name: adguard
-    image: adguard/adguardhome:latest
-    ports:
-      - "53:53/tcp"     ## dns
-      - "53:53/udp"     ## dns
-      - "67:67/udp"     ## dhcp
-      - "68:68/tcp"     ## dhcp
-      - "68:68/udp"     ## dhcp
-      - "80:80/tcp"     ## dashboard
-      - "443:443/tcp"   ## dashboard
-      - "853:853/tcp"
-      - "3000:3000/tcp"
-    volumes:
-      - './workdir:/opt/adguardhome/work'
-      - './config:/opt/adguardhome/conf'
-    restart: unless-stopped
-```
+Since you've come this far you might as well setup an Adblocking server as well
+that is using your `hsd` DNS server as an upstream.
+
+There are two good options for adblocking self-hosting server
+* [Pihole][10]
+* [Adguard][11]
+
+I find Adguard to be much more reliable and that is what I use personally.
+If you decide to go ahead with Adguard they already have great documentation
+to get up and running with [docker][12].
+
+Once you have Adguard running in addition to `hsd` you can setup Adguard to use
+`hsd` as an upstream server in the DNS settings page of Adguard.
+Make sure you change the port number you used earlier for `hsd` from `53` to
+something else since there can only be one process listening on a port as here
+`adguard` acts as a filter between clients and the actual DNS resolver.
+
+For e.g. if your device IP address is `192.168.1.224` and the port of `hsd` is `54`
+use `tcp://192.168.1.224:54` as an upstream server address for both
+`Upstream DNS servers` and `Bootstrap DNS servers`
+
+<figure> {{ resize_image(path="adguard-dns.png") }}
+<figcaption> Adguard Dashboard on its DNS settings page </figcaption>
+<br/>
+</figure>
+
+
+Here is the complete `docker-compose.yaml` file for setting up both `hsd` and `adguard`.
+Customize for your setup.
+
+{{ gist(url="https://gist.github.com/shalzz/e30d41403f92feef0d2688d081336dbd") }}
 
 [^fn-1]: [A Deep Dive on the Recent Widespread DNS Hijacking Attacks][1]:
     “…hijacking the DNS servers for these targets, so that all email and virtual private networking (VPN) traffic was redirected to an Internet address controlled by the attackers…”
@@ -162,3 +217,7 @@ services:
 [6]: https://gist.github.com/shalzz/e30d41403f92feef0d2688d081336dbd
 [7]: https://hub.docker.com/r/shalzz/hsd
 [8]: https://openwrt.org/docs/guide-user/luci/static_ip
+[9]: https://en.wikipedia.org/wiki/Domain_Name_System
+[10]: https://pi-hole.net/
+[11]: https://github.com/AdguardTeam/AdGuardHome
+[12]: https://github.com/AdguardTeam/AdGuardHome/wiki/Docker
