@@ -1,9 +1,8 @@
 +++
 title="Owning your DNS Stack: Towards a more Decentralized Internet"
 date=2021-01-08
-draft=false
 [extra]
-tags="dns, handshake, adguard, pihole, pi-hole, server, dns server"
+tags="dns, handshake, adguard, pihole, pi-hole, server, dns server, namebase, decentralized, blockchain, proof of work, dns resolver, hsd, hsnd, raspberry pi, jetson nano, rpi"
 +++
 
 ## Introduction
@@ -94,7 +93,7 @@ Add a volume mapping a folder on your external hdd to `/root/.hsd` and expose th
 required ports according to the command line
 `hsd --ns-host 0.0.0.0 --ns-port 5300 --rs-host 0.0.0.0 --rs-port 53`
 
-Here is the complete `docker-compose.yaml` file for reference:
+Here is the same thing as a `docker-compose.yaml`:
 
 ```yaml
 services:
