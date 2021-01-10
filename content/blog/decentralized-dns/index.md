@@ -2,7 +2,7 @@
 title="Owning your DNS Stack: Towards a more Decentralized Internet"
 date=2021-01-08
 [extra]
-tags="dns, handshake, adguard, pihole, pi-hole, server, dns server, namebase, decentralized, blockchain, proof of work, dns resolver, hsd, hsnd, raspberry pi, jetson nano, rpi"
+tags="dns, handshake, adguard, pihole, pi-hole, server, dns server, namebase, decentralized, blockchain, proof of work, dns resolver, hsd, hsnd, raspberry pi, jetson nano, rpi, self-host, self host, host, handshake-org, build, setup, run, create"
 +++
 
 ## Introduction
