@@ -71,7 +71,7 @@ never tried before.
     {{ resize_image(path="tada68-switch.jpg") }}
 <figcaption>Gateron Brown switches with white leds.</figcaption>
 </figure>
-</br>
+<br/>
 
 Cherry and Gateron switches variants are mainly similar with both companies Blue,
 Red, Brown switches having the same travel distance, actuation force, being linear

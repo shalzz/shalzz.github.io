@@ -6,27 +6,91 @@ description = "Personal and technical musings"
 # the default language, used in RSS and coming i18n
 default_language = "en"
 
+theme = "butler"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
 # When set to "true", the HTML output files will be minified
-minify_html = true
-
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Gutenberg
-highlight_code = true
-highlight_theme = "solarized-light"
-
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
-
-# Check for dead links
-check_external_links = false 
+minify_html = false
 
 # Whether to generate a RSS feed automatically
 generate_feed = true
 
-theme = "butler"
+# Configuration of the Markdown rendering
+[markdown]
+# When set to "true", all code blocks are highlighted.
+highlight_code = true
+
+# The theme to use for code highlighting.
+# See below for list of allowed values.
+highlight_theme = "solarized-light"
+
+# When set to "true", emoji aliases translated to their corresponding
+# Unicode emoji equivalent in the rendered Markdown files. (e.g.: :smile: => 😄)
+render_emoji = true
+
+# Whether external links are to be opened in a new tab
+# If this is true, a `rel="noopener"` will always automatically be added for security reasons
+external_links_target_blank = true
+
+# Whether to set rel="nofollow" for all external links
+external_links_no_follow = true
+
+# Whether to set rel="noreferrer" for all external links
+external_links_no_referrer = true
+
+# Whether smart punctuation is enabled (changing quotes, dashes, dots in their typographic form)
+# For example, `...` into `…`, `"quote"` into `“curly”` etc
+smart_punctuation = true
+
+# Configuration of the link checker.
+[link_checker]
+# Skip link checking for external URLs that start with these prefixes
+skip_prefixes = [
+    "http://[2001:db8::]/",
+]
+
+# Skip anchor checking for external URLs that start with these prefixes
+skip_anchor_prefixes = [
+    "https://caniuse.com/",
+]
+
+# Various slugification strategies, see below for details
+# Defaults to everything being a slug
+[slugify]
+paths = "on"
+taxonomies = "on"
+anchors = "on"
+
+# When set to "true", a search index is built from the pages and section
+# content for `default_language`.
+build_search_index = false
+
+[search]
+# Whether to include the title of the page/section in the index
+include_title = true
+# Whether to include the description of the page/section in the index
+include_description = false
+# Whether to include the rendered content of the page/section in the index
+include_content = true
+# At which character to truncate the content to. Useful if you have a lot of pages and the index would
+# become too big to load on the site. Defaults to not being set.
+# truncate_content_length = 100
+
+# Optional translation object. Keys should be language codes.
+# Optional translation object. The key if present should be a language code.
+# Example:
+#     default_language = "fr"
+#
+#     [translations]
+#     [translations.fr]
+#     title = "Un titre"
+#
+#     [translations.en]
+#     title = "A title"
+#
+[translations]
 
 [extra]
 keywords = "web, android, technology, docker, javascript, java, python, blog, computer engineering, shaleen jain, shalzz, shaleen, jain, C/C++, rust, C, C++, GO-lang"

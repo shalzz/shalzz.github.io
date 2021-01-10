@@ -68,7 +68,7 @@ built according to the Handshake protocol spec and has mainly two kinds of nodes
 
 We are gonna setup the full node `hsd` daemon as our DNS resolver. 
 Since it's a full node we are gonna need to maintain the full chain state which
-can easily take multiple gigabytes (around 3-4 GB) of storage along with a 24*7 running system
+can easily take multiple gigabytes (around 3-4 GB) of storage along with a 24×7 running system
 on your home network. The recommended hardware for this is:
 
 * A Raspberry Pi or any other single board computer with at least 2 GB of Ram running a Linux OS
@@ -204,7 +204,7 @@ Customize for your setup.
 {{ gist(url="https://gist.github.com/shalzz/e30d41403f92feef0d2688d081336dbd") }}
 
 [^fn-1]: [A Deep Dive on the Recent Widespread DNS Hijacking Attacks][1]:
-    “…hijacking the DNS servers for these targets, so that all email and virtual private networking (VPN) traffic was redirected to an Internet address controlled by the attackers…”
+    "...hijacking the DNS servers for these targets, so that all email and virtual private networking (VPN) traffic was redirected to an Internet address controlled by the attackers..."
 
 [^fn-2]: [2016 Dyn cyberattack][2]: The attack caused major Internet platforms and services to be unavailable to large swathes of users in Europe and North America.
 
