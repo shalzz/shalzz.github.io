@@ -5,14 +5,13 @@ permalink = "/donate/"
 
 If you like my work or it helped you (or your employer)
 please consider buying me a beer to help support my work and
-show your appreciation.  
+show your appreciation.
 Following payment methods are prefered. Please contact me
 if you'd like to donate using a different method.
 
 - [LiberaPay][2]
 - Bitcoin: [bc1qffadka029knce3rqrzz2y3amlrestsh26khlha][1]
 - Ethereum: [shalzz.argent.xyz](https://shalzz.argent.xyz)
-- Bitcoin Lighting Network: [tippin.me/@shalzzj](https://tippin.me/@shalzzj)
 - Unified Payments Interface: [shaleen.jain95@okicici (VPA)][3]
 
 
