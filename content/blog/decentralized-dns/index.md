@@ -41,7 +41,7 @@ require trusting a third party as a design requirement. That is until now…
 ## Handshake
 
 With the advent of blockchain and it's echoing principles of the early internet
-and cyberpunk, it provides a novel socio-economic-cryptographic solution for avoiding
+and cypherpunk, it provides a novel socio-economic-cryptographic solution for avoiding
 the need to require placing trust in middlemen in inherently peer-to-peer systems.
 
 The [Handshake network][3] is a decentralized, permissionless naming protocol
