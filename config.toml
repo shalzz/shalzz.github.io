@@ -105,6 +105,3 @@ twitter.link = "https://twitter.com/shalzzj"
 
 [extra.disqus]
 shortname = "shalzz"
-
-[extra.analytics]
-code = "personal"
