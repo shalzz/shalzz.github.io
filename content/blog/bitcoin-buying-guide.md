@@ -7,13 +7,13 @@ tags="blockchain, bitcoin, ban, cryptocurrencies, cryptocurrency, ethereum, indi
 
 I've had a bunch of friends approach me recently on ways to invest in bitcoin and
 other cryptocurrencies.
-In an effort to save myself from answers the same questions again and at the same
+In an effort to save myself from answering the same questions again and at the same
 time do a decent job explaining the risks and intricacies involved with what
 you'd think to be a simple process of buying bitcoin, I'm writing this post as a guide on "How to buy bitcoin in India".
 
 As you can gather from the title, due to the highly regulatory environment of bitcoin, this
-post is relevant only for the Indian market. I'll make an effort to update this post as things change however most of the content
-here should be relevant regardless.
+post is relevant only for the Indian market. I'll make an effort to update this post as
+things change however most of the content here should be relevant regardless.
 
 <!-- more -->
 
