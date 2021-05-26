@@ -2,7 +2,7 @@
 +++
 
 Hello World! I'm Shaleen Jain, a free software (free as in freedom) and free culture activist.
-Some of my work includes contributions to [VLC][3], [LineageOS][4] and [OpenWRT][5].
+Some of my work includes contributions to [VLC][3], [LineageOS][4], [OpenWRT][5] and [Kleros][6].
 
 * Email: [shaleen@jain.sh](mailto:shaleen@jain.sh)
 
@@ -19,4 +19,5 @@ Some of my work includes contributions to [VLC][3], [LineageOS][4] and [OpenWRT]
 [3]: https://www.videolan.org/vlc/
 [4]: https://lineageos.org/
 [5]: https://openwrt.org/
+[6]: https://kleros.io/
 [openhub]: https://www.openhub.net/accounts/shalzz
