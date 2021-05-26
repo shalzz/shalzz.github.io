@@ -1,8 +1,8 @@
 +++
 title="How to buy Bitcoin in India"
-date=2021-05-24
+date=2021-05-26
 [extra]
-tags="blockchain, bitcoin, ban, cryptocurrencies, cryptocurrency, ethereum, india,"
+tags="blockchain, bitcoin, ban, cryptocurrencies, cryptocurrency, ethereum, india, exchange, wazirx, review, buy bitcoin, buy, hardware wallet, buy bitcoin in india, wallet, ledger, ledger nano s, ledger nano, p2p, usdt, wazirx p2p, guide, bank, indian bank, dogecoin, bitcoin tax"
 +++
 
 I've had a bunch of friends approach me recently on ways to invest in bitcoin and
