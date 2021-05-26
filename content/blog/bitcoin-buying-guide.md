@@ -57,17 +57,17 @@ You can learn more about WazirX P2P [here][7].
 
 ## Wallet
 
-Once you have enough bitcoins, you might be looking into ways for securely storing
-your bitcoins outside of the exchange for long term safekeeping of your investment and gaining custody
-of your coins.
+Once you have enough bitcoin(s), you might be looking into ways of securely storing
+your bitcoin(s) outside of the exchange for long term safekeeping of your investment and gaining custody
+of your coin(s).
 
 A bitcoin wallet or any cryptocurrency wallet is an app that stores the private key
-that can be used to spent your bitcoins. If someone else has access to this private key
-then they can transfer the bitcoins without your approval/knowledge. Much like the password
+that can be used to spent your bitcoin(s). If someone else has access to this private key
+then they can transfer the bitcoin(s) without your approval/knowledge. Much like the password/pin
 to your bank account, however with bitcoin there is no one to call and 
 ~~report theft~~ revert the transaction.
 
-So it's important you understand the how to secure your bitcoin wallet's private key
+So it's important you understand how to secure your bitcoin wallet's private key
 and it's backup (mnemonic seed) and use a good wallet from the start.
 
 Hardware wallets are separate air-gapped devices that store the private key on 
