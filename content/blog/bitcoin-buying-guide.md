@@ -64,7 +64,8 @@ of your coins.
 A bitcoin wallet or any cryptocurrency wallet is an app that stores the private key
 that can be used to spent your bitcoins. If someone else has access to this private key
 then they can transfer the bitcoins without your approval/knowledge. Much like the password
-to your bank account. However if this happens there is no one to call and report theft.
+to your bank account, however with bitcoin there is no one to call and 
+~~report theft~~ revert the transaction.
 
 So it's important you understand the how to secure your bitcoin wallet's private key
 and it's backup (mnemonic seed) and use a good wallet from the start.
