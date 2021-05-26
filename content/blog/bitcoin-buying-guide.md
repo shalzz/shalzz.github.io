@@ -6,15 +6,13 @@ tags="blockchain, bitcoin, ban, cryptocurrencies, cryptocurrency, ethereum, indi
 +++
 
 I've had a bunch of friends approach me recently on ways to invest in bitcoin and
-other cryptocurrencies for whatever personal motives one can expect. 
+other cryptocurrencies.
 In an effort to save myself from answers the same questions again and at the same
 time do a decent job explaining the risks and intricacies involved with what
-you'd think to be a simple process of buying bitcoin in the 21st century,
-I'm writing this post as a guide on "How to buy bitcoin in India". As you can
-gather from the title, due to the highly regulatory environment of bitcoin, this
-post is relevant only for the India market. 
+you'd think to be a simple process of buying bitcoin, I'm writing this post as a guide on "How to buy bitcoin in India".
 
-I'll make an effort to update this post as things change however most of the content
+As you can gather from the title, due to the highly regulatory environment of bitcoin, this
+post is relevant only for the Indian market. I'll make an effort to update this post as things change however most of the content
 here should be relevant regardless.
 
 <!-- more -->
@@ -24,7 +22,7 @@ here should be relevant regardless.
 ## Know What You're Investing In
 
 As with anything you're investing in you should make an effort of understanding
-what your investing in and how it works. For bitcoin giving the original [whitepaper][1]
+what is it you're investing in and how it works. For bitcoin, giving the original [whitepaper][1]
 a read should give you a brief understanding of the ideas behind it even if you don't
 understand the technical workings of it.
 
@@ -34,11 +32,14 @@ Is this the right time to buy Bitcoin and/or Ethereum?
 If you're long term bullish about Bitcoin and Ethereum like me, it's always a good time to
 buy using the [Dollar Cost Averaging ][2] investing method.
 
+As general rule only invest what you are willing to lose. This is still a highly speculative market and
+there are risks involved.
+
 ## Exchange
 
 Once you're all set to actually buy bitcoin you need to setup an account at a 
 cryptocurrency exchange. There are various exchanges operating in India and few
-come and go in a while. My recommended exchange is [WazirX][3]. They have a good
+come and go regularly. My recommended exchange is [WazirX][3]. They have a good
 mobile app and offer good prices overall across all Indian exchanges.
 
 ## INR Deposits
@@ -56,8 +57,8 @@ You can learn more about WazirX P2P [here][7].
 
 ## Wallet
 
-Once you have enough bitcoin, you might be looking into ways for securing storing
-your bitcoin outside of the exchange for long term safekeeping of your investment and gain custody
+Once you have enough bitcoins, you might be looking into ways for securely storing
+your bitcoins outside of the exchange for long term safekeeping of your investment and gaining custody
 of your coins.
 
 A bitcoin wallet or any cryptocurrency wallet is an app that stores the private key
@@ -66,25 +67,36 @@ then they can transfer the bitcoins without your approval/knowledge. Much like t
 to your bank account. However if this happens there is no one to call and report theft.
 
 So it's important you understand the how to secure your bitcoin wallet's private key
-backup (mnemonic seed) and use a good wallet from the start.
+and it's backup (mnemonic seed) and use a good wallet from the start.
 
 Hardware wallets are separate air-gapped devices that store the private key on 
 a secure element from which the private key can never be extracted once correctly
 setup. They are good for making sure viruses and malware can't access you're private key
-even if you're not a cyber security expect and can't manage to keep you personal PC
+even if you're not a cyber security expect and can't manage to keep your personal PC
 free from viruses.
 
-A great stating hardware wallet is the [Ledger Nano S][8]. It works great and has good
-supporting applications for both the desktop and mobile.
+A great starting hardware wallet is the [Ledger Nano S][8]. It works great
+and has good supporting applications for both the desktop and mobile.
 
-Go [through][4] [these][5] [articles][6] to understand how to properly use an hardware wallet.
+Go [through][4] [these][5] [articles][6] to understand how to properly use a hardware wallet.
+
+If you find hardware wallets are too complicated and have invested only in Ethereum
+and Ethereum based assets, then [Argent][9] is a good alternative.
 
 ## Dogecoin?
+
+Dogecoin is a meme coin. Unless you know what your doing and/or are a professional
+trader, stick to Bitcoin/Ethereum.
 
 ## FAQ
 
 ### Which bank do you have an account with?
+I've had a better experience with public sector banks as compared to private banks
+when using an account for buying bitcoin.
+
 ### Do I have to pay taxes on bitcoin?
+No. Not yet. Only when you sell and book a profit you have to pay capital gains on the profit.
+Disclaimer: I'm not a tax lawyer you should still contact your tax lawyer about this.
 
 [1]: https://bitcoin.org/en/bitcoin-paper
 [2]: https://www.investopedia.com/terms/d/dollarcostaveraging.asp
@@ -94,3 +106,4 @@ Go [through][4] [these][5] [articles][6] to understand how to properly use an ha
 [6]: https://support.ledger.com/hc/en-us/articles/360005514233
 [7]: https://support.wazirx.com/hc/en-us/articles/360007205514-WazirX-P2P-How-it-Works-
 [8]: https://www.etherbit.in/products/ledger-nano-s?r=a674d05d
+[9]: https://argent.link/mpikXeI2P3
