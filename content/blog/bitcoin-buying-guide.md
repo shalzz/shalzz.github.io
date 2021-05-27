@@ -91,6 +91,9 @@ trader, stick to Bitcoin/Ethereum.
 
 ## FAQ
 
+### Is bitcoin illegal in India?
+No.
+
 ### Which bank do you have an account with?
 I've had a better experience with public sector banks as compared to private banks
 when using an account for buying bitcoin.
