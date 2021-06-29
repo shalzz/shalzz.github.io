@@ -1,5 +1,5 @@
 +++
-title="Should you buy Bitcoin in India? A Buying Guide"
+title="Should you buy Bitcoin in India? A Buyers Guide"
 date=2021-05-26
 [extra]
 tags="blockchain, bitcoin, ban, cryptocurrencies, cryptocurrency, ethereum, india, exchange, wazirx, review, buy bitcoin, buy, hardware wallet, buy bitcoin in india, wallet, ledger, ledger nano s, ledger nano, p2p, usdt, wazirx p2p, guide, bank, indian bank, dogecoin, bitcoin tax"
