@@ -50,7 +50,8 @@ problem with root DNS naming zones (TLD's) and Certificate Authorities.
 
 If you are a domain owner wanting to use the Handshake network, owning a
 Handshake name involves quite a few steps
-for which there are already a lot of good resources available on the internet.
+for which there are already a lot of good resources available on the internet
+(see for example [namebase.io][13]).
 So, in this post we are going to focus on how you can use Handshake as an end user
 and start relying on handshake for resolving traditional and handshake names.
 
@@ -220,3 +221,4 @@ Customize for your setup.
 [10]: https://pi-hole.net/
 [11]: https://github.com/AdguardTeam/AdGuardHome
 [12]: https://github.com/AdguardTeam/AdGuardHome/wiki/Docker
+[13]: https://www.namebase.io/register/16xmfa
