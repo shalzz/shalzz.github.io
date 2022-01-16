@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: shalzz/zola-deploy-action
-      uses: shalzz/zola-deploy-action@master
+      uses: shalzz/zola-deploy-action@no-pat
       env:
         PAGES_BRANCH: master
-        TOKEN: ${{ secrets.TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
