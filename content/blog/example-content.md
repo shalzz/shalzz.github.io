@@ -1,6 +1,6 @@
 +++
 title="Example content"
-draft=false
+draft=true
 date=2015-05-19
 [extra]
 +++
