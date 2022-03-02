@@ -1,4 +1,10 @@
 {% extends "butler/templates/index.html" %}
+{% import "lmacros.html" as macros %}
+
+{% block subscribe %}
+    Sign up for my newsletter to be the first to know about a new post
+    {{ macros::subscribe() }}
+{% endblock subscribe %}
 
 {% block analytics %}
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "95f9368e22cc4457b759a170492a2fd0"}'></script>
