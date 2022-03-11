@@ -1,7 +1,7 @@
 +++
 title="Giving Power Back to the Indian People"
 date=2020-06-10
-draft=false
+draft=true
 [extra]
 tags="political, governance, federal modal, india, indian governance, indian government, federal government of india,"
 +++
