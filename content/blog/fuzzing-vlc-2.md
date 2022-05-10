@@ -16,6 +16,7 @@ rather promptly.
 <!-- more -->
 
 A Segfault on a null pointer, fixed by adding a [null check][1]
+
 ```text
 ==25241==ERROR: AddressSanitizer: SEGV on unknown address 0xffffffffffffff68 (pc 0x7f56c19e8ab0 bp 0xffffffffffffff58 sp 0x7ffcdfe59e58 T0)
 ==25241==The signal is caused by a READ memory access.
