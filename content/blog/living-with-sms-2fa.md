@@ -13,6 +13,8 @@ Unfortunately, there's an increasingly disturbing trend of mobile apps exclusive
 requiring a users mobile number as a login, especially in countries where banks are mandated
 to use SMS 2FA for online card payments.
 
+<!-- more -->
+
 ## How
 
 ## Conclusion
