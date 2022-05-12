@@ -78,7 +78,7 @@ The first step is to install asterisk on a machine. We need the machine to be ru
 24/7 with the maximum uptime. I've setup on my OpenWRT router but you do so on any
 machine you have lying around including a Raspberry Pi.
 
-With an already setup OpenWRT router, you need to install the following packages to
+With an already setup OpenWRT router, you'll need the following packages to
 install asterisk:
 ```sh
 opkg install asterisk asterisk-pjsip asterisk-bridge-simple asterisk-codec-alaw asterisk-codec-ulaw asterisk-res-rtp-asterisk asterisk-res-srtp asterisk-chan-dongle
@@ -86,18 +86,72 @@ opkg install asterisk asterisk-pjsip asterisk-bridge-simple asterisk-codec-alaw 
 
 ### asterisk-chan-dongle
 
-Now comes the tough part of getting and setting up a USB dongle.
+Now comes the tough part of getting and setting up a USB dongle. We're are
+using [wdoekes/asterisk-chan-dongle][4] a asterisk channel driver for interfacing
+with the USB dongle from an asterisk server. 
+
+The tricking part here is that the channel driver doesn't work with every 3G/4G USB
+dongle, only Huawei 3G dongles and few 4G dongles. And even with the dongles that it
+does work, not every supported dongle has voice support available or firmware unlocked.
+
+The best way is to look at the list of supported dongles on the projects [README][5] file
+and try and get your hands on one of them. I bought a E1750 Huawei 3G dongle which 
+you still find in stock in many online stores. If it's unable in your local markets/
+e-commerce sites, try searching it on ebay or aliexpress. I was able to get a
+second hand one from ebay with SIM and voice support unlocked.
+
+Once you have a dongle, insert you SIM card and plug it in the machine you have asterisk
+installed.
 Make sure you have the `asterisk-chan-dongle` package installed.
+
+To configure we edit the `dongle.conf` file found in the asterisk configuration folder.
+The asterisk configuration folder is defined via the `astetcdir` option in the main `asterisk.conf`
+and is usually `/etc/asterisk/`.
+
+If there's no `dongle.conf` file located in the configuration folder, create one.
+The default dongle.conf can be found [here][6].
+
+The main configuration requirements are specifying the correct audio and data
+device ports of the dongle.
+
+```
+[dongle0]
+audio=/dev/ttyUSB1      ; tty port for audio connection;    no default value
+data=/dev/ttyUSB2       ; tty port for AT commands;         no default value
+```
+
+The exact value here will depend on your dongle and the distribution your running. You might
+need to install the `usb_modeswitch` package to switch the dongle from the initial
+CD-ROM/mass storage mode to the serial mode. You should be able to start the asterisk
+server now and watch the logs for errors. Make sure there's no dongle related errors. 
+
+Note: To enable logging you might need to edit `logger.conf` to increase the log
+level.
+(You can find the `messages` log file in the `astlogdir` folder) : 
+```
+console => notice,warning,error
+messages => notice,warning,error,debug
+```
+
+Check the status of your dongle and network registration via these two commands
+in the asterisk console. (You can attach a console to an already asterisk
+server via the command `asterisk -r`)
+```
+dongle show devices
+dongle show device state dongle0
+```
+
+If the output shows the device state as "Free", then you're good to go.
 
 ### Configuration
 
 Once we have everything installed and running, comes the time of configuring the 
 asterisk PBX server to do two things:
 
-1. Set up extensions so asterisk knows how and where to route incoming and outgoing calls
+1. Set up call extensions so asterisk knows how and where to route incoming and outgoing calls
 1. Authenticate and interface with Twilio as a BYOC trunk
 
-The configuration I share here are just minimal examples that should work for most
+The configuration shared here are just minimal examples that should work for most
 cases, it possible you'll have to tweak and adjust to suit your setup and requirements.
 
 #### SMS Forwarding
@@ -110,7 +164,15 @@ opkg install asterisk-app-system asterisk-app-verbose asterisk-func-base64
 
 ## Twilio
 
+referal link
+
 ## Softphone
+
+## Further improvemtents
+
+* SRTP Media transport
+* Twilio region
+* chan-dongle Automatic gain control and jitter buffer.
 
 [Twilio]: https://www.twilio.com/
 [SIP]: https://en.wikipedia.org/wiki/Session_Initiation_Protocol
@@ -118,4 +180,6 @@ opkg install asterisk-app-system asterisk-app-verbose asterisk-func-base64
 [1]: https://www.reddit.com/r/selfhosted/comments/q7uint/selfhosted_alternative_to_simbox_gsm_modem_for/
 [2]: https://fi.google.com/about/
 [3]: https://dougantin.com/the-sovereign-individual-what-you-need-to-know-why/
-
+[4]: https://github.com/wdoekes/asterisk-chan-dongle
+[5]: https://github.com/wdoekes/asterisk-chan-dongle#chan_dongle-channel-driver-for-huawei-umts-cards
+[6]: https://github.com/wdoekes/asterisk-chan-dongle/blob/master/etc/dongle.conf
