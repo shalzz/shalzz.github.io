@@ -18,8 +18,8 @@ your bank account and OTP related text messages.
 
 The solution here is not a pitch for [Google Fi][2] or a rant about it being 2022
 and we're nowhere close to having a global mobile carrier available to everyone.
-However that is far from what this article is about, instead this article 
-describes a much more practical, extendable and globally-available solution to the above problem.
+Instead this article describes a much more practical,
+extendable and globally-available solution to the above problem.
 
 <!-- more -->
 
@@ -30,10 +30,12 @@ chatting experience. This article though focuses purely on voice and text commun
 
 {{ tweet(url="https://twitter.com/shalzzj/status/1499689706367643649") }}
 
+<!-- toc -->
+
 ## Overview 
 
 The solution we have here is to move on to a [SIP]/[RTP] stack for all our voice calls and
-relying on our own PBX server depending on our use case in addition to using a VOIP service provider.
+relying on our own PBX server (depending on our use case) in addition to using a VOIP service provider.
 
 When we have our complete VOIP stack in place we'll have a pipeline like this:
 
@@ -143,6 +145,16 @@ dongle show device state dongle0
 
 If the output shows the device state as "Free", then you're good to go.
 
+### SMS Forwarding
+
+```
+opkg install asterisk-app-system asterisk-app-verbose asterisk-func-base64
+```
+
+If you just want SMS forwarding to your email and don't care about PSTN voice calls
+then you can stop here, you should already have working SMS forwarding at this point.
+If you want to make/receive voice calls as well, continue on.
+
 ### Configuration
 
 Once we have everything installed and running, comes the time of configuring the 
@@ -154,12 +166,6 @@ asterisk PBX server to do two things:
 The configuration shared here are just minimal examples that should work for most
 cases, it possible you'll have to tweak and adjust to suit your setup and requirements.
 
-#### SMS Forwarding
-
-```
-opkg install asterisk-app-system asterisk-app-verbose asterisk-func-base64
-```
-
 ### NAT settings (optional)
 
 ## Twilio
@@ -168,7 +174,7 @@ referal link
 
 ## Softphone
 
-## Further improvemtents
+## Further Improvements
 
 * SRTP Media transport
 * Twilio region
