@@ -98,7 +98,7 @@ does work, not every supported dongle has voice support available or firmware un
 
 The best way is to look at the list of supported dongles on the projects [README][5] file
 and try and get your hands on one of them. I bought a E1750 Huawei 3G dongle which 
-you still find in stock in many online stores. If it's unable in your local markets/
+you still find in stock in many online stores. If it's unavailable in your local markets/
 e-commerce sites, try searching it on ebay or aliexpress. I was able to get a
 second hand one from ebay with SIM and voice support unlocked.
 
@@ -152,8 +152,7 @@ opkg install asterisk-app-system asterisk-app-verbose asterisk-func-base64
 ```
 
 If you just want SMS forwarding to your email and don't care about PSTN voice calls
-then you can stop here, you should already have working SMS forwarding at this point.
-If you want to make/receive voice calls as well, continue on.
+then you can stop here otherwise continue reading.
 
 ### Configuration
 
