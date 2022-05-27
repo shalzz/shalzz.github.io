@@ -181,7 +181,7 @@ You can read more about how [Context, Extensions and Priorities][7] work in aste
 their wiki.
 
 Once we craft an email message we defer to an sendmail compatible SMTP client to
-actually send the email. The example uses `mstmp` you can use any other client and
+actually send the email. This example uses `msmtp` here, you can instead use any other client and
 configure it accordingly.
 
 The above extension configuration calls some asterisk built-in apps and functions that
@@ -191,7 +191,8 @@ opkg install asterisk-app-system asterisk-app-verbose asterisk-func-base64
 ```
 
 If you just want SMS forwarding to your email and don't care about PSTN voice calls
-then you can stop here otherwise continue reading.
+then congratulations you should have SMS-to-email forwarding working at this point.
+If you want voice calls functionality as well, continue reading.
 
 ### Configuration
 
@@ -200,6 +201,13 @@ asterisk PBX server to do two things:
 
 1. Set up call extensions so that asterisk knows how and where to route incoming and outgoing calls
 1. Authenticate and interface with Twilio as a BYOC trunk
+
+While we don't really need to use Twilio or a VOIP service provider to act as a
+proxy for our PBX server, using one adds a level of security and reliability
+to our setup. We don't need to whitelist dynamic IP addresses for communicating with
+a mobile softphone and Twilio's global presence and edge locations enable
+much better performance and reliability than just directly talking to our home
+asterisk server across the globe.
 
 The configuration shared here are just minimal examples that should work for most
 cases, it's possible you'll have to tweak and adjust to suit your setup and requirements.
