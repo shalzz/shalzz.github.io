@@ -113,11 +113,17 @@ and is usually `/etc/asterisk/`.
 If there's no `dongle.conf` file located in the configuration folder, create one.
 The default dongle.conf can be found [here][6].
 
+Make a note of the `context` option in `dongle.conf`, the default value of
+`context` is `default` which we'll be referencing late, you can change it to something
+more appropriate like `dongle-incoming` to make it easier to remember, which is
+what we're doing below.
+
 The main configuration requirements are specifying the correct audio and data
 device ports of the dongle.
 
 ```
 [dongle0]
+context=dongle-incoming
 audio=/dev/ttyUSB1      ; tty port for audio connection;    no default value
 data=/dev/ttyUSB2       ; tty port for AT commands;         no default value
 ```
@@ -145,8 +151,41 @@ dongle show device state dongle0
 
 If the output shows the device state as "Free", then you're good to go.
 
-### SMS Forwarding
+### SMS Forwarding (Optional)
 
+The easiest and simplest way to get acquainted with asterisk and how to configure
+it is to setup SMS forwarding from our USB 3g dongle to an email id.
+
+We can do so by editing `extensions.conf`. The file is already well documented,
+any line preceded by `;` is a comment and is ignored by the asterisk server.
+
+Append the following lines at the end of the file to setup SMS forwarding.
+
+```
+[dongle-incoming]
+exten => sms,1,Verbose(Incoming SMS from "${CALLERID(num)} ${BASE64_DECODE(${SMS_BASE64})}")
+exten => sms,n,System(echo "To: user@example.com\nSubject: ${CALLERID(num)}\n\n${STRFTIME(${EPOCH},,%Y-%m-%d %H:%M:%S)} - ${DONGLENAME} - ${CALLERID(num)}: " > /tmp/sms.txt)
+exten => sms,n,System(echo "${BASE64_DECODE(${SMS_BASE64})}" >> /tmp/sms.txt)
+exten => sms,n,System(msmtp -t < /tmp/sms.txt)
+exten => sms,n,System(rm -f /tmp/sms.txt)
+exten => sms,n,Hangup()
+
+exten => ussd,1,Verbose(Incoming USSD: ${BASE64_DECODE(${USSD_BASE64})})
+exten => ussd,n,Hangup()
+```
+
+Here `dongle-incoming` is the name of the context we defined in `dongle.conf`
+and we define extensions within that context for receiving SMS by the way
+of `exten => sms`.
+You can read more about how [Context, Extensions and Priorities][7] work in asterisk from
+their wiki.
+
+Once we craft an email message we defer to an sendmail compatible SMTP client to
+actually send the email. The example uses `mstmp` you can use any other client and
+configure it accordingly.
+
+The above extension configuration calls some asterisk built-in apps and functions that
+you might need to install separately. For OpenWRT install the following packages:
 ```
 opkg install asterisk-app-system asterisk-app-verbose asterisk-func-base64
 ```
@@ -156,14 +195,26 @@ then you can stop here otherwise continue reading.
 
 ### Configuration
 
-Once we have everything installed and running, comes the time of configuring the 
+Once we have everything installed and running, comes the time of configuring our
 asterisk PBX server to do two things:
 
-1. Set up call extensions so asterisk knows how and where to route incoming and outgoing calls
+1. Set up call extensions so that asterisk knows how and where to route incoming and outgoing calls
 1. Authenticate and interface with Twilio as a BYOC trunk
 
 The configuration shared here are just minimal examples that should work for most
-cases, it possible you'll have to tweak and adjust to suit your setup and requirements.
+cases, it's possible you'll have to tweak and adjust to suit your setup and requirements.
+
+There are a few files that we'll need to edit mainly, `pjsip.conf`, `pjsip_wizard.conf` and `extensions.conf`
+
+The first thing that we need to do is setup a transport for asterisk to use for SIP
+signalling in the `pjsip.conf` file:
+
+```
+[transport-udp]
+type=transport
+protocol=udp
+bind=0.0.0.0:5060
+```
 
 ### NAT settings (optional)
 
@@ -188,3 +239,4 @@ referal link
 [4]: https://github.com/wdoekes/asterisk-chan-dongle
 [5]: https://github.com/wdoekes/asterisk-chan-dongle#chan_dongle-channel-driver-for-huawei-umts-cards
 [6]: https://github.com/wdoekes/asterisk-chan-dongle/blob/master/etc/dongle.conf
+[7]: https://wiki.asterisk.org/wiki/display/AST/Contexts%2C+Extensions%2C+and+Priorities
