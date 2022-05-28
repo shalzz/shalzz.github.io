@@ -204,10 +204,10 @@ asterisk PBX server to do two things:
 
 While we don't really need to use Twilio or a VOIP service provider to act as a
 proxy for our PBX server, using one adds a level of security and reliability
-to our setup. We don't need to whitelist dynamic IP addresses for communicating with
+to our setup as we don't need to whitelist dynamic IP addresses for communicating with
 a mobile softphone and Twilio's global presence and edge locations enable
 much better performance and reliability than just directly talking to our home
-asterisk server across the globe.
+asterisk server from across the globe.
 
 The configuration shared here are just minimal examples that should work for most
 cases, it's possible you'll have to tweak and adjust to suit your setup and requirements.
