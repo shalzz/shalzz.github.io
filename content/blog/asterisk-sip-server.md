@@ -123,9 +123,9 @@ device ports of the dongle.
 
 ```
 [dongle0]
-context=dongle-incoming
-audio=/dev/ttyUSB1      ; tty port for audio connection;    no default value
-data=/dev/ttyUSB2       ; tty port for AT commands;         no default value
+context   =   dongle-incoming
+audio     =   /dev/ttyUSB1       ; tty port for audio connection;    no default value
+data      =   /dev/ttyUSB2       ; tty port for AT commands;         no default value
 ```
 
 The exact value here will depend on your dongle and the distribution your running. You might
@@ -224,11 +224,19 @@ protocol=udp
 bind=0.0.0.0:5060
 ```
 
+The next step is connecting our PBX to Twilio as a Trunk using their BYOC trunk option.
+There is no direct guide provided by Twilio on how to setup a BYOC trunk especially
+with asterisk but the process is similar to setting up a Twilio Elastic SIP trunk.
+
+Twilio does fortunately provide a good enough guide for setting up a Elastic SIP trunk
+[here][8], we can adapt the configuration shared in the "Asterisk Provisioning" section
+to work with the BYOC trunk.
+
 ### NAT settings (optional)
 
 ## Twilio
 
-referal link
+referral link
 
 ## Softphone
 
@@ -248,3 +256,4 @@ referal link
 [5]: https://github.com/wdoekes/asterisk-chan-dongle#chan_dongle-channel-driver-for-huawei-umts-cards
 [6]: https://github.com/wdoekes/asterisk-chan-dongle/blob/master/etc/dongle.conf
 [7]: https://wiki.asterisk.org/wiki/display/AST/Contexts%2C+Extensions%2C+and+Priorities
+[8]: https://www.twilio.com/docs/sip-trunking/sample-configuration#asterisk
