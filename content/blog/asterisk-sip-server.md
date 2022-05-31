@@ -228,9 +228,47 @@ The next step is connecting our PBX to Twilio as a Trunk using their BYOC trunk 
 There is no direct guide provided by Twilio on how to setup a BYOC trunk especially
 with asterisk but the process is similar to setting up a Twilio Elastic SIP trunk.
 
-Twilio does fortunately provide a good enough guide for setting up a Elastic SIP trunk
-[here][8], we can adapt the configuration shared in the "Asterisk Provisioning" section
+Twilio does fortunately provide a good enough guide for setting up an Elastic SIP trunk
+[here][8], from where we can adapt the configuration shared in the "Asterisk Provisioning" section
 to work with the BYOC trunk.
+
+pjsip_wizard.conf:
+<pre style="background-color:#fdf6e3;color:#657b83;">
+<code><span>[user_defaults](!)
+</span><span>type = wizard
+</span><span>endpoint/context = from-twilio
+</span><span>endpoint/allow = !all,ulaw,alaw
+</span><span>endpoint/dtmf_mode = rfc4733
+</span><span>endpoint/media_encryption = no
+</span><span>endpoint/media_encryption_optimistic = no
+</span><span>endpoint/trust_id_inbound = yes
+</span><span>endpoint/send_pai = yes
+</span><span>endpoint/language = en
+</span><span>
+</span><span>[<b>+919876543210</b>](user_defaults)
+</span><span>aor/max_contacts = 5
+</span><span>endpoint/callerid = <b>Alan Klein <+919876543210></b>
+</span><span>remote_hosts = <b>byoc.twilio-asteriskpbx.sip.singapore.twilio.com, byoc.twilio-asteriskpbx.sip.tokyo.twilio.com</b>
+</span><span>
+</span><span>[trunk_defaults](!)
+</span><span>type = wizard
+</span><span>endpoint/transport=transport-udp
+</span><span>endpoint/allow = !all,ulaw,alaw
+</span><span>endpoint/trust_id_inbound=no
+</span><span>endpoint/dtmf_mode=rfc4733
+</span><span>endpoint/allow_subscribe = no
+</span><span>aor/qualify_frequency = 60
+</span><span>
+</span><span>[twilio-apac](trunk_defaults)
+</span><span>sends_auth = yes
+</span><span>sends_registrations = yes
+</span><span>remote_hosts = <b>twilio-asteriskpbx.sip.singapore.twilio.com </b>
+</span><span>outbound_auth/username = <b style="color: red;">myasteriskpbx </b>
+</span><span>outbound_auth/password = <b style="color: red;">myasteriskpbxzx11%VzX </b>
+</span><span>endpoint/context = from-twilio
+</span><span>aor/qualify_frequency = 60
+</span>
+</code></pre>
 
 ### NAT settings (optional)
 
@@ -257,3 +295,4 @@ referral link
 [6]: https://github.com/wdoekes/asterisk-chan-dongle/blob/master/etc/dongle.conf
 [7]: https://wiki.asterisk.org/wiki/display/AST/Contexts%2C+Extensions%2C+and+Priorities
 [8]: https://www.twilio.com/docs/sip-trunking/sample-configuration#asterisk
+[9]: https://www.twilio.com/blog/registering-sip-phone-twilio-inbound-outbound
