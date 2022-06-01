@@ -237,7 +237,7 @@ with the corresponding credentials in addition to a SIP domain and a BYOC trunk 
 We can do so via the Twilio console dashboard, the exact steps for which are described
 in the "Twilio" section below.
 
-> The values highlighted in bold in the example configuration will be unique to your
+> Note: The values highlighted in bold in the example configuration will be unique to your
 > environment and needs to be replaced with appropriate values to work correctly.
 
 `pjsip_wizard.conf:`
@@ -304,12 +304,35 @@ same  => n,Dial(Dongle/dongle0/${EXTEN})
 same  => n,Hangup
 ```
 
-> Enabling Jitterbuffer and Automatic Gain Control (AGC) may require
+> Note: Enabling Jitterbuffer and Automatic Gain Control (AGC) may require
 > additional asterisk packages to be installed.
 > On OpenWRT the package names are: `asterisk-func-jitterbuffer` and
 > `asterisk-func-speex`
 
 ### NAT settings (optional)
+
+If you're running your asterisk server on a private network and is behind
+a Network Address Translation (NAT) then you'll need additional configure for
+asterisks res_pjsip module to work reliably.
+
+The most basic configuration required for networking behind a NAT is specifying
+the external media address in the transport configuration section of `pjsip.conf`
+
+```diff
+[transport-udp]
+type=transport
+protocol=udp
+bind=0.0.0.0:5060
++; NAT settings
++local_net                  = 127.0.0.1/24
++local_net                  = 192.168.1.0/24
++external_media_address     = home.example.com ; or a public static IP
++external_signaling_address = home.example.com ; or a public static IP
++allow_reload=no
+```
+
+You can find more details on how to configure asterisk behind a NAT from their
+[wiki][10]
 
 ## Twilio
 
@@ -334,3 +357,4 @@ Referral link
 [7]: https://wiki.asterisk.org/wiki/display/AST/Contexts%2C+Extensions%2C+and+Priorities
 [8]: https://www.twilio.com/docs/sip-trunking/sample-configuration#asterisk
 [9]: https://www.twilio.com/blog/registering-sip-phone-twilio-inbound-outbound
+[10]: https://wiki.asterisk.org/wiki/display/AST/Configuring+res_pjsip+to+work+through+NAT
