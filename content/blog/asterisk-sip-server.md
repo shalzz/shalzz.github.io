@@ -232,10 +232,15 @@ Twilio does fortunately provide a good enough guide for setting up an Elastic SI
 [here][8], from where we can adapt the configuration shared in the "Asterisk Provisioning" section
 to work with the BYOC trunk.
 
-The values highlighted in bold in the example config below will be unique to your
-environment and need to be replaced with correct values to work accordingly.
+For connecting with the Twilio network as a SIP trunk we need to have a user created
+with the corresponding credentials in addition to a SIP domain and a BYOC trunk domain.
+We can do so via the Twilio console dashboard, the exact steps for which are described
+in the "Twilio" section below.
 
-pjsip_wizard.conf:
+> The values highlighted in bold in the example configuration will be unique to your
+> environment and needs to be replaced with appropriate values to work correctly.
+
+`pjsip_wizard.conf:`
 <pre style="background-color:#fdf6e3;color:#657b83;">
 <code><span>[user_defaults](!)
 </span><span>type = wizard
