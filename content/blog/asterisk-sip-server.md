@@ -278,9 +278,9 @@ in the "Twilio" section below.
 </span>
 </code></pre>
 
-Next we setup an extension to receive incoming calls from the PSTN network
-and forward it to our VOIP softphone via a SIP call to the Twilio SIP domain.
-And another extension for when we want to make a call from our softphone to then
+Next we setup the extensions required to receive incoming calls from the PSTN network
+and forward it as a SIP call via the Twilio SIP domain to any registered softphones
+and another extension for when we want to make a call from our softphone to then
 use the dongle for completing the call to a PSTN number.
 
 `extensions.conf`:
@@ -303,6 +303,11 @@ same  => n,Set(AGC(rx)=4000)
 same  => n,Dial(Dongle/dongle0/${EXTEN})
 same  => n,Hangup
 ```
+
+> Enabling Jitterbuffer and Automatic Gain Control (AGC) may require
+> additional asterisk packages to be installed.
+> On OpenWRT the package names are: `asterisk-func-jitterbuffer` and
+> `asterisk-func-speex`
 
 ### NAT settings (optional)
 
