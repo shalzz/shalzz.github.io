@@ -278,11 +278,37 @@ in the "Twilio" section below.
 </span>
 </code></pre>
 
+Next we setup an extension to receive incoming calls from the PSTN network
+and forward it to our VOIP softphone via a SIP call to the Twilio SIP domain.
+And another extension for when we want to make a call from our softphone to then
+use the dongle for completing the call to a PSTN number.
+
+`extensions.conf`:
+```
+[dongle-incoming]
+exten => +919876543210,1,Dial(PJSIP/twilio-apac/sip:+919876543210@twilio-asteriskpbx.sip.twilio.com, ,b(dongle-incoming^outbound^1))
+
+exten => outbound,1,Set(JITTERBUFFER(adaptive)=default)
+same  => n,Set(AGC(rx)=4000)
+same  => n,Return()
+
+[from-twilio]
+exten => _X.,1,Set(JITTERBUFFER(adaptive)=2000,1600,120)
+same  => n,Set(AGC(rx)=4000)
+same  => n,Dial(Dongle/dongle0/+91${EXTEN})
+same  => n,Hangup
+
+exten => _+91X.,1,Set(JITTERBUFFER(adaptive)=2000,1600,120)
+same  => n,Set(AGC(rx)=4000)
+same  => n,Dial(Dongle/dongle0/${EXTEN})
+same  => n,Hangup
+```
+
 ### NAT settings (optional)
 
 ## Twilio
 
-referral link
+Referral link
 
 ## Softphone
 
@@ -290,7 +316,6 @@ referral link
 
 * SRTP Media transport
 * Twilio region
-* chan-dongle Automatic gain control and jitter buffer.
 
 [Twilio]: https://www.twilio.com/
 [SIP]: https://en.wikipedia.org/wiki/Session_Initiation_Protocol
