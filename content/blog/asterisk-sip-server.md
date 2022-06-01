@@ -232,6 +232,9 @@ Twilio does fortunately provide a good enough guide for setting up an Elastic SI
 [here][8], from where we can adapt the configuration shared in the "Asterisk Provisioning" section
 to work with the BYOC trunk.
 
+The values highlighted in bold in the example config below will be unique to your
+environment and need to be replaced with correct values to work accordingly.
+
 pjsip_wizard.conf:
 <pre style="background-color:#fdf6e3;color:#657b83;">
 <code><span>[user_defaults](!)
