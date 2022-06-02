@@ -121,7 +121,7 @@ what we're doing below.
 The main configuration requirements are specifying the correct audio and data
 device ports of the dongle.
 
-```
+```ini
 [dongle0]
 context   =   dongle-incoming
 audio     =   /dev/ttyUSB1       ; tty port for audio connection;    no default value
@@ -161,7 +161,7 @@ any line preceded by `;` is a comment and is ignored by the asterisk server.
 
 Append the following lines at the end of the file to setup SMS forwarding.
 
-```
+```ini
 [dongle-incoming]
 exten => sms,1,Verbose(Incoming SMS from "${CALLERID(num)} ${BASE64_DECODE(${SMS_BASE64})}")
 exten => sms,n,System(echo "To: user@example.com\nSubject: ${CALLERID(num)}\n\n${STRFTIME(${EPOCH},,%Y-%m-%d %H:%M:%S)} - ${DONGLENAME} - ${CALLERID(num)}: " > /tmp/sms.txt)
@@ -217,7 +217,7 @@ There are a few files that we'll need to edit mainly, `pjsip.conf`, `pjsip_wizar
 The first thing that we need to do is setup a transport for asterisk to use for SIP
 signalling in the `pjsip.conf` file:
 
-```
+```ini
 [transport-udp]
 type=transport
 protocol=udp
@@ -284,7 +284,7 @@ and another extension for when we want to make a call from our softphone to then
 use the dongle for completing the call to a PSTN number.
 
 `extensions.conf`:
-```
+```ini
 [dongle-incoming]
 exten => +919876543210,1,Dial(PJSIP/twilio-apac/sip:+919876543210@twilio-asteriskpbx.sip.twilio.com, ,b(dongle-incoming^outbound^1))
 
@@ -312,8 +312,8 @@ same  => n,Hangup
 ### NAT settings (optional)
 
 If you're running your asterisk server on a private network and is behind
-a Network Address Translation (NAT) then you'll need additional configure for
-asterisks res_pjsip module to work reliably.
+Network Address Translation (NAT) then you'll need to enable additional
+configuration options for asterisks res_pjsip module to work reliably.
 
 The most basic configuration required for networking behind a NAT is specifying
 the external media address in the transport configuration section of `pjsip.conf`
