@@ -57,7 +57,7 @@ adder(2, 6);
 
 You may also optionally show code snippets with line numbers. Add `linenos` to the Pygments tags.
 
-```js linenos
+```js
 // Example can be run directly in your JavaScript console
 
 // Create a function that takes two arguments and returns the sum of those arguments

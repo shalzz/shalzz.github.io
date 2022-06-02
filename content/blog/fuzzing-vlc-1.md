@@ -30,7 +30,7 @@ The main module categories that take an input are:
 
 The VLC core tries to load the modules of these categories in the following order:
 
-```text
+```
 Access => Demux => [Packetizer] => Decoder => [Filter] => Out
 ```
 

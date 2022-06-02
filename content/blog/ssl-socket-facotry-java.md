@@ -9,7 +9,7 @@ When connecting to a server which has setup their SSL encryption with a self-sig
 through a Java or an android app, you'll get an SSLException since their certificate isn't signed
 by a Certificate Authorities (CA) which is a 3rd party who is trusted by everyone.
 
-```text
+```
 javax.net.ssl.SSLException: Not trusted server certificate exception
 ```
 

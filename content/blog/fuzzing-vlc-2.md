@@ -17,7 +17,7 @@ rather promptly.
 
 A Segfault on a null pointer, fixed by adding a [null check][1]
 
-```text
+```
 ==25241==ERROR: AddressSanitizer: SEGV on unknown address 0xffffffffffffff68 (pc 0x7f56c19e8ab0 bp 0xffffffffffffff58 sp 0x7ffcdfe59e58 T0)
 ==25241==The signal is caused by a READ memory access.
     #0 0x7f56c19e8aaf  (/usr/lib/libpthread.so.0+0x9aaf)
@@ -41,7 +41,7 @@ A Segfault on a null pointer, fixed by adding a [null check][1]
 ```
  
  Abort due to character conversion without a conversion descriptor, [fixed][2].
-```text
+```
 ==32703== ERROR: libFuzzer: deadly signal
     #0 0x7f46cd57fb68 in __sanitizer_print_stack_trace /build/gcc-multilib/src/gcc/libsanitizer/asan/asan_stack.cc:36
     #1 0x468961 in fuzzer::Fuzzer::CrashCallback() FuzzerLoop.cpp:195
@@ -70,7 +70,7 @@ A Segfault on a null pointer, fixed by adding a [null check][1]
 ```
 
 A heap-use-after-free, fixed by [this][3] and [this][4].
-```text
+```
 ==26135==ERROR: AddressSanitizer: heap-use-after-free on address 0x613000005a00 at pc 0x7f4549af4c64 bp 0x7ffcb951f110 sp 0x7ffcb951e8b8
     READ of size 4 at 0x613000005a00 thread T0
         #0 0x7f4549af4c63 in __interceptor_memcmp /build/gcc-multilib/src/gcc/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:626
