@@ -8,13 +8,13 @@ tags="asterisk, asterisk server, sip server, Twilio, openwrt, sms, sip, voip, si
 
 As a sovereign individual, traveling and staying overseas for long periods,
 it can certainly be helpful to retain the local number of your home country 
-to receive calls on your same number or at a minimum still being able to receive 
+to receive calls on your same number or at a minimum still be able to receive 
 your bank account and OTP related text messages.
 
 The solution here is not a pitch for [Google Fi][2] or a rant about it being 2022,
 and we're nowhere close to having a global mobile carrier available to everyone.
 This article instead describes a much more practical,
-extendable and globally-available solution to the above problem.
+extendable, and globally-available solution to the above problem.
 
 <!-- more -->
 
@@ -49,14 +49,15 @@ the globe. Plus since there's no longer a SIM card required to be tethered to a 
 we can make and receiver calls across multiple devices.
 
 This also mitigates the ever-growing threat of SIM swap attacks.
-Both physical attacks, as the SIM card associated with your number is no longer required to be always in your
+Both physical attacks, as the SIM card associated with your number, is no longer required to be always in your
 phone, and operator social engineering attacks since most VOIP providers have a higher 
 security level than most traditional telecom providers.
 
-While it's quite cheap to buy a new number when you move to a new location,
-unlike earlier times, in the post-modern era with increasingly
-higher number of online services treating your phone number as your
-digital identity and 2FA device, its no longer a simple task.
+While it's still quite cheap to buy a new number when you move to a new location,
+and port all your service to the new number.
+In the post-modern era however with an increasingly higher number of online
+services treating your phone number as your digital identity and 2FA,
+it's no longer a simple task.
 
 ## Asterisk PBX Server
 
@@ -66,17 +67,17 @@ as well as SMS. The feature set starts to degrade drastically from what we are u
 in most other countries.
 
 If you are following this guide with a US number or any other country that allows
-first class support to VOIP providers then you can skip this section on setting up an
+first-class support to VOIP providers then you can skip this section on setting up an
 asterisk server.
 
-If however you find yourself with a number from a country which restricts VOIP providers
+If however you find yourself with a number from a country that restricts VOIP providers
 from providing full feature-set local numbers then you can circumvent that via
 a 3G/4G USB dongle with voice calling support. This allows you to then bring up
 a PBX server connected to the internet with the ability to route traditional PBX calls
 via the USB dongle holding your own local number SIM card.
 
 The first step is to install asterisk on a machine that can be left running
-24/7 for the maximum uptime. This guide uses OpenWRT OS and packages in examples
+24/7 for maximum uptime. This guide uses OpenWRT OS and packages in examples
 but you do so on any machine you have lying around including a Raspberry Pi.
 
 With an already set up OpenWRT router, you'll need the following packages to
@@ -92,16 +93,16 @@ using [wdoekes/asterisk-chan-dongle][4] an asterisk channel driver for interfaci
 with the USB dongle from an asterisk server. 
 
 The tricking part here is that the channel driver doesn't work with every 3G/4G USB
-dongle, only Huawei 3G dongles and few 4G dongles. And even with the dongles that it
+dongle, only Huawei 3G dongles and a few 4G dongles. And even with the dongles that it
 does work, not every supported dongle has voice support available or firmware unlocked.
 
-The best way is to look at the list of supported dongles on the projects [README][5] file
-and try to get your hands on one of them. I bought a E1750 Huawei 3G dongle which 
+The best way is to look at the list of supported dongles on the project's [README][5] file
+and try to get your hands on one of them. I bought an E1750 Huawei 3G dongle which 
 you still find in stock in many online stores. If it's unavailable in your local markets/
-e-commerce sites, try searching it on ebay or aliexpress. I was able to get a
-second hand one from ebay with SIM and voice support unlocked.
+e-commerce sites, try searching it on eBay or AliExpress. I was able to get a
+second-hand one from eBay with SIM and voice support unlocked.
 
-Once you have a dongle, insert your SIM card and plug it in the machine you have asterisk
+Once you have a dongle, insert your SIM card and plug it into the machine you have asterisk
 installed.
 Make sure you have the `asterisk-chan-dongle` package installed.
 
@@ -130,7 +131,7 @@ data      =   /dev/ttyUSB2       ; tty port for AT commands;         no default 
 The exact value here will depend on your dongle and the distribution your running. You might
 need to install the `usb_modeswitch` package to switch the dongle from the initial
 CD-ROM/mass storage mode to the serial mode. You should be able to start the asterisk
-server now and watch the logs for errors. Make sure there's no dongle related errors. 
+server now and watch the logs for errors. Make sure there are no dongle related errors. 
 
 Note: To enable logging you might need to edit `logger.conf` to increase the log
 level.
@@ -180,10 +181,10 @@ You can read more about how [Context, Extensions, and Priorities][7] work in ast
 their wiki.
 
 Once we craft an email message we defer to a sendmail compatible SMTP client to
-actually send the email. This example uses `msmtp` here, you can instead use any
+send the email. This example uses `msmtp` here, you can instead use any
 other client and configure it accordingly.
 
-The above extension configuration calls some asterisk built-in apps and functions that
+The above extension configuration calls a few asterisk built-in apps and functions that
 you might need to install separately. For OpenWRT install the following packages:
 ```
 opkg install asterisk-app-system asterisk-app-verbose asterisk-func-base64
@@ -191,7 +192,7 @@ opkg install asterisk-app-system asterisk-app-verbose asterisk-func-base64
 
 If you just want SMS forwarding to your email and don't care about PSTN voice calls
 then congratulations you should have SMS-to-email forwarding working at this point.
-If you want voice calls functionality as well, continue reading.
+If you want voice call functionality as well, continue reading.
 
 ### Configuration
 
@@ -209,12 +210,12 @@ much better performance and reliability than just directly talking to our home
 asterisk server from across the globe.
 
 The configuration shared here are just minimal examples that should work for most
-cases, it's possible you'll have to tweak and adjust to suit your setup and requirements.
+cases, you may have to tweak and adjust them to suit your setup and requirements.
 
 There are a few files that we'll need to edit mainly, `pjsip.conf`, `pjsip_wizard.conf` and `extensions.conf`
 
 The first thing that we need to do is set up a "transport" for asterisk to use for SIP
-signalling in the `pjsip.conf` file:
+signaling in the `pjsip.conf` file:
 
 ```ini
 [transport-udp]
@@ -223,11 +224,11 @@ protocol=udp
 bind=0.0.0.0:5060
 ```
 
-The next step is connecting our PBX to Twilio as a Trunk using their BYOC trunk option.
-There is no direct guide provided by Twilio on how to set up a BYOC trunk especially
-with asterisk, but the process is similar to setting up a Twilio Elastic SIP trunk.
+The next step is connecting our PBX to Twilio as a Trunk using their BYOC Trunk option.
+There is no direct guide provided by Twilio on how to set up a BYOC Trunk, especially
+with asterisk, but the process is similar to setting up a Twilio Elastic SIP Trunk.
 
-Twilio does fortunately provide a good enough guide for setting up an Elastic SIP trunk
+Twilio does, fortunately, provide a good enough guide for setting up an Elastic SIP trunk
 [here][8], from where we can adapt the configuration shared in the "Asterisk Provisioning" section
 to work with the BYOC trunk.
 
@@ -277,9 +278,9 @@ in the "Twilio" section below.
 </span>
 </code></pre>
 
-Next we set up the extensions required to receive incoming calls from the PSTN network
-and forward it as a SIP call via the Twilio SIP domain to any registered softphones
-and another extension for when we want to make a call from our softphone to then
+Next, we set up the extensions required to receive incoming calls from the PSTN network
+and forward them as a SIP call via the Twilio SIP domain to any registered softphones.
+And another extension for when we want to make a call from our softphone to then
 use the dongle for completing the call to a PSTN number.
 
 `extensions.conf`:
@@ -341,7 +342,7 @@ for incoming/outgoing calls directly from Twilio's SIP domain.
 
 We adapt from the tutorial for setting up two SIP domains:
 
-The first SIP domain will be setup similar to the one in the tutorial but
+The first SIP domain will be set up similar to the one in the tutorial but
 with a different webhook URL for the "A Call Comes In" configuration option.
 The Webhook URL can be the URL of a Twilio Function or self-hosted server of the
 following Nodejs script:
@@ -480,8 +481,8 @@ field to the `<Dial>` verb followed by the `<Sip>` noun
 You then need to have a `/voicemail` webhook available which then records a message.
 Here's an example: [https://gist.github.com/shalzz/3046edd4d2dca123875ac84853f1cbc1](https://gist.github.com/shalzz/3046edd4d2dca123875ac84853f1cbc1)
 
-Twilio provides generous amount of trial credits, letting you test and correct your
-setup before moving onto a paid plan which is when you actually start paying for usage.
+Twilio provides a generous amount of trial credits, letting you test and correct your
+setup before moving onto a paid plan which is when you start paying for usage.
 You can use my [Twilio referral link][12] to get $10 in credit when you upgrade.
 
 ## Softphone
