@@ -428,18 +428,17 @@ exports.handler = function(context, event, callback) {
                 console.log('Dialing another E.164 SIP User');
                 twiml.dial({
                     callerId: fromSipCallerId,
-                    record: "record-from-answer",
                     answerOnBridge: true
                 })
                 .sip(`sip:${toE164Normalized}@${sipDomain}`);
             } else if (fromE164Normalized === DEFAULT_CALLER_ID) {
                console.log('Dialing a PSTN Number via BYOC');
-               twiml.dial({callerId: fromE164Normalized, record: "record-from-answer", answerOnBridge: true})
+               twiml.dial({callerId: fromE164Normalized, answerOnBridge: true})
                  .number({byoc: BYOC_SID}, toE164Normalized);
             } else {
                console.log('Dialing a PSTN Number');
                twiml.dial(
-                   {callerId: fromE164Normalized, record: "record-from-answer", answerOnBridge: true},
+                   {callerId: fromE164Normalized, answerOnBridge: true},
                    toE164Normalized
                 );
             }
@@ -484,8 +483,7 @@ Here an example: [https://gist.github.com/shalzz/3046edd4d2dca123875ac84853f1cbc
 
 Twilio provides generous amount of trial credits, letting you test and correct your
 setup before moving onto a paid plan which is when you're actually paying for usage.
-
-Trial credits, Referral link
+You can use my [Twilio referral link][12] to get $10 in credit when you upgrade.
 
 ## Softphone
 
@@ -508,3 +506,4 @@ Trial credits, Referral link
 [9]: https://www.twilio.com/blog/registering-sip-phone-twilio-inbound-outbound
 [10]: https://wiki.asterisk.org/wiki/display/AST/Configuring+res_pjsip+to+work+through+NAT
 [11]: https://www.twilio.com/docs/voice/bring-your-own-carrier-byoc
+[12]: https://www.twilio.com/referral/KrXNxn
