@@ -1,7 +1,7 @@
 +++
 title2="Self-hosted GSM modem server for forwarding calls and texts internationally"
 title="Path to Sovereign Individual: Owning your Communications Stack"
-date=2022-05-09
+date=2022-06-04
 [extra]
 tags="Asterisk, Asterisk server, sip server, Twilio, openwrt, sms, sip, voip, sip phone, sms to email, email, gsmbox, gsm, modem, rtp, srtp, sms hijacking, sim swap, sim swap attack, mitigate sim swap, gsm box, huawei dongle, Asterisk-chan-dongle, Asterisk-chan-quectel, BYOC trunk"
 +++
