@@ -487,10 +487,16 @@ You can use my [Twilio referral link][12] to get $10 in credit when you upgrade.
 
 ## Softphone
 
+The last remaining piece of the puzzle is a softphone app through which you'll
+receive and make calls. There a few good softphone apps that work across platforms:
+* [Linephone](https://linphone.org/)
+* [Acrobits Softphone](https://www.acrobits.net/sip-client-ios-android/)
+* [Bria](https://www.counterpath.com/bria-solo/)
+
 ## Further Improvements
 
-* SRTP Media transport
-* Twilio region
+* [SRTP Media transport](https://www.twilio.com/docs/voice/api/secure-media)
+* [Twilio region](https://www.twilio.com/docs/global-infrastructure/understanding-twilio-regions)
 
 [Twilio]: https://www.twilio.com/
 [SIP]: https://en.wikipedia.org/wiki/Session_Initiation_Protocol
