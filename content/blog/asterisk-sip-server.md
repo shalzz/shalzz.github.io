@@ -18,14 +18,14 @@ extendable and globally-available solution to the above problem.
 
 <!-- more -->
 
-On the path to being a [Sovereign Individual][3], I believe being digitally sovereign
+On the path to being a [Sovereign Individual][3], being digitally sovereign
 is equally important. Owning and decoupling your digital identify from your mobile
 number is a step in that direction.
 
-In the same vein, I recently twitted about taking control of your messaging platforms to have custody
-over your chat messages while maintaining a level of privacy via an additional layer
-of isolation and at the same time improving your quality of life by unifying your
-chatting experience. This article though focuses purely on voice and text communication.
+In the same vein, I recently tweeted about taking  control of your messaging 
+platforms to have custody over your chat messages. Helping you maintain a new
+layer of privacy via isolation as well as improving your quality of life by
+unifying your chatting platforms. This article though focuses only on voice and text communication.
 
 {{ tweet(url="https://twitter.com/shalzzj/status/1499689706367643649") }}
 
@@ -34,7 +34,7 @@ chatting experience. This article though focuses purely on voice and text commun
 ## Overview 
 
 The solution we have here is to move on to a [SIP]/[RTP] stack for all our voice calls and
-relying on our own PBX server (depending on our use case) in addition to using a VOIP service provider.
+relying on our own PBX server (depending on our use case) besides using a VOIP service provider.
 
 When we have our complete VOIP stack in place we'll have a pipeline like this:
 
@@ -53,7 +53,7 @@ both physical, as the SIM card associated with your number is no longer required
 phone, and operator social engineering attacks since most VOIP providers have a higher 
 security level than most traditional telecom providers.
 
-While it's quite cheap to just buy a new number when you move to a new location,
+While it's quite cheap to buy a new number when you move to a new location,
 unlike earlier times, in the post modern era with increasingly
 higher number of online services treating your phone number as your
 digital identity and 2FA device, its no longer a simple task.
@@ -201,7 +201,7 @@ asterisk PBX server to do two things:
 1. Set up call extensions so that asterisk knows how and where to route incoming and outgoing calls
 1. Authenticate and interface with Twilio as a BYOC trunk
 
-While we don't really need to use Twilio or a VOIP service provider to act as a
+While we don't need to use Twilio or a VOIP service provider to act as a
 proxy for our PBX server, using one adds a level of security and reliability
 to our setup as we don't need to whitelist dynamic IP addresses for communicating with
 a mobile softphone and Twilio's global presence and edge locations enable
@@ -481,7 +481,7 @@ You then need to have a `/voicemail` webhook available which then records a mess
 Here an example: [https://gist.github.com/shalzz/3046edd4d2dca123875ac84853f1cbc1](https://gist.github.com/shalzz/3046edd4d2dca123875ac84853f1cbc1)
 
 Twilio provides generous amount of trial credits, letting you test and correct your
-setup before moving onto a paid plan which is when you're actually paying for usage.
+setup before moving onto a paid plan which is when you actually start paying for usage.
 You can use my [Twilio referral link][12] to get $10 in credit when you upgrade.
 
 ## Softphone
