@@ -336,7 +336,156 @@ You can find more details on how to configure asterisk behind a NAT from their
 
 ## Twilio
 
-Referral link
+The last step in our setup is to configure Twilio SIP domain and BYOC trunk
+from the Twilio console. Twilio has a nice tutorial for setting up a [SIP phone][9]
+for incoming/outgoing calls directly from Twilio's SIP domain.
+
+We adapt from the tutorial for setting up two SIP domains:
+
+The first SIP domain will be setup similar to the one in the tutorial but
+with a different webhook URL for the "A Call Comes In" configuration option.
+The Webhook URL can be the URL of a Twilio Function or self hosted server of the
+following Nodejs script:
+
+```javascript
+/* URL Parameters
+URL parameters: defaultCountry=[international country code - ISO alpha2]
+Feel free to remove any console.log statements.
+*/
+// Require `PhoneNumberFormat`.
+const PNF = require('google-libphonenumber').PhoneNumberFormat;
+const url = require('url');
+// Get an instance of `PhoneNumberUtil`.
+const phoneUtil = require('google-libphonenumber').PhoneNumberUtil.getInstance();
+
+exports.handler = function(context, event, callback) {
+    const client = context.getTwilioClient();
+    let twiml = new Twilio.twiml.VoiceResponse();
+    const { From: fromNumber, To: toNumber, SipDomainSid: sipDomainSid } = event;
+    let mergedAggregatedE164CredentialUsernames = [];
+    let regExNumericSipUri = /^sip:((\+)?[0-9]+)@(.*)/;
+    let regAlphaSipUri = /^sip:(([a-zA-Z][\w]+)@(.*))/;
+    // Change the defaultCallerId to a phone number in your account
+    // and BYOC_SID to your byoc trunks SID.
+    const BYOC_SID = 'BY6f6abd4dadcf7d0de2ec4f828a167bac';
+    const DEFAULT_CALLER_ID = '+919876543210';  // Also our BYOC number
+    let defaultCountry = event.defaultCountry || 'US';
+    let fromSipCallerId = (fromNumber.match(regExNumericSipUri)
+    ? fromNumber.match(regExNumericSipUri)[1] :
+    fromNumber.match(regAlphaSipUri)[2]);
+    if (!toNumber.match(regExNumericSipUri)) {
+        console.log('Dialing an alphanumeric SIP User');
+        twiml.dial({callerId: fromSipCallerId, answerOnBridge: true})
+        .sip(toNumber);
+        callback(null, twiml);
+    }
+    let normalizedFrom = (fromNumber.match(regExNumericSipUri)
+    ? fromNumber.match(regExNumericSipUri)[1] : DEFAULT_CALLER_ID);
+    let normalizedTo = toNumber.match(regExNumericSipUri)[1];
+    let sipDomain =  toNumber.match(regExNumericSipUri)[3];
+    console.log(`Original From Number: ${fromNumber}`);
+    console.log(`Original To Number: ${toNumber}`);
+    console.log(`Normalized PSTN From Number: ${normalizedFrom}`);
+    console.log(`Normalized To Number: ${normalizedTo}`);
+    console.log(`SIP CallerID: ${fromSipCallerId}`);
+    // Parse number with US country code and keep raw input.
+    const rawFromNumber = phoneUtil.parseAndKeepRawInput(normalizedFrom, defaultCountry);
+    const rawtoNumber = phoneUtil.parseAndKeepRawInput(normalizedTo, defaultCountry);
+    // Format number in E.164 format
+    fromE164Normalized = phoneUtil.format(rawFromNumber, PNF.E164);
+    toE164Normalized = phoneUtil.format(rawtoNumber, PNF.E164);
+    console.log(`E.164 From Number: ${fromE164Normalized}`);
+    console.log(`E.164 To Number: ${toE164Normalized}`);
+
+    function enumerateCredentialLists(sipDomainSid) {
+        return client.sip.domains(sipDomainSid)
+            .auth
+            .registrations
+            .credentialListMappings
+            .list();
+    }
+    function getSIPCredentialListUsernames(credList) {
+        return client.sip.credentialLists(credList)
+            .credentials
+            .list();
+    }
+    enumerateCredentialLists(sipDomainSid).then(credentialLists => {
+        Promise.all(credentialLists.map(credList => {
+            return getSIPCredentialListUsernames(credList.sid);
+        }))
+        .then(results => {
+            results.forEach(credentials => {
+                // Merge together all SIP Domain associated registration
+                // credential list usernames prefixed by + into one array
+                mergedAggregatedE164CredentialUsernames.push
+                .apply(mergedAggregatedE164CredentialUsernames,
+                credentials.filter(record => record["username"].startsWith('+'))
+                .map(record => record.username));
+            });
+            console.log(mergedAggregatedE164CredentialUsernames);
+
+            if (mergedAggregatedE164CredentialUsernames.includes(toE164Normalized)) {
+                console.log('Dialing another E.164 SIP User');
+                twiml.dial({
+                    callerId: fromSipCallerId,
+                    record: "record-from-answer",
+                    answerOnBridge: true
+                })
+                .sip(`sip:${toE164Normalized}@${sipDomain}`);
+            } else if (fromE164Normalized === DEFAULT_CALLER_ID) {
+               console.log('Dialing a PSTN Number via BYOC');
+               twiml.dial({callerId: fromE164Normalized, record: "record-from-answer", answerOnBridge: true})
+                 .number({byoc: BYOC_SID}, toE164Normalized);
+            } else {
+               console.log('Dialing a PSTN Number');
+               twiml.dial(
+                   {callerId: fromE164Normalized, record: "record-from-answer", answerOnBridge: true},
+                   toE164Normalized
+                );
+            }
+                callback(null, twiml);
+            }).catch(err => {
+                console.log(err);
+                callback(err);
+            });
+    });
+};
+```
+
+Change the `DEFAULT_CALLER_ID` variable value to your SIM card number and `BYOC_SID`
+value to the SID you get after creating a BYOC trunk SIP domain described below.
+
+The above script calls a PSTN number via our BYOC trunk when calling from our
+BYOC number or via a Twilio number when calling from a username formatted as a E.164 Twilio number.
+And makes a SIP call when the To number is a username in our credentials list.
+
+The second SIP domain will have the selection "BYOC trunk" as the configuration
+under the "Call Control Configuration" section.
+The details for setting up a Twilio BYOC trunk
+can be found in Twilio's [BYOC trunk][11] documentation.
+
+You can also enable voicemail on incoming calls to your number by adding an `action`
+field to the `<Dial>` verb followed by the `<Sip>` noun
+
+```diff
+@@ -77,6 +77,7 @@ exports.handler = function(context, event, callback) {
+            if (mergedAggregatedE164CredentialUsernames.includes(toE164Normalized)) {
+                console.log('Dialing another E.164 SIP User');
+                twiml.dial({
++                   action: url.resolve(context.PATH, 'voicemail'),
+                    callerId: fromSipCallerId,
+                    record: "record-from-answer",
+                    answerOnBridge: true
+
+```
+
+You then need to have a `/voicemail` webhook available which then records a message.
+Here an example: [https://gist.github.com/shalzz/3046edd4d2dca123875ac84853f1cbc1](https://gist.github.com/shalzz/3046edd4d2dca123875ac84853f1cbc1)
+
+Twilio provides generous amount of trial credits, letting you test and correct your
+setup before moving onto a paid plan which is when you're actually paying for usage.
+
+Trial credits, Referral link
 
 ## Softphone
 
@@ -358,3 +507,4 @@ Referral link
 [8]: https://www.twilio.com/docs/sip-trunking/sample-configuration#asterisk
 [9]: https://www.twilio.com/blog/registering-sip-phone-twilio-inbound-outbound
 [10]: https://wiki.asterisk.org/wiki/display/AST/Configuring+res_pjsip+to+work+through+NAT
+[11]: https://www.twilio.com/docs/voice/bring-your-own-carrier-byoc
