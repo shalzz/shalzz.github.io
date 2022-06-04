@@ -2,14 +2,9 @@
 title2="Self-hosted GSM modem server for forwarding calls and texts internationally"
 title="Path to Sovereign Individual: Owning your Communications Stack"
 date=2022-05-09
-draft=true
 [extra]
-tags="asterisk, asterisk server, sip server, Twilio, openwrt, sms, sip, voip, sip phone, sms to email, email, gsmbox, gsm, modem"
+tags="asterisk, asterisk server, sip server, Twilio, openwrt, sms, sip, voip, sip phone, sms to email, email, gsmbox, gsm, modem, rtp, srtp, sms hijacking, sim swap, sim swap attack, mitigate sim swap, gsm box, huawei dongle, asterisk-chan-dongle, asterisk-chan-quectel, BYOC trunk"
 +++
-
-On the path to being a [Sovereign Individual][3], I believe being digitally sovereign
-is equally important. Owning and decoupling your digital identify from your mobile
-number is a step in that direction.
 
 As a sovereign individual, traveling and staying overseas for long periods of time
 it can certainly be helpful to retain the local number of your home country 
@@ -22,6 +17,10 @@ Instead this article describes a much more practical,
 extendable and globally-available solution to the above problem.
 
 <!-- more -->
+
+On the path to being a [Sovereign Individual][3], I believe being digitally sovereign
+is equally important. Owning and decoupling your digital identify from your mobile
+number is a step in that direction.
 
 In the same vein, I recently twitted about taking control of your messaging platforms to have custody
 over your chat messages while maintaining a level of privacy via an additional layer
