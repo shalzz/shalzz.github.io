@@ -18,8 +18,7 @@ bank account and OTP related text messages.
 
 The solution I've come up with isn't location dependent like [Google Fi][2] or using 
 expensive international roaming plans but instead gives you ownership and
-freedom to retain, switch or dispose of your phone numbers across jurisdictions
-and multiple devices.
+freedom to retain, switch or dispose of your phone numbers across jurisdictions.
 
 <!-- more -->
 
