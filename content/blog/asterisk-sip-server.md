@@ -56,24 +56,25 @@ security level than most traditional telecom providers.
 
 ## Asterisk PBX Server
 
-While it's relatively easy in some countries including the US to just buy a consumer feature
-level number from a VOIP provider like [Twilio] that lets you receive and make calls
-as well as SMS. The feature set starts to degrade drastically from what we are used to
-in most other countries.
+While the regulation of some countries like the US allow buying a consumer feature
+level number from a VOIP provider like [Twilio] with unrestricted functionality for
+calls and SMS/MMS.
+The feature set starts to degrade drastically from what we are used to
+when buying local numbers for most other countries.
 
 If you are following this guide with a US number or any other country that allows
 first-class support to VOIP providers then you can skip this section on setting up an
 Asterisk server.
 
 If however you find yourself with a number from a country that restricts VOIP providers
-from providing full feature-set local numbers then you can circumvent that via
-a 3G/4G USB dongle with voice calling support. This allows you to then bring up
+from providing full feature-set local numbers then we can circumvent that via
+a 3G/4G USB dongle with voice calling support. This allows us to then bring up
 a PBX server connected to the internet with the ability to route traditional PBX calls
 via the USB dongle holding your own local number SIM card.
 
-The first step is to install Asterisk on a machine that can be left running
+The first step is to then install an [Asterisk][13] server on a machine that can be left running
 24/7 for maximum uptime. This guide uses OpenWRT OS and packages in examples
-but you do so on any machine you have lying around including a Raspberry Pi.
+but you can use any machine you have lying around including a Raspberry Pi.
 
 With an already set up OpenWRT router, you'll need the following packages to
 install Asterisk:
@@ -85,7 +86,7 @@ opkg install Asterisk Asterisk-pjsip Asterisk-bridge-simple Asterisk-codec-alaw 
 
 Now comes the tough part of getting and setting up a USB dongle. We're 
 using [wdoekes/Asterisk-chan-dongle][4] an Asterisk channel driver for interfacing
-with the USB dongle from an Asterisk server. 
+with the USB dongle from the Asterisk server. 
 
 The tricking part here is that the channel driver doesn't work with every 3G/4G USB
 dongle, only Huawei 3G dongles and a few 4G dongles. And even with the dongles that it
@@ -98,20 +99,19 @@ e-commerce sites, try searching it on eBay or AliExpress. I was able to get a
 second-hand one from eBay with SIM and voice support unlocked.
 
 Once you have a dongle, insert your SIM card and plug it into the machine you have Asterisk
-installed.
-Make sure you have the `Asterisk-chan-dongle` package installed.
+installed.  Make sure you have the `asterisk-chan-dongle` package installed.
 
-To configure we edit the `dongle.conf` file found in the configuration folder of Asterisk.
-The configuration folder is defined via the `astetcdir` option in the main `Asterisk.conf`
-and is usually `/etc/Asterisk/`.
+To configure, we edit the `dongle.conf` file found in the configuration folder of Asterisk.
+The configuration folder is defined via the `astetcdir` option in the main `asterisk.conf`
+file and is usually `/etc/asterisk/`.
 
 If there's no `dongle.conf` file located in the configuration folder, create one.
 The default dongle.conf can be found [here][6].
 
 Make a note of the `context` option in `dongle.conf`, the default value of
-`context` is `default` which we'll be referencing late, you can change it to something
-more appropriate like `dongle-incoming` to make it easier to remember, which is
-what we're doing below.
+`context` is `default` which we'll be referencing later.
+You can change it to something more appropriate like `dongle-incoming`
+to make it easier to remember, which is what we're doing in the below example.
 
 The main configuration requirements are specifying the correct audio and data
 device ports of the dongle.
@@ -125,8 +125,8 @@ data      =   /dev/ttyUSB2       ; tty port for AT commands;         no default 
 
 The exact value here will depend on your dongle and the distribution you're running. You might
 need to install the `usb_modeswitch` package to switch the dongle from the initial
-CD-ROM/mass storage mode to the serial mode. You should be able to start the Asterisk
-server now and watch the logs for errors. Make sure there are no dongle-related errors. 
+CD-ROM/mass storage mode to the serial mode. You should then be able to start the Asterisk
+server and watch the logs for errors. Make sure there are no dongle-related errors. 
 
 Note: To enable logging you might need to edit `logger.conf` to increase the log
 level.
@@ -138,7 +138,7 @@ messages => notice,warning,error,debug
 
 Check the status of your dongle and network registration via these two commands
 in the Asterisk console. (You can attach a console to a running Asterisk
-server via the command `Asterisk -r`)
+server via the command `asterisk -r`)
 ```
 dongle show devices
 dongle show device state dongle0
@@ -149,10 +149,10 @@ If the output shows the device state as "Free", then you're good to go.
 ### SMS Forwarding (Optional)
 
 The easiest and simplest way to get acquainted with Asterisk and how to configure
-it is to set up SMS forwarding from our USB 3g dongle to an email ID.
+it is to set up SMS forwarding from our USB 3G dongle to an email ID.
 
-We can do so by editing `extensions.conf`. The file is already well documented,
-any line preceded by `;` is a comment and is ignored by the Asterisk server.
+We can do so by editing `extensions.conf`. The file is already well documented
+via comments (any line preceded by `;` is a comment and is ignored).
 
 Append the following lines at the end of the file to set up SMS forwarding.
 
@@ -182,7 +182,7 @@ other client and configure it accordingly.
 The above extension configuration calls a few Asterisk built-in apps and functions that
 you might need to install separately. For OpenWRT install the following packages:
 ```
-opkg install Asterisk-app-system Asterisk-app-verbose Asterisk-func-base64
+opkg install asterisk-app-system asterisk-app-verbose asterisk-func-base64
 ```
 
 If you just want SMS forwarding to your email and don't care about PSTN voice calls
@@ -191,7 +191,7 @@ If you want voice call functionality as well, continue reading.
 
 ### Configuration
 
-Once we have everything installed and running, comes the time of configuring our
+Once we have everything installed and running, it's time to configure our
 Asterisk PBX server to do two things:
 
 1. Set up call extensions so that Asterisk knows how and where to route incoming and outgoing calls
@@ -251,7 +251,7 @@ in the "Twilio" section below.
 </span><span>[<b>+919876543210</b>](user_defaults)
 </span><span>aor/max_contacts = 5
 </span><span>endpoint/callerid = <b>Alan Klein <+919876543210></b>
-</span><span>remote_hosts = <b>byoc.twilio-Asteriskpbx.sip.singapore.twilio.com, byoc.twilio-Asteriskpbx.sip.tokyo.twilio.com</b>
+</span><span>remote_hosts = <b>byoc.twilio-asteriskpbx.sip.singapore.twilio.com, byoc.twilio-asteriskpbx.sip.tokyo.twilio.com</b>
 </span><span>
 </span><span>[trunk_defaults](!)
 </span><span>type = wizard
@@ -265,9 +265,9 @@ in the "Twilio" section below.
 </span><span>[twilio-apac](trunk_defaults)
 </span><span>sends_auth = yes
 </span><span>sends_registrations = yes
-</span><span>remote_hosts = <b>twilio-Asteriskpbx.sip.singapore.twilio.com </b>
-</span><span>outbound_auth/username = <b style="color: red;">myAsteriskpbx </b>
-</span><span>outbound_auth/password = <b style="color: red;">myAsteriskpbxzx11%VzX </b>
+</span><span>remote_hosts = <b>twilio-asteriskpbx.sip.singapore.twilio.com </b>
+</span><span>outbound_auth/username = <b style="color: red;">myasteriskpbx </b>
+</span><span>outbound_auth/password = <b style="color: red;">myasteriskpbxzx11%VzX </b>
 </span><span>endpoint/context = from-twilio
 </span><span>aor/qualify_frequency = 60
 </span>
@@ -281,7 +281,7 @@ use the dongle for completing the call to a PSTN number.
 `extensions.conf`:
 ```ini
 [dongle-incoming]
-exten => +919876543210,1,Dial(PJSIP/twilio-apac/sip:+919876543210@twilio-Asteriskpbx.sip.twilio.com, ,b(dongle-incoming^outbound^1))
+exten => +919876543210,1,Dial(PJSIP/twilio-apac/sip:+919876543210@twilio-asteriskpbx.sip.twilio.com, ,b(dongle-incoming^outbound^1))
 
 exten => outbound,1,Set(JITTERBUFFER(adaptive)=default)
 same  => n,Set(AGC(rx)=4000)
@@ -300,15 +300,15 @@ same  => n,Hangup
 ```
 
 > Note: Enabling Jitterbuffer and Automatic Gain Control (AGC) may require
-> additional Asterisk packages to be installed.
-> On OpenWRT the package names are: `Asterisk-func-jitterbuffer` and
-> `Asterisk-func-speex`
+> additional asterisk packages to be installed.
+> On OpenWRT the package names are: `asterisk-func-jitterbuffer` and
+> `asterisk-func-speex`.
 
 ### NAT settings (optional)
 
 If you're running your Asterisk server on a private network and is behind
 Network Address Translation (NAT) then you'll need to enable additional
-configuration options for Asterisks res_pjsip module to work reliably.
+configuration options for Asterisk's `res_pjsip` module to work reliably.
 
 The most basic configuration required for networking behind a NAT is specifying
 the external media address in the transport configuration section of `pjsip.conf`
@@ -508,3 +508,4 @@ receive and make calls. There are a few good softphone apps that work across pla
 [10]: https://wiki.asterisk.org/wiki/display/AST/Configuring+res_pjsip+to+work+through+NAT
 [11]: https://www.twilio.com/docs/voice/bring-your-own-carrier-byoc
 [12]: https://www.twilio.com/referral/KrXNxn
+[13]: https://www.asterisk.org/
