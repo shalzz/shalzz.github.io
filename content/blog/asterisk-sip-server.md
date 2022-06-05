@@ -6,14 +6,14 @@ date=2022-06-04
 tags="Asterisk, Asterisk server, sip server, Twilio, openwrt, sms, sip, voip, sip phone, sms to email, email, gsmbox, gsm, modem, rtp, srtp, sms hijacking, sim swap, sim swap attack, mitigate sim swap, gsm box, huawei dongle, Asterisk-chan-dongle, Asterisk-chan-quectel, BYOC trunk"
 +++
 
-On the path to being a [Sovereign Individual][3], being digitally sovereign
-is equally important. Owning and decoupling your digital identity from your mobile
-number is a step in that direction.
+<!-- On the path to being a [Sovereign Individual][3], being digitally sovereign -->
+<!-- is equally important. Owning and decoupling your digital identity from your mobile -->
+<!-- number is a step in that direction. -->
 
-As a sovereign individual when traveling and staying overseas for long periods,
+As a [Sovereign Individual][3] when traveling and staying overseas for long periods,
 I've found it helpful to still have a working phone number of my home country instead
 of switching numbers every time you travel internationally.
-Doing so lets you forward or make local home calls or at a minimum still be able to receive 
+Doing so lets you forward and make local home calls or at a minimum still be able to receive 
 bank account and OTP related text messages.
 
 The solution I've come up with isn't location dependent like [Google Fi][2] or using 
