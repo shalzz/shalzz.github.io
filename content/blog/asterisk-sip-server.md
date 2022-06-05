@@ -6,21 +6,22 @@ date=2022-06-04
 tags="Asterisk, Asterisk server, sip server, Twilio, openwrt, sms, sip, voip, sip phone, sms to email, email, gsmbox, gsm, modem, rtp, srtp, sms hijacking, sim swap, sim swap attack, mitigate sim swap, gsm box, huawei dongle, Asterisk-chan-dongle, Asterisk-chan-quectel, BYOC trunk"
 +++
 
-As a sovereign individual, traveling and staying overseas for long periods,
-it can certainly be helpful to retain the local number of your home country 
-to receive calls on your same number or at a minimum still be able to receive 
-your bank account and OTP related text messages.
-
-The solution here is not a pitch for [Google Fi][2] or a rant about it being 2022,
-and we're nowhere close to having a global mobile carrier available to everyone.
-This article instead describes a much more practical,
-extendable, and globally-available solution to the above problem.
-
-<!-- more -->
-
 On the path to being a [Sovereign Individual][3], being digitally sovereign
 is equally important. Owning and decoupling your digital identity from your mobile
 number is a step in that direction.
+
+As a sovereign individual when traveling and staying overseas for long periods,
+I've found it helpful to still have a working phone number of my home country instead
+of switching numbers every time you travel internationally.
+Doing so lets you forward or make local home calls or at a minimum still be able to receive 
+bank account and OTP related text messages.
+
+The solution I've come up with isn't location dependent like [Google Fi][2] or using 
+expensive international roaming plans but instead gives you ownership and
+freedom to retain, switch or dispose off your phone numbers across jurisdictions
+and multiple devices.
+
+<!-- more -->
 
 In the same vein, I recently tweeted about taking control of your messaging
 platforms to have custody over your chat messages. Helping you maintain a new
@@ -33,8 +34,8 @@ unifying your chatting platforms. This article though focuses only on voice and 
 
 ## Overview 
 
-The solution we have here is to move on to a [SIP]/[RTP] stack for all our voice calls and
-rely on our PBX server (depending on our use case) besides using a VOIP service provider.
+The solution to the above problem is to move onto a [SIP]/[RTP] stack for all our voice calls by
+switching to a VOIP service provider and possibly relying on our PBX server (depending on the jurisdictions regulation). 
 
 When we have our complete VOIP stack in place we'll have a pipeline like this:
 
@@ -53,17 +54,11 @@ Both physical attacks, as the SIM card associated with your number, is no longer
 phone, and operator social engineering attacks since most VOIP providers have a higher 
 security level than most traditional telecom providers.
 
-While it's still quite cheap to buy a new number when you move to a new location
-and port all your services to the new number.
-In the post-modern era, however, with an increasingly higher number of online
-services treating your phone number as your digital identity and 2FA,
-it's no longer a simple task.
-
 ## Asterisk PBX Server
 
 While it's relatively easy in some countries including the US to just buy a consumer feature
 level number from a VOIP provider like [Twilio] that lets you receive and make calls
-as well as SMS. The feature set starts to degrade drastically from what we are used to,
+as well as SMS. The feature set starts to degrade drastically from what we are used to
 in most other countries.
 
 If you are following this guide with a US number or any other country that allows
