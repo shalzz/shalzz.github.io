@@ -11,12 +11,12 @@ tags="Asterisk, Asterisk server, sip server, Twilio, openwrt, sms, sip, voip, si
 <!-- number is a step in that direction. -->
 
 As a [Sovereign Individual][3] when traveling and staying overseas for long periods,
-It can be helpful to still have your home country's phone number in operation instead
+it can be helpful to still have your home country's phone number in operation instead
 of switching numbers on every international trip.
 Doing so lets you forward and make local home calls and at a minimum still be able to receive
 bank account and OTP related text messages.
 
-The solution I propose here isn't a location dependent like [Google Fi][2] or relying on
+The solution I propose here isn't a location dependent one like [Google Fi][2] or relying on
 expensive international roaming plans but instead gives you ownership and
 freedom to retain, switch or dispose of your phone numbers across political borders.
 
@@ -34,7 +34,7 @@ unifying your chatting platforms. This article though focuses only on voice and 
 ## Overview 
 
 The solution to the above problem is to move onto a [SIP]/[RTP] stack for all our voice calls by
-switching to a VOIP service provider and possibly relying on our PBX server (depending on a jurisdiction's regulation).
+switching to a VOIP service provider and possibly relying on our PBX server (depending on the jurisdiction's regulation).
 
 When we have our complete VOIP stack in place we'll have a pipeline like this:
 
@@ -46,16 +46,16 @@ PSTN Carrier <-> 3G/4G Dongle <-> Asterisk Server <-> Twilio (VOIP Provider) <->
 
 With this approach, we can redirect traditional PSTN calls over VOIP to us anywhere across
 the globe. Plus since there's no longer a SIM card required to be tethered to a single device,
-we can make and receiver calls across multiple devices.
+we can make and receive calls across multiple devices.
 
 This also mitigates the ever-growing threat of SIM swap attacks.
-Both physical attacks, as the SIM card associated with your number, is no longer required to be always in your
+Both, physical attacks as the SIM card associated with your number is no longer required to be always in your
 phone, and operator social engineering attacks since most VOIP providers have a higher 
 security level than most traditional telecom providers.
 
 ## Asterisk PBX Server
 
-While the regulation of some countries like the US allow buying a consumer feature
+While the regulation of some countries like the US allows buying a consumer feature
 level number from a VOIP provider like [Twilio] with unrestricted functionality for
 calls and SMS/MMS.
 The feature set starts to degrade drastically from what we are used to
@@ -83,11 +83,11 @@ opkg install Asterisk Asterisk-pjsip Asterisk-bridge-simple Asterisk-codec-alaw 
 
 ### Asterisk-chan-dongle
 
-Now comes the tough part of getting and setting up a USB dongle. We're 
+Now comes the tough part of acquiring and setting up a USB dongle. We're
 using [wdoekes/Asterisk-chan-dongle][4] an Asterisk channel driver for interfacing
 with the USB dongle from the Asterisk server. 
 
-The tricking part here is that the channel driver doesn't work with every 3G/4G USB
+The tricky part here is that the channel driver doesn't work with every 3G/4G USB
 dongle, only Huawei 3G dongles and a few 4G dongles. And even with the dongles that it
 does work, not every supported dongle has voice support available or firmware unlocked.
 
