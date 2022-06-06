@@ -448,9 +448,9 @@ exports.handler = function(context, event, callback) {
 Change the `DEFAULT_CALLER_ID` variable value to your SIM card number and `BYOC_SID`
 value to the SID you get after creating a BYOC trunk SIP domain described below.
 
-The above script calls a PSTN number via our BYOC trunk when calling from our
-BYOC number or via a Twilio number when calling from a username formatted as an E.164 Twilio number.
-And makes a SIP call when the To number is a username in our credentials list.
+The above script either calls a PSTN number via our BYOC trunk when calling from our
+BYOC number or via a Twilio number when calling from a username formatted as an E.164 Twilio number
+or makes a SIP call when the To number is a username in our credentials list.
 
 The second SIP domain will have the selection "BYOC trunk" as the configuration
 under the "Call Control Configuration" section.
