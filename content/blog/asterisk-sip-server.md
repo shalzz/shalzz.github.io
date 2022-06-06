@@ -11,14 +11,14 @@ tags="Asterisk, Asterisk server, sip server, Twilio, openwrt, sms, sip, voip, si
 <!-- number is a step in that direction. -->
 
 As a [Sovereign Individual][3] when traveling and staying overseas for long periods,
-I've found it helpful to still have a working phone number of my home country instead
-of switching numbers every time you travel internationally.
-Doing so lets you forward and make local home calls or at a minimum still be able to receive 
+It can be helpful to still have your home country's phone number in operation instead
+of switching numbers on every international trip.
+Doing so lets you forward and make local home calls and at a minimum still be able to receive
 bank account and OTP related text messages.
 
-The solution I've come up with isn't location dependent like [Google Fi][2] or using 
+The solution I propose here isn't a location dependent like [Google Fi][2] or relying on
 expensive international roaming plans but instead gives you ownership and
-freedom to retain, switch or dispose of your phone numbers across jurisdictions.
+freedom to retain, switch or dispose of your phone numbers across political borders.
 
 <!-- more -->
 
@@ -34,7 +34,7 @@ unifying your chatting platforms. This article though focuses only on voice and 
 ## Overview 
 
 The solution to the above problem is to move onto a [SIP]/[RTP] stack for all our voice calls by
-switching to a VOIP service provider and possibly relying on our PBX server (depending on the jurisdictions regulation). 
+switching to a VOIP service provider and possibly relying on our PBX server (depending on a jurisdiction's regulation).
 
 When we have our complete VOIP stack in place we'll have a pipeline like this:
 
