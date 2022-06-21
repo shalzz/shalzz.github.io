@@ -6,6 +6,8 @@ date=2022-06-04
 tags="Asterisk, Asterisk server, sip server, Twilio, openwrt, sms, sip, voip, sip phone, sms to email, email, gsmbox, gsm, modem, rtp, srtp, sms hijacking, sim swap, sim swap attack, mitigate sim swap, gsm box, huawei dongle, Asterisk-chan-dongle, Asterisk-chan-quectel, BYOC trunk"
 +++
 
+_Special thanks to Pramey Singh for feedback and review._
+
 <!-- On the path to being a [Sovereign Individual][3], being digitally sovereign -->
 <!-- is equally important. Owning and decoupling your digital identity from your mobile -->
 <!-- number is a step in that direction. -->

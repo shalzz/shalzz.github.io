@@ -6,6 +6,8 @@ date=2019-12-01
 tags="openwrt, wireguard, streaming, video, media, home media, samba server, samba, torrent, transmission, netflix, piracy, netflix alternative, home server, openwrt samba, nas, ddns, network attached storage, home media server, media server, nas with openwrt"
 +++
 
+_Special thanks to Chakradhar Dhulipalla for feedback and review._
+
 ### Background and motivation
 
 Long gone are the good ol' days when Netflix used to be the only streaming service
