@@ -12,9 +12,9 @@ _Special thanks to Pramey Singh for feedback and review._
 <!-- is equally important. Owning and decoupling your digital identity from your mobile -->
 <!-- number is a step in that direction. -->
 
-As a [Sovereign Individual][3], traveling and staying overseas for long periods frequently, switch sim cards/numbers can quickly become a pain.
-It can be helpful to still retain control over an operation phone number of your home country across Geolocation's.
-Doing so lets you forward and make local home calls and being able to receive your bank's account and OTP related text messages.
+As a [Sovereign Individual][3], traveling and staying overseas for long periods frequently, switching sim cards/numbers can quickly become a pain.
+It can be helpful to still retain control over an operational phone number of your home country across geolocations.
+Doing so lets you forward and make local home calls and be able to receive your bank's account and OTP related text messages.
 
 The solution proposed here isn't a location dependent one like using [Google Fi][2] or relying on expensive international roaming plans.
 Instead, it gives you ownership and freedom to retain, switch or dispose of your phone numbers at local rates, across political borders.
