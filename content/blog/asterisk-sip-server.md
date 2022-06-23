@@ -1,6 +1,6 @@
 +++
-title2="Self-hosted GSM modem server for forwarding calls and texts internationally"
-title="Path to Sovereign Individual: Owning your Communications Stack"
+title="Self-hosted GSM connected VOIP Server for Forwarding Calls and Texts Internationally"
+title2="Path to Sovereign Individual: Owning your Communications Stack"
 date=2022-06-04
 [extra]
 tags="Asterisk, Asterisk server, sip server, Twilio, openwrt, sms, sip, voip, sip phone, sms to email, email, gsmbox, gsm, modem, rtp, srtp, sms hijacking, sim swap, sim swap attack, mitigate sim swap, gsm box, huawei dongle, Asterisk-chan-dongle, Asterisk-chan-quectel, BYOC trunk"
@@ -12,22 +12,18 @@ _Special thanks to Pramey Singh for feedback and review._
 <!-- is equally important. Owning and decoupling your digital identity from your mobile -->
 <!-- number is a step in that direction. -->
 
-As a [Sovereign Individual][3] when traveling and staying overseas for long periods,
-it can be helpful to still have your home country's phone number in operation instead
-of switching numbers on every international trip.
-Doing so lets you forward and make local home calls and at a minimum still be able to receive
-bank account and OTP related text messages.
+As a [Sovereign Individual][3], traveling and staying overseas for long periods frequently, switch sim cards/numbers can quickly become a pain.
+It can be helpful to still retain control over an operation phone number of your home country across Geolocation's.
+Doing so lets you forward and make local home calls and being able to receive your bank's account and OTP related text messages.
 
-The solution I propose here isn't a location dependent one like [Google Fi][2] or relying on
-expensive international roaming plans but instead gives you ownership and
-freedom to retain, switch or dispose of your phone numbers across political borders.
+The solution proposed here isn't a location dependent one like using [Google Fi][2] or relying on expensive international roaming plans.
+Instead, it gives you ownership and freedom to retain, switch or dispose of your phone numbers at local rates, across political borders.
 
 <!-- more -->
 
-In the same vein, I recently tweeted about taking control of your messaging
-platforms to have custody over your chat messages. Helping you maintain a new
-layer of privacy via isolation as well as improving your quality of life by
-unifying your chatting platforms. This article though focuses only on voice and text communication.
+In the same vein, I recently tweeted about taking control of your messaging platforms to have custody over your chat messages.
+Helping you maintain a new layer of privacy via isolation as well as improving your quality of life by unifying your chatting platforms.
+This article though focuses only on voice and text communication.
 
 {{ tweet(url="https://twitter.com/shalzzj/status/1499689706367643649") }}
 
