@@ -1,5 +1,5 @@
 +++
-title="Self-hosted PSTN modem connected VOIP Server for Forwarding Calls and Texts Internationally"
+title="Self-hosted VOIP Server with PSTN modem for Forwarding Calls and Texts Internationally"
 title2="Path to Sovereign Individual: Owning your Communications Stack"
 date=2022-06-04
 [extra]
