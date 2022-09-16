@@ -3,7 +3,7 @@ title="Self-hosted VOIP Server with PSTN Modem for Forwarding Calls and Texts In
 title2="Path to Sovereign Individual: Owning your Communications Stack"
 date=2022-06-04
 [extra]
-tags="Asterisk, Asterisk server, sip server, Twilio, openwrt, sms, sip, voip, sip phone, sms to email, email, gsmbox, gsm, modem, rtp, srtp, sms hijacking, sim swap, sim swap attack, mitigate sim swap, gsm box, huawei dongle, Asterisk-chan-dongle, Asterisk-chan-quectel, BYOC trunk"
+tags="Asterisk, Asterisk server, sip server, Twilio, openwrt, sms, sip, voip, sip phone, sms to email, email, gsmbox, gsm, modem, rtp, srtp, sms hijacking, sim swap, sim swap attack, mitigate sim swap, gsm box, huawei dongle, Asterisk-chan-dongle, Asterisk-chan-quectel, BYOC trunk, pstn, forwarding"
 +++
 
 _Special thanks to Pramey Singh for feedback and review._
