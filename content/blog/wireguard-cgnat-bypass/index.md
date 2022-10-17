@@ -145,8 +145,8 @@ host. This forwards the packets received from the 192.168.1.0/24
 clients back to the connected peer with Wireguard handling the routing
 based on our `AllowedIPs` config.
 
-```
-/etc/sysctl.conf
+```config
+# /etc/sysctl.conf
 net.ipv4.ip_forward=1
 ```
 
