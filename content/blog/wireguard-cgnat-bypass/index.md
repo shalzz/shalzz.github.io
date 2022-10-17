@@ -1,7 +1,6 @@
 +++
 title="Circumventing CG-NAT with Wireguard"
 date=2022-10-17
-draft=true
 [extra]
 tags="wireguard, cg-nat, openwrt, vps, lan, proxy, wireguard tunnel, bypass, cg-nat bypass, circumvent, ip forwarding, ipv4, ipv6"
 +++
