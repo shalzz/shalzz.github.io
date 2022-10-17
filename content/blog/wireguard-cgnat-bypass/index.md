@@ -1,7 +1,7 @@
 +++
 title="Circumventing CG-NAT with Wireguard"
 date=2022-10-17
-draft=false
+draft=true
 [extra]
 tags=""
 +++
