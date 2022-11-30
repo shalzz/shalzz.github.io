@@ -55,6 +55,9 @@ whole class of issues with CG-NAT, dynamic IP addresses and DDNS.
 To install Wireguard related packages and create private keys follow this
 [guide][3].
 
+For a more automated VPN setup on a cloud provider, checkout this [ansible
+script and guide][5] with a pre-setup cloud shell environment.
+
 The minimal configuration for getting the above solution working is as follows
 
 Here we are assuming your router creates and uses the 192.168.1.0/24 subnet for
@@ -157,3 +160,4 @@ You should now be able to access your home router and clients over the public in
 [1]: https://en.wikipedia.org/wiki/Prefix_delegation
 [2]: https://www.wireguard.com/
 [3]: https://wiki.archlinux.org/title/WireGuard
+[5]: https://shalzz.gumroad.com/l/self-host-vpn
