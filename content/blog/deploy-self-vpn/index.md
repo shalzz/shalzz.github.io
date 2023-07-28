@@ -1,10 +1,14 @@
 +++
 title="Why Deploy your Own VPN Server?"
-date=2023-07-26
-draft=true
+date=2023-07-28
 [extra]
-tags=""
+tags="vpn, self-host, self deploy, deploy, selfvpn, self-deploy, algo, wireguard, ansible, google cloud shell, free vpn, free, zero-cost, virtual private network, gumroad"
 +++
+
+<figure>
+{{ resize_image(path="cloud-shell.png") }}
+<figcaption>SelfVPN script running on Google Cloud Shell</figcaption>
+</figure>
 
 ### Background and Motivation 
 
@@ -42,6 +46,26 @@ levels of the infrastructure.
 Automation and abstraction continue to make it possible to deploy your own
 server without increasing expertise and domain knowledge for a wider group of users.
 
-SelfVPN is my attempt at providing a set of tools and guides that lets anyone
+[SelfVPN] is my attempt at providing a set of tools and guides that lets anyone
 DIY their own VPN server while maintaining ownership and sovereignty of their
 data and identity.
+
+<video playsinline="" loop="" autoplay="" muted="" style="width:100%;height:auto;display:block;margin:0">
+  <source src="freevpn-algo-x3-take8.mp4" type="video/mp4">
+</video>
+<br/>
+
+
+[SelfVPN] deploys a [Wireguard][1] VPN server using the excellent [Algo][2] ansible
+playbook by Trait of Bits consulting company.
+It builds on their work to package the script in a cloud execution
+environment with all the prerequisite dependencies and software pre-installed.
+As well as bring all documentation together in a step by step manner.
+
+Please give it a shot, and I appreciate any feedback I can get to make the setup
+even easier to use.
+
+
+[SelfVPN]: https://selfvpn.8bitlabs.tech/
+[1]: https://www.wireguard.com/
+[2]:  https://github.com/trailofbits/algo
