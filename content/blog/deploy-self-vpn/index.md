@@ -5,11 +5,6 @@ date=2023-07-28
 tags="vpn, self-host, self deploy, deploy, selfvpn, self-deploy, algo, wireguard, ansible, google cloud shell, free vpn, free, zero-cost, virtual private network, gumroad"
 +++
 
-<figure>
-{{ resize_image(path="cloud-shell.png") }}
-<figcaption>SelfVPN script running on Google Cloud Shell</figcaption>
-</figure>
-
 ### Background and Motivation 
 
 VPNs have become a requirement in many countries and for many professionals across
