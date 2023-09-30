@@ -1,9 +1,8 @@
 +++
 title="My Personal Journey and Why I'm building a New Earth"
 date=2023-09-30
-draft=true
 [extra]
-tags=""
+tags="new earth, new earth collective, personal journey, personal story, shaleen, newcollective.earth, life journey"
 +++
 
 I was born in a middle class family in the centre of Delhi to parents who each had
