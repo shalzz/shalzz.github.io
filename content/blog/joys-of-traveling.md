@@ -44,22 +44,42 @@ quickly learn to let go and accept things being out of your control
 instead of worrying about it at every turn. It is because of these out of your
 control situations you get a chance to rest and face your emotions.
 
-The best way to do so and experience the world as a reflection of your own
-inner world, I find it is much more *easier* if you're traveling solo.
-Eventually when you get a hang of solo travelling, you find other solo
-travellers along the way that you can travel with without getting distracted from your
-your own experiences. 
-
 ### Getting Started with Travelling?
 
-Now you know there's not just one way of traveling i.e. Traveling as the Rich,
-but another that I hinted above and call it as Travelling as a local.
+Okay, so you want to travel, but how do you start?
 
-Okay, so you are convinced. You want to travel as an extension of your own
-self-discovery and inner-journey and not just as a weekend getaway or a
-Instagram influencer. How does one go about doing that?
+You've most likely only been exposed to one way of travelling, i.e. "Traveling
+as the Rich". However there's any approach that I like to describe as
+"Traveling as a local"
 
-I call this way of travelling as "Travelling as a local"
+What does it mean to travel as a local? Traveling as local means you don't see
+yourself as separate from the place your traveling to, you don't try to
+shield your self from the grey and not so pleasant areas of a place. You
+embrace the people, the language, the food, the culture and the beauty
+but also the issues of the area and it's inhabitants.
+
+Some of the simplest ways of doing so is by staying at a place for a longer
+period of time than your normal hit-and-run travels/weekend gateways,
+letting you stay in guesthouses and hostels or even rent an apartment,
+eating where the locals eat, talking to the locals and traveling as the locals
+do.
+
+Avoid the tourist trap and touristy places, it's good to visit them *if* you
+have the time but don't make them the main agenda of your travels. Checkout the
+natural beauty of a place, hang out where the local hangout and experience
+some of the local culture (their art, music, theater and museums).
+
+This is how I was able to connect and resonate with a lot of places and it's people.
+Get a sense of the history and the economy of a place.
+
+### Lifestyle
+
+If you're traveling and living as a local, how do you sustain your lifestyle?
+Many locals are able to live and stay at a place for years since they work
+there.
+However, just because you are traveling as a local, does it mean you also need to work as a local?
+
+You can certainly chose to, if you wish, however that's not the only option. 
 
 There are various lifestyles that can let you travel as a local. Digital
 nomad, gig worker, volunteer, travelling skilled worker, artist.
@@ -67,9 +87,6 @@ nomad, gig worker, volunteer, travelling skilled worker, artist.
 How I started travelling not as a tourist but a local.
 Travelling by not planning but rather being in the flow. 
 
-Start where you feel being called to.
-
-Traveling as a local
 They live life as raw as possible
 With minimal convenience 
 You have to figure out daily chores; cooking, laundry, cleaning, and of course
@@ -85,7 +102,17 @@ Booking a cab in advance while still walking
 Then catching the auto before he reaches the location
 #bangalore habits
 
+* Working from cafe's with views and vibes
+
+
 ### Solo traveling
+
+TK;
+The best way to do so and experience the world as a reflection of your own
+inner world, I find it is much more *easier* if you're traveling solo.
+Eventually when you get a hang of solo travelling, you find other solo
+travellers along the way that you can travel with without getting distracted from your
+your own experiences. 
 
 ### What kind of people you met
 
