@@ -49,7 +49,7 @@ control situations you get a chance to rest and face your emotions.
 Okay, so you want to travel, but how do you start?
 
 You've most likely only been exposed to one way of travelling, i.e. "Traveling
-as the Rich". However there's any approach that I like to describe as
+as the Rich". However there's another approach that I like to describe as
 "Traveling as a local"
 
 What does it mean to travel as a local? Traveling as local means you don't see
@@ -84,13 +84,8 @@ You can certainly chose to, if you wish, however that's not the only option.
 There are various lifestyles that can let you travel as a local. Digital
 nomad, gig worker, volunteer, travelling skilled worker, artist.
 
-How I started travelling not as a tourist but a local.
 Travelling by not planning but rather being in the flow. 
-
-They live life as raw as possible
-With minimal convenience 
-You have to figure out daily chores; cooking, laundry, cleaning, and of course
-best (fastest vs cheapest) ways of getting from point A to point B.
+They live life as raw as possible With minimal convenience.
 
 No sugar courting or only look at one side/happy or beautiful side
 They embrace and face the truth and duality
@@ -114,6 +109,28 @@ Eventually when you get a hang of solo travelling, you find other solo
 travellers along the way that you can travel with without getting distracted from your
 your own experiences. 
 
-### What kind of people you met
+### People
+
+The most interesting part of traveling is the people you meet. Traveling,
+meeting and talking to people really helps you widen your mindset, break out of
+your comfort zone and develop social and conversational skills.
+
+All in a low stakes environment, if you mess up there's no risk of "destroying your
+reputation", which is an irrational fear, that at least I had growing up.
+Of saying something that is not socially accepted or you're not good at and
+then regret being made fun of something because of something you said
+casually. That's the great thing about traveling, you're always temporal in
+space, naturally making you de-attached to places, people and expectations.
+
+While travelling you meet people of all personality types and more so your
+perception/opinion of certain people you've always held in your mind. You
+certainly need to have an open mindset and heart for meeting new people and
+having conversations, but the more you do so, the more you realise your
+perceptions are just that, perceptions.
+
+Perceptions are always away from the reality. We perceive the reality based
+on your capacity to sense the environment.
+It's important to acknowledge that limitation and be willing to continuously
+widen your perception without holding any judgements.
 
 ### Relationships
