@@ -6,23 +6,34 @@ draft=true
 tags=""
 +++
 
-Traveling, it always seemed to me, a privilege or a luxury to be able to
-travel and visit different places around the world, especially as naturally as a child
-just exploring the world around him.
+Traveling, the act of going from place to place, always seemed to me like a privilege or a luxury.
 
-By the time we grow up we end up justify to ourselves that it's not so easy, 
-there are rules and responsibilities that we must take up in order to survive in this
-world and fit in.
+Such a simple yet magical experience it can be. You hop on a bus, a train or a airplane
+and within a few hours you're transported to another microcosm on earth, with
+it's own weather conditions, set of people, flora and fauna, with places to see and
+be and things to do.
 
-However, it's this fear and scarcity based thinking and in-turn living,
-accentuated by the Covid-19 pandemic of 2020 and 2021, that
-I've been on a journey to transform into an abundance mindset ever since.
+We, as a species have always been travelers first and hunters and
+gatherers later. It was this nomadic nature that allowed Homo Sapiens to
+evolve and survive over not so fortunate Neanderthals[^1].
+
+As a child we all naturally want to explore the world around us. Look at
+everything in its rawness, taste it, smell it and play with literally
+anything.
 
 <!-- more -->
 
-### What Really is Travelling?
+However, by the time we grow up we end up justify to ourselves that it's not so easy, 
+there are rules and responsibilities that we must take up in order to survive in this
+world and fit in.
 
-What does it mean to travel? Is it just crossing a checklist of places and
+It's this fear and scarcity based thinking and in-turn living,
+accentuated by the Covid-19 pandemic of 2020 and 2021, that
+I've been on a journey to transform into an abundance mindset ever since.
+
+### What does traveling mean for You?
+
+What does it mean to travel today? Is it just crossing a checklist of places and
 countries to visit? Taking pictures of yourself at popular destinations as a
 badge of accomplishment? Bragging about places you've been to at dinner
 conversations? Or is there something more to it.
@@ -30,7 +41,7 @@ conversations? Or is there something more to it.
 For me travelling is stepping out of one's comfort zone. A journey of
 self-discovery that starts with an outward physical journey of exploration and
 discovery. Of meeting new people and discovering new places. Travelling off
-the beaten path and doing things that you were always wanted to do but were
+the beaten path and doing things that you always wanted to do but were
 too scared to try. Facing your fears and challenges and not looking for
 convenience everywhere you go. 
 
@@ -49,7 +60,9 @@ control situations you get a chance to rest and face your emotions.
 Okay, so you want to travel, but how do you start?
 
 You've most likely only been exposed to one way of travelling, i.e. "Traveling
-as the Rich". However there's another approach that I like to describe as
+as the Rich" that's the most common way of traveling that's talked about in
+media, movies and in general.
+However there's another approach that I like to describe as
 "Traveling as a local"
 
 What does it mean to travel as a local? Traveling as local means you don't see
@@ -134,3 +147,7 @@ It's important to acknowledge that limitation and be willing to continuously
 widen your perception without holding any judgements.
 
 ### Relationships
+
+[^1]: <https://en.wikipedia.org/wiki/Neanderthal#Climate_change>
+
+[1]: https://coauthored.co/p/frequently-unanswered-questions-fuqs
