@@ -1,6 +1,6 @@
 +++
 title="The Joys of Traveling"
-date=2023-10-05
+date=2023-11-10
 draft=true
 [extra]
 tags=""
@@ -15,7 +15,7 @@ be and things to do.
 
 We, as a species have always been travelers first and hunters and
 gatherers later. It was this nomadic nature that allowed Homo Sapiens to
-evolve and survive over not so fortunate Neanderthals[^1].
+evolve and survive over not so fortunate Neanderthals.
 
 As a child we all naturally want to explore the world around us. Look at
 everything in its rawness, taste it, smell it and play with literally
@@ -30,6 +30,8 @@ world and fit in.
 It's this fear and scarcity based thinking and in-turn living,
 accentuated by the Covid-19 pandemic of 2020 and 2021, that
 I've been on a journey to transform into an abundance mindset ever since.
+
+<!-- toc -->
 
 ### What does traveling mean for You?
 
@@ -55,7 +57,7 @@ quickly learn to let go and accept things being out of your control
 instead of worrying about it at every turn. It is because of these out of your
 control situations you get a chance to rest and face your emotions.
 
-### Getting Started with Travelling?
+### Traveling as a local
 
 Okay, so you want to travel, but how do you start?
 
@@ -65,7 +67,7 @@ media, movies and in general.
 However there's another approach that I like to describe as
 "Traveling as a local"
 
-What does it mean to travel as a local? Traveling as local means you don't see
+Traveling as local means you don't see
 yourself as separate from the place your traveling to, you don't try to
 shield your self from the grey and not so pleasant areas of a place. You
 embrace the people, the language, the food, the culture and the beauty
@@ -148,6 +150,6 @@ widen your perception without holding any judgements.
 
 ### Relationships
 
-[^1]: <https://en.wikipedia.org/wiki/Neanderthal#Climate_change>
+[0]: <https://en.wikipedia.org/wiki/Neanderthal#Climate_change>
 
 [1]: https://coauthored.co/p/frequently-unanswered-questions-fuqs
