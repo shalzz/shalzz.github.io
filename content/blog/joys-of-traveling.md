@@ -6,9 +6,8 @@ draft=true
 tags=""
 +++
 
-Traveling, the act of going from place to place, always seemed to me like a privilege or a luxury.
-
-Such a simple yet magical experience it can be. You hop on a bus, a train or a airplane
+Traveling, the act of going from place to place.
+Such a simple yet magical experience. You hop on a bus, a train or a airplane
 and within a few hours you're transported to another microcosm on earth, with
 it's own weather conditions, set of people, flora and fauna, with places to see and
 be and things to do.
@@ -25,7 +24,8 @@ anything.
 
 However, by the time we grow up we end up justify to ourselves that it's not so easy, 
 there are rules and responsibilities that we must take up in order to survive in this
-world and fit in.
+world and fit in. The more I grew up the more I started to think of traveling
+as a privilege and a luxury.
 
 It's this fear and scarcity based thinking and in-turn living,
 accentuated by the Covid-19 pandemic of 2020 and 2021, that
@@ -59,8 +59,6 @@ control situations you get a chance to rest and face your emotions.
 
 ### Traveling as a local
 
-Okay, so you want to travel, but how do you start?
-
 You've most likely only been exposed to one way of travelling, i.e. "Traveling
 as the Rich" that's the most common way of traveling that's talked about in
 media, movies and in general.
@@ -79,40 +77,25 @@ letting you stay in guesthouses and hostels or even rent an apartment,
 eating where the locals eat, talking to the locals and traveling as the locals
 do.
 
-Avoid the tourist trap and touristy places, it's good to visit them *if* you
-have the time but don't make them the main agenda of your travels. Checkout the
-natural beauty of a place, hang out where the local hangout and experience
-some of the local culture (their art, music, theater and museums).
+Travelling by not planning every detail but giving yourself the time and space
+to be in the flow, go where you feel and are called to.
+Avoid the tourist traps and places, it's good to visit them *if* you
+have the time but don't make them the main agenda of your travels.
+Checkout the natural beauty of a place, hang out where the local hangout and experience
+some of the local culture, their art, music, theater and museums.
 
 This is how I was able to connect and resonate with a lot of places and it's people.
 Get a sense of the history and the economy of a place.
 
-### Lifestyle
-
-If you're traveling and living as a local, how do you sustain your lifestyle?
-Many locals are able to live and stay at a place for years since they work
-there.
-However, just because you are traveling as a local, does it mean you also need to work as a local?
-
-You can certainly chose to, if you wish, however that's not the only option. 
-
-There are various lifestyles that can let you travel as a local. Digital
-nomad, gig worker, volunteer, travelling skilled worker, artist.
-
-Travelling by not planning but rather being in the flow. 
-They live life as raw as possible With minimal convenience.
-
-No sugar courting or only look at one side/happy or beautiful side
-They embrace and face the truth and duality
-Or we should
-
 ### Experience
+
+What has been my experience travelling?
 
 Booking a cab in advance while still walking
 Then catching the auto before he reaches the location
 #bangalore habits
 
-* Working from cafe's with views and vibes
+* Working from café's with views and vibes
 
 
 ### Solo traveling
