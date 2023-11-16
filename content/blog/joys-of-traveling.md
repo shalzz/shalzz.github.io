@@ -87,9 +87,30 @@ some of the local culture, their art, music, theater and museums.
 This is how I was able to connect and resonate with a lot of places and
 it's people as well as get a sense of the history and the economy of the place.
 
-### Experience
+### Lifestyles
 
-What has been my experience travelling?
+If you're traveling and living as a local, how do you sustain your lifestyle?
+Many locals are able to live and stay at a place for years since they work
+there. However, just because you are traveling as a local,
+does it mean your only option is to also as a local?
+
+There are various lifestyles that can lets you travel and work across the global.
+* Digital nomad or remote worker
+* Gig worker
+* Volunteer
+* Travelling skilled worker
+* Artist
+
+I wouldn't go into detail of all the possibilities as everyone's perfect lifestyle
+is unique to themselves and we need to find what works for us the best.
+
+#### Digital Nomadism
+
+I have been living and working as a Digital Nomad for over two years now.
+
+* Working from café's with views and vibes
+
+### My Experience
 
 My first impetus for travelling was to get out of the feeling of suffocation and choking,
 quite literally. Living and working remotely from Delhi, I developed a severe
@@ -97,16 +118,20 @@ allergic reaction to air pollution causing me to fall sick every few months with
 a progressively decorating impact on my immunity and mental health.
 I was stuck in a prison of my own making, further exaggerated by the Covid-19 induced lockdown. 
 
-When I first started solo travelling, that was a huge step for me to step out
+My first solo travelling trip was a huge step for me out
 of my comfort zone and to start socializing despite my crippling social anxiety
-and insecurities around being alone. But knowing that I was staying at a place
-only for a few weeks or months at best, gave me the freedom to express myself
-without the fear of being judged and that judgement/opinion being held over me
-for the rest of life, as what we usually think when we are in school or
-college. Breaking my fear of not fitting in and always being seen as an
-outcast and weird person was easier when I met people who were equally unique and
+and insecurities around being alone.
+
+One of the great things of traveling is, knowing that I'll only ever be staying at a place
+for a few weeks or months at best. This gave me the freedom to express myself
+without fear of being judged and more so that judgement/opinion being held over me
+for the rest of life, as what we usually think will happen when we are in school or
+college.
+
+Breaking my fear of not fitting in and always being seen as an
+outcast or weird person was easier when I met people who were equally unique and
 different and seemed to embrace their uniqueness, at least to a greater level
-than me and anyone else I had met before.
+than me and anyone else I had met before, on my travels.
 
 Once I had a taste and the confidence to travel
 alone without any paranoia and limiting beliefs, my main motivation for
@@ -116,28 +141,38 @@ on a spiritual journey of their own.
 I went to places that had always called out to me the most but I was too scared
 to go, not sure of the logistics, the people, culture, etc. 
 
+I went to the Osho Meditation resort in Pune first, not knowing what I was
+getting into. However that was a quite normalizing experience. Nothing
+remarkable, controversial or  mindblowing happened but to just be in an
+environment where people were freely talking and practising mediation and
+spirituality, made it so much more easier for me to accept that part of me and
+go deeper into my own practise.
+
+Not long after completing my first heart-led trip that led to the expansion
+and growth of my inner journey, I soon found what I was looking for. An
+encounter with a group of people I couldn't have even imagined existing. The
+level of connection and bond we ended up creating and having is now a lifelong bond.
+
+We ended up traveling together to quite a few places but also stayed at one
+location for more that seven months just because of those bunch of people that
+became my friends, business partners, mentors and fellow travellers and
+pilgrims on both outer and inner journeys.
+
+This is brief list of all the places I travelled from 2021 until now.
+
 * Bangalore
 * Vizag
 * Naggar
-* Goa Ashvem
-* Pune (Osho)
-* Bangalore
+* Ashvem, Goa
+* Pune
 * Kodikanal
 * Hampi
-* Dharamshala/Dharamkot
+* Dharamkot
 * Auroville
 * Alleppey
 * Mysore
 * Gokarna
-* Goa Arambol
-
-
-Booking a cab in advance while still walking
-Then catching the auto before he reaches the location
-#bangalore habits
-
-* Working from café's with views and vibes
-
+* Arambol, Goa
 
 ### Solo traveling
 
@@ -173,6 +208,7 @@ It's important to acknowledge that limitation and be willing to continuously
 widen your perception without holding any judgements.
 
 ### Relationships
+
 
 [0]: <https://en.wikipedia.org/wiki/Neanderthal#Climate_change>
 
