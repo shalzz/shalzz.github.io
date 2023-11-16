@@ -55,7 +55,7 @@ than taking some time out to rest and introspect.
 While travelling, you invariable face situations out of your control and
 quickly learn to let go and accept things being out of your control
 instead of worrying about it at every turn. It is because of these out of your
-control situations you get a chance to rest and face your emotions.
+control situations, you get a chance to rest and face your emotions.
 
 ### Traveling as a local
 
@@ -84,12 +84,53 @@ have the time but don't make them the main agenda of your travels.
 Checkout the natural beauty of a place, hang out where the local hangout and experience
 some of the local culture, their art, music, theater and museums.
 
-This is how I was able to connect and resonate with a lot of places and it's people.
-Get a sense of the history and the economy of a place.
+This is how I was able to connect and resonate with a lot of places and
+it's people as well as get a sense of the history and the economy of the place.
 
 ### Experience
 
 What has been my experience travelling?
+
+My first impetus for travelling was to get out of the feeling of suffocation and choking,
+quite literally. Living and working remotely from Delhi, I developed a severe
+allergic reaction to air pollution causing me to fall sick every few months with
+a progressively decorating impact on my immunity and mental health.
+I was stuck in a prison of my own making, further exaggerated by the Covid-19 induced lockdown. 
+
+When I first started solo travelling, that was a huge step for me to step out
+of my comfort zone and to start socializing despite my crippling social anxiety
+and insecurities around being alone. But knowing that I was staying at a place
+only for a few weeks or months at best, gave me the freedom to express myself
+without the fear of being judged and that judgement/opinion being held over me
+for the rest of life, as what we usually think when we are in school or
+college. Breaking my fear of not fitting in and always being seen as an
+outcast and weird person was easier when I met people who were equally unique and
+different and seemed to embrace their uniqueness, at least to a greater level
+than me and anyone else I had met before.
+
+Once I had a taste and the confidence to travel
+alone without any paranoia and limiting beliefs, my main motivation for
+traveling became a quest of finding people like me who were also
+on a spiritual journey of their own.
+
+I went to places that had always called out to me the most but I was too scared
+to go, not sure of the logistics, the people, culture, etc. 
+
+* Bangalore
+* Vizag
+* Naggar
+* Goa Ashvem
+* Pune (Osho)
+* Bangalore
+* Kodikanal
+* Hampi
+* Dharamshala/Dharamkot
+* Auroville
+* Alleppey
+* Mysore
+* Gokarna
+* Goa Arambol
+
 
 Booking a cab in advance while still walking
 Then catching the auto before he reaches the location
@@ -104,8 +145,8 @@ TK;
 The best way to do so and experience the world as a reflection of your own
 inner world, I find it is much more *easier* if you're traveling solo.
 Eventually when you get a hang of solo travelling, you find other solo
-travellers along the way that you can travel with without getting distracted from your
-your own experiences. 
+travellers along the way that you can travel with without getting distracted
+from your own experiences. 
 
 ### People
 
