@@ -6,19 +6,17 @@ draft=true
 tags=""
 +++
 
-Traveling, the act of going from place to place.
-Such a simple yet magical experience. You hop on a bus, a train or a airplane
+Traveling, an act of going from place to place, can be such a simple yet magical experience. You hop on a bus, a train or a airplane
 and within a few hours you're transported to another microcosm on earth, with
-it's own weather conditions, set of people, flora and fauna, with places to see and
-be and things to do.
+it's own weather conditions, set of people, flora and fauna. With different places to see,
+be in and do things.
 
 We, as a species have always been travelers first and hunters and
 gatherers later. It was this nomadic nature that allowed Homo Sapiens to
 evolve and survive over not so fortunate Neanderthals.
 
-As a child we all naturally want to explore the world around us. Look at
-everything in its rawness, taste it, smell it and play with literally
-anything.
+Children naturally want to explore the world around them. Look at
+everything in its rawness, taste it, smell it and play with it.
 
 <!-- more -->
 
@@ -89,10 +87,9 @@ it's people as well as get a sense of the history and the economy of the place.
 
 ### Lifestyles
 
-If you're traveling and living as a local, how do you sustain your lifestyle?
-Many locals are able to live and stay at a place for years since they work
-there. However, just because you are traveling as a local,
-does it mean your only option is to also as a local?
+When traveling and living as a local, how do you sustain your lifestyle?
+Many locals are able to live and stay at a place for years by working location-dependent jobs. However, just because you are traveling as a local,
+does it mean your only option is to work as a local?
 
 There are various lifestyles that can lets you travel and work across the global.
 * Digital nomad or remote worker
