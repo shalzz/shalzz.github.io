@@ -101,14 +101,35 @@ There are various lifestyles that can lets you travel and work across the global
 * Travelling skilled worker
 * Artist
 
-I wouldn't go into detail of all the possibilities as everyone's perfect lifestyle
-is unique to themselves and we need to find what works for us the best.
+It's up to you to find and create your perfect lifestyle, just know that
+there's no one way or an only way to do it.
 
 #### Digital Nomadism
 
 I have been living and working as a Digital Nomad for over two years now.
 
+Digital Nomad means to work remotely via the internet and travel freely
+across jurisdictions and geographies. Being a digital nomad, you get to
+leverage things like [longitudinal arbitrage][2], [Flag][3] [Theory][4] and [Individual
+Sovereignty][5].
+
+For me it's been a progressive journey from having my first remote job, to
+embracing the digital nomad lifestyle and then eventually building
+companies and owning assets across jurisdictions. I have utilised multiple
+tools on my path so far including Estonia's [E-Residency][6] and cryptocurrencies.
+
+Not just having longitudinal but purchasing power arbitrage of earning in USD
+and living spending in places with a much lower cost of living, like Thailand or India
+and others based on [nomadlist][7].
+
+There're various perks of working remotely:
 * Working from café's with views and vibes
+* Living in communities and communes where there's a stronger sense of
+connection outside of work like Auroville, [The Bergerac Praxis Hub][8], startup hubs like Bangalore and
+Lisbon, etc
+* Having quarterly work retreats for team building and outings
+
+It's important to have a balance between remote work and teammate gatherings.
 
 ### My Experience
 
@@ -158,7 +179,7 @@ location for more that seven months just because of those bunch of people that
 became my friends, business partners, mentors and fellow travellers and
 pilgrims on both outer and inner journeys.
 
-This is brief list of all the places I travelled from 2021 until now.
+This is brief list of all the places I visited from 2021 until now.
 
 * Bangalore
 * Vizag
@@ -213,3 +234,10 @@ widen your perception without holding any judgements.
 [0]: <https://en.wikipedia.org/wiki/Neanderthal#Climate_change>
 
 [1]: https://coauthored.co/p/frequently-unanswered-questions-fuqs
+[2]: https://vadithya.com/what-is-longitudinal-arbitrage/
+[3]: https://nomadcapitalist.com/flag-theory/
+[4]: https://sovereign.cafe/embracing-flag-theory-a-comprehensive-guide-to-understanding-and-achieving-global-diversification/
+[5]: https://dougantin.com/the-sovereign-individual-what-you-need-to-know-why/
+[6]: https://shaleenjain.com/blog/review-e-residency/
+[7]: https://nomadlist.com/
+[8]: https://lifeitself.org/hubs/bergerac
