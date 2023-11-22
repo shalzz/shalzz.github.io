@@ -6,7 +6,8 @@ draft=true
 tags=""
 +++
 
-Traveling, an act of going from place to place, can be such a simple yet magical experience. You hop on a bus, a train or a airplane
+Traveling, an act of going from place to place, can be such a simple yet magical experience.
+You hop on a bus, a train or a airplane
 and within a few hours you're transported to another microcosm on earth, with
 it's own weather conditions, set of people, flora and fauna. With different places to see,
 be in and do things.
@@ -88,10 +89,12 @@ it's people as well as get a sense of the history and the economy of the place.
 ### Lifestyles
 
 When traveling and living as a local, how do you sustain your lifestyle?
-Many locals are able to live and stay at a place for years by working location-dependent jobs. However, just because you are traveling as a local,
+Many locals are able to live and stay at a place for years by working location-dependent jobs.
+However, just because you are traveling as a local,
 does it mean your only option is to work as a local?
 
-There are various lifestyles that can lets you travel and work across the global.
+There are various lifestyles that can lets you travel and work across the global,
+known as location-independent jobs.
 * Digital nomad or remote worker
 * Gig worker
 * Volunteer
@@ -101,7 +104,7 @@ There are various lifestyles that can lets you travel and work across the global
 It's up to you to find and create your perfect lifestyle, just know that
 there's no one way or an only way to do it.
 
-#### Digital Nomadism
+### Digital Nomadism
 
 I have been living and working as a Digital Nomad for over two years now.
 
@@ -124,9 +127,11 @@ There're various perks of working remotely:
 * Living in communities and communes where there's a stronger sense of
 connection outside of work like Auroville, [The Bergerac Praxis Hub][8], startup hubs like Bangalore and
 Lisbon, etc
-* Having quarterly work retreats for team building and outings
+* Having quarterly work retreats for team building, outings and putting faces
+  to names within your team.
 
-It's important to have a balance between remote work and teammate gatherings.
+It's important to have a balance between remote work and teammate gatherings
+when working remotely.
 
 ### My Experience
 
@@ -176,31 +181,6 @@ location for more that seven months just because of those bunch of people that
 became my friends, business partners, mentors and fellow travellers and
 pilgrims on both outer and inner journeys.
 
-This is brief list of all the places I visited from 2021 until now.
-
-* Bangalore
-* Vizag
-* Naggar
-* Ashvem, Goa
-* Pune
-* Kodikanal
-* Hampi
-* Dharamkot
-* Auroville
-* Alleppey
-* Mysore
-* Gokarna
-* Arambol, Goa
-
-### Solo traveling
-
-TK;
-The best way to do so and experience the world as a reflection of your own
-inner world, I find it is much more *easier* if you're traveling solo.
-Eventually when you get a hang of solo travelling, you find other solo
-travellers along the way that you can travel with without getting distracted
-from your own experiences. 
-
 ### People
 
 The most interesting part of traveling is the people you meet. Traveling,
@@ -228,8 +208,9 @@ widen your perception without holding any judgements.
 ### Relationships
 
 
-[0]: <https://en.wikipedia.org/wiki/Neanderthal#Climate_change>
 
+
+[0]: <https://en.wikipedia.org/wiki/Neanderthal#Climate_change>
 [1]: https://coauthored.co/p/frequently-unanswered-questions-fuqs
 [2]: https://vadithya.com/what-is-longitudinal-arbitrage/
 [3]: https://nomadcapitalist.com/flag-theory/
