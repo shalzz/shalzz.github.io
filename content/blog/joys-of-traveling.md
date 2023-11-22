@@ -138,10 +138,10 @@ when working remotely.
 My first impetus for travelling was to get out of the feeling of suffocation and choking,
 quite literally. Living and working remotely from Delhi, I developed a severe
 allergic reaction to air pollution causing me to fall sick every few months with
-a progressively decorating impact on my immunity and mental health.
+a progressively deteriorating effect on my immunity and mental health.
 I was stuck in a prison of my own making, further exaggerated by the Covid-19 induced lockdown. 
 
-My first solo travelling trip was a huge step for me out
+My first solo travelling trip was a huge step out
 of my comfort zone and to start socializing despite my crippling social anxiety
 and insecurities around being alone.
 
@@ -207,8 +207,24 @@ widen your perception without holding any judgements.
 
 ### Relationships
 
+While traveling you meet and come across people of varied interest and
+personalities. As well as people in all kinds of relationships and degrees of
+being in love. My own definition of what is love has evolved so much over the
+years. No longer do I see it with the same lens that I used to while I was in
+school and had a fixed idea of what an "ideal" relationship looks like.
 
+Traveling let's you really figure out what is it that you really want with
+yourself and in a potential partner. Solo travelling also is a great way to
+really be the with feeling of being alone and not always running away from it.
+When I accepted the fact of being alone, I also started seeing the positive
+aspects of being alone, starting to enjoy my own company, taking things slow,
+setting my own schedule, finding independence and capacity of handing things
+on my own. Understanding and acknowledging my needs as well as recognising
+what are some of my own gifts and abilities that I can use to fulfill someone
+else's needs.
 
+Traveling is beautiful when you are happy on your own and even more beautify
+when you can be alone with someone else equally happy being on their own.
 
 [0]: <https://en.wikipedia.org/wiki/Neanderthal#Climate_change>
 [1]: https://coauthored.co/p/frequently-unanswered-questions-fuqs
