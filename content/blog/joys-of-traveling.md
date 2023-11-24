@@ -1,27 +1,25 @@
 +++
 title="The Joys of Traveling"
-date=2023-11-10
-draft=true
+date=2023-11-24
 [extra]
-tags=""
+tags="traveling, pilgrimage, journey, joys, fun, osho mediation, osho meditation resort, solo traveling, backpacking, how to travel, why travel, covid travel, covid-19, pilgrims, inner journey"
 +++
 
-Traveling, an act of going from place to place, can be such a simple yet magical experience.
+Traveling, the act of going from place to place. It can be such a simple yet magical experience.
 You hop on a bus, a train or a airplane
 and within a few hours you're transported to another microcosm on earth, with
 it's own weather conditions, set of people, flora and fauna. With different places to see,
 be in and do things.
 
-We, as a species have always been travelers first and hunters and
-gatherers later. It was this nomadic nature that allowed Homo Sapiens to
+We, as a species have always been travelers first and settlers/farmers later.
+It was this nomadic nature that allowed Homo Sapiens to
 evolve and survive over not so fortunate Neanderthals.
-
-Children naturally want to explore the world around them. Look at
-everything in its rawness, taste it, smell it and play with it.
+We can see this in children, who naturally want to explore the world around them.
+Look at everything in its rawness, taste it, smell it and play with it.
 
 <!-- more -->
 
-However, by the time we grow up we end up justify to ourselves that it's not so easy, 
+However, by the time we grow up, we end up justify to ourselves that it's not so easy, 
 there are rules and responsibilities that we must take up in order to survive in this
 world and fit in. The more I grew up the more I started to think of traveling
 as a privilege and a luxury.
@@ -46,7 +44,7 @@ the beaten path and doing things that you always wanted to do but were
 too scared to try. Facing your fears and challenges and not looking for
 convenience everywhere you go. 
 
-Travelling can bring up emotions and feelings that you might not have
+Travelling can also bring up emotions and feelings that you might not have
 addressed before in your daily life, it's easier to distract yourself in
 a routine, finding excuses to keep on moving or blaming people/circumstances rather
 than taking some time out to rest and introspect.
@@ -108,30 +106,29 @@ there's no one way or an only way to do it.
 
 I have been living and working as a Digital Nomad for over two years now.
 
-Digital Nomad means to work remotely via the internet and travel freely
+A Digital Nomad is someone who works remotely via the internet and travels freely
 across jurisdictions and geographies. Being a digital nomad, you get to
-leverage things like [longitudinal arbitrage][2], [Flag][3] [Theory][4] and [Individual
+leverage things like [Longitudinal Arbitrage][2], [Flag][3] [Theory][4] and [Individual
 Sovereignty][5].
 
 For me it's been a progressive journey from having my first remote job, to
 embracing the digital nomad lifestyle and then eventually building
 companies and owning assets across jurisdictions. I have utilised multiple
-tools on my path so far including Estonia's [E-Residency][6] and cryptocurrencies.
+tools on my path so far including Estonia's [E-Residency][6], cryptocurrencies
+and of course SaaS platforms and tools.
 
-Not just having longitudinal but purchasing power arbitrage of earning in USD
-and living spending in places with a much lower cost of living, like Thailand or India
-and others based on [nomadlist][7].
-
-There're various perks of working remotely:
+There're various perks of the nomadic life:
 * Working from café's with views and vibes
 * Living in communities and communes where there's a stronger sense of
 connection outside of work like Auroville, [The Bergerac Praxis Hub][8], startup hubs like Bangalore and
 Lisbon, etc
-* Having quarterly work retreats for team building, outings and putting faces
-  to names within your team.
+* Purchasing power arbitrage of earning in USD
+  and living and spending in places with a much lower cost of living like Thailand, India
+  or others via [nomadlist][7]
 
-It's important to have a balance between remote work and teammate gatherings
-when working remotely.
+However it's quite important to have a balance between remote work and social-life
+balance and as well as getting to know your teammate via gatherings and team
+retreats.
 
 ### My Experience
 
@@ -141,45 +138,39 @@ allergic reaction to air pollution causing me to fall sick every few months with
 a progressively deteriorating effect on my immunity and mental health.
 I was stuck in a prison of my own making, further exaggerated by the Covid-19 induced lockdown. 
 
-My first solo travelling trip was a huge step out
+The first solo travelling trip was a huge step out
 of my comfort zone and to start socializing despite my crippling social anxiety
 and insecurities around being alone.
 
-One of the great things of traveling is, knowing that I'll only ever be staying at a place
-for a few weeks or months at best. This gave me the freedom to express myself
-without fear of being judged and more so that judgement/opinion being held over me
-for the rest of life, as what we usually think will happen when we are in school or
-college.
-
 Breaking my fear of not fitting in and always being seen as an
-outcast or weird person was easier when I met people who were equally unique and
+outcast or weird person was easier when I met people on my travels who were equally unique and
 different and seemed to embrace their uniqueness, at least to a greater level
-than me and anyone else I had met before, on my travels.
+than me and anyone else I had met before.
 
 Once I had a taste and the confidence to travel
-alone without any paranoia and limiting beliefs, my main motivation for
+alone without any paranoia or limiting beliefs, my main motivation for
 traveling became a quest of finding people like me who were also
-on a spiritual journey of their own.
+on a existential journey of their own.
 
 I went to places that had always called out to me the most but I was too scared
 to go, not sure of the logistics, the people, culture, etc. 
 
-I went to the Osho Meditation resort in Pune first, not knowing what I was
+I visited the Osho Meditation resort in Pune first, not knowing what I was
 getting into. However that was a quite normalizing experience. Nothing
-remarkable, controversial or  mindblowing happened but to just be in an
+remarkable, controversial or mindblowing happened but just being in an
 environment where people were freely talking and practising mediation and
-spirituality, made it so much more easier for me to accept that part of me and
+spirituality made it so much more easier for me to accept that part of me and
 go deeper into my own practise.
 
 Not long after completing my first heart-led trip that led to the expansion
 and growth of my inner journey, I soon found what I was looking for. An
-encounter with a group of people I couldn't have even imagined existing. The
+encounter with a group of people I couldn't have ever expected to meet. The
 level of connection and bond we ended up creating and having is now a lifelong bond.
 
-We ended up traveling together to quite a few places but also stayed at one
-location for more that seven months just because of those bunch of people that
+We ended up traveling together to quite a few places but also stayed over at one
+city for more that seven months just because of this group of people that
 became my friends, business partners, mentors and fellow travellers and
-pilgrims on both outer and inner journeys.
+pilgrims on our individual inner journeys.
 
 ### People
 
@@ -190,41 +181,30 @@ your comfort zone and develop social and conversational skills.
 All in a low stakes environment, if you mess up there's no risk of "destroying your
 reputation", which is an irrational fear, that at least I had growing up.
 Of saying something that is not socially accepted or you're not good at and
-then regret being made fun of something because of something you said
+then regret being made fun of because of something you said
 casually. That's the great thing about traveling, you're always temporal in
 space, naturally making you de-attached to places, people and expectations.
-
-While travelling you meet people of all personality types and more so your
-perception/opinion of certain people you've always held in your mind. You
-certainly need to have an open mindset and heart for meeting new people and
-having conversations, but the more you do so, the more you realise your
-perceptions are just that, perceptions.
-
-Perceptions are always away from the reality. We perceive the reality based
-on your capacity to sense the environment.
-It's important to acknowledge that limitation and be willing to continuously
-widen your perception without holding any judgements.
 
 ### Relationships
 
 While traveling you meet and come across people of varied interest and
-personalities. As well as people in all kinds of relationships and degrees of
+personalities. As well as people in various kinds of relationships and degrees of
 being in love. My own definition of what is love has evolved so much over the
-years. No longer do I see it with the same lens that I used to while I was in
-school and had a fixed idea of what an "ideal" relationship looks like.
+years. No longer do I see it with the same lens that I used to, nor
+have a fixed idea of what an "ideal" relationship looks like.
 
 Traveling let's you really figure out what is it that you really want with
-yourself and in a potential partner. Solo travelling also is a great way to
-really be the with feeling of being alone and not always running away from it.
+yourself and in a potential partner. Solo travelling is also a great way to
+really be with the feeling of being alone and not always find ways of running away from it.
 When I accepted the fact of being alone, I also started seeing the positive
 aspects of being alone, starting to enjoy my own company, taking things slow,
 setting my own schedule, finding independence and capacity of handing things
 on my own. Understanding and acknowledging my needs as well as recognising
-what are some of my own gifts and abilities that I can use to fulfill someone
-else's needs.
+what are some of my own gifts and abilities that I can use to fulfill someones
+needs.
 
-Traveling is beautiful when you are happy on your own and even more beautify
-when you can be alone with someone else equally happy being on their own.
+What I've found is when I'm capable of being joyful in aloneness,
+I am able to share that joy with other fellow solo travellers and pilgrims.
 
 [0]: <https://en.wikipedia.org/wiki/Neanderthal#Climate_change>
 [1]: https://coauthored.co/p/frequently-unanswered-questions-fuqs
