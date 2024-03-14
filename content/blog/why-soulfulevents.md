@@ -5,12 +5,12 @@ date=2023-12-06
 tags="soulful events, events, newsletter, soulful, soul, introspection, community, india, bangalore, self-work, inner-work"
 +++
 
-Living and staying in a city, we look for things to do on a weekend as a fun
+Living and staying in a city, we often look for things to do on a weekend as a fun
 activity, going out or just entertainment to break out of from the work mindset
 and schedule.
 
-However we often end up falling into another set pattern and/or a repeating schedule,
-working on the weekdays and partying/going out on the weekends.
+However most of us end up falling into another set pattern or a repeating schedule,
+working on the weekdays and partying or going out on the weekends.
 
 [Soulful Events Newsletter][1] is as way to find meaningful events and activities to
 do, that are enriching and nourishing to the body, mind or the soul
