@@ -110,4 +110,5 @@ Disclaimer: I'm not a tax lawyer you should still contact your tax lawyer about 
 [6]: https://support.ledger.com/hc/en-us/articles/360005514233
 [7]: https://support.wazirx.com/hc/en-us/articles/360007205514-WazirX-P2P-How-it-Works-
 [8]: https://www.etherbit.in/products/ledger-nano-s?r=a674d05d
+[8]: https://www.etherbit.in/products/ledger-nano-s-plus-matte-black?r=249c6d27
 [9]: https://argent.link/mpikXeI2P3
