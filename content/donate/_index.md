@@ -1,6 +1,5 @@
 +++
 title = "Donate"
-permalink = "/donate/"
 +++
 
 If you like my work or it helped you (or your employer)
