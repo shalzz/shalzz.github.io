@@ -6,7 +6,7 @@ Some of my work includes contributions to [VLC][3], [LineageOS][4], [OpenWRT][5]
 
 Now working on building [New Earth Collective][7]!
 
-* Email: shaleen@jain<dot>sh
+* Email: shaleen@jain\<dot\>sh
 
 * Github: [shalzz](https://github.com/shalzz)
 
