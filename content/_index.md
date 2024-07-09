@@ -6,7 +6,7 @@ Some of my work includes contributions to [VLC][3], [LineageOS][4], [OpenWRT][5]
 
 Now working on building [New Earth Collective][7]!
 
-* Email: [shaleen@jain.sh](mailto:shaleen@jain.sh)
+* Email: shaleen@jain<dot>sh
 
 * Github: [shalzz](https://github.com/shalzz)
 
@@ -14,7 +14,7 @@ Now working on building [New Earth Collective][7]!
 
 * Twitter: [shalzzj](https://twitter.com/shalzzj)
 
-* GPG Key: `gpg2 --locate-keys shaleen@jain.sh`
+* GPG Key: `gpg2 --locate-keys shaleen@jain<dot>sh`
 
 [1]: https://keyserver.ubuntu.com/pks/lookup?op=vindex&search=shaleen.jain95@gmail.com&fingerprint=on
 [2]: http://pgp.mit.edu/pks/lookup?op=vindex&fingerprint=on&search=0x27B7EB19E6E4FF30
