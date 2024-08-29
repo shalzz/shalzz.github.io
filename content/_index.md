@@ -4,7 +4,7 @@
 Hello World! I'm Shaleen Jain, a free software (free as in freedom) and free culture activist.
 Some of my work includes contributions to [VLC][3], [LineageOS][4], [OpenWRT][5] and [Kleros][6].
 
-Now working on building [New Earth Collective][7]!
+Now working on building [New Gaia Collective][7]!
 
 * Email: shaleen@jain\<dot\>sh
 
@@ -23,4 +23,4 @@ Now working on building [New Earth Collective][7]!
 [5]: https://openwrt.org/
 [6]: https://kleros.io/
 [openhub]: https://www.openhub.net/accounts/shalzz
-[7]: https://newcollective.earth
+[7]: https://newgaia.earth
