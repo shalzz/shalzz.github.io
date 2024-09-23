@@ -1,17 +1,14 @@
 {% extends "butler/templates/page.html" %}
 
 {% block post_message %}
-<div>
-  Liked this article? Consider <a href="/donate">donating</a> to support my work.
-</div>
 {% endblock post_message %}
 
 {% block comments %}
 <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
-      this.page.url = {{ page.permalink }}
-      this.page.identifier = {{ page.slug }}
+      this.page.url = "{{ get_url(path=page.path) }}"
+      this.page.identifier = "{{ page.slug }}"
     };
     (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
@@ -21,3 +18,11 @@
     })();
 </script>
 {% endblock comments %}
+
+
+{% block contact %}
+<div>
+  Liked this article? Consider <a href="/donate">donating</a> to support my work.
+</div>
+<br/>
+{% endblock contact %}
