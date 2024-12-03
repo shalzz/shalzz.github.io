@@ -5,7 +5,7 @@ date=2024-12-03
 tags="capitalism, aesthetics, incentives, dharma, function over form, functionality, form over function"
 +++
 
-Contemplating on what defines a products value and worth?
+Contemplating on what defines a products value and its worth?
 
 For years, societies have inherently gauged a products value via the
 functionality and utility it provides to its user.
