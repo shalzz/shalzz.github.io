@@ -33,6 +33,6 @@ environment, our health and a never ending pursuit of gratification.
 
 And that is frankly the root of all problems perpetuated with capitalism.
 Capitalism needs an additional mechanism of checks and balances to re-align it's
-incentives back to functionality instead of form.
+incentives back to functionality at a higher priority or at least in balance with form.
 
-Until then it's up to us to consciously choose function over form at every turn.
+Until then it's up to us to consciously choose function+form over only form at every turn.
