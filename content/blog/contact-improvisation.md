@@ -9,15 +9,14 @@ tags=""
 Contact Improvisation (CI) is perhaps the most modern Somatics practice that I've come
 across that combines the elements and principles of Dance, Martial Arts and
 perhaps some spiritual practices like Yoga and Chinese Medicine science of
-Chi (Tai Chi and Qi Gong).
-
-Other popular Somatic approaches like Yoga or Martial Arts,
-were all conceived and developed over thousand years ago and no longer remain
+Chi (Tai Chi and Qi Gong), and so it feels like a breath of fresh air among
+other popular Somatic approaches like Yoga or Martial Arts,
+which were all conceived and developed over thousand years ago and no longer remain
 relevant in today's era.
 
 <!-- more -->
 
-CI on the other hand, is a practise that not only builds on top of the
+CI is a practise that not only builds on top of the
 principles of these few ancient somatic practises (gravity, sense of physical touch,
 momentum) but makes it a social phenomena for human connection, something that is
 no longer alive with yoga or martial arts in modern day to day life.
