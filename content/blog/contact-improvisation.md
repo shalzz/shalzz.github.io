@@ -4,15 +4,16 @@ date=2025-01-06
 draft=true
 [extra]
 tags=""
+audience="dancers, researchers, CI practitioners, CI beginners"
 +++
 
 Contact Improvisation (CI) is perhaps the most modern Somatics practice that I've come
-across that combines the elements and principles of Dance, Martial Arts and
+across that combines the elements and principles of Dance, Aikido and
 perhaps some spiritual practices like Yoga and Chinese Medicine science of
 Chi (Tai Chi and Qi Gong), and so it feels like a breath of fresh air among
-other popular Somatic approaches like Yoga or Martial Arts,
-which were all conceived and developed over thousand years ago and no longer remain
-relevant in today's era.
+other popular Somatic approaches like Yoga or Martial Arts on their own,
+which were all conceived and developed over more than thousand years ago and
+no longer remain relevant in today's era.
 
 <!-- more -->
 
@@ -28,10 +29,16 @@ others in real time. Open Jams are undoubtedly a part of the CI practise and
 not tacked-on on top as a glue for a missing social layer.
 
 It is this improvisational aspect of CI, no drills or steps of poses followed in sequence,
-that makes CI so beautifully new, deep and a reflection of the present world
-every time you practise it.
+that makes CI so beautifully new, deep and a constant mirror of our emotions
+and of our world as we perceive it.
 
 ### Grounding and Trusting oneself
+
+The more I practise CI the more I find myself trusting my body and bodily sensations
+to guide me into ways of catching myself from falls, reading my partners
+intentions and being aware of the general space around.
+
+### Saying NO, Authentic Movement
 
 ### Internal Energy Movement, Awareness and Mediation
 
