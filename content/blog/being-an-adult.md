@@ -5,14 +5,14 @@ date=2025-02-16
 tags="maturity, being an adult, zero-sum games, positive-sum games, dance, sports, growing up, society, community"
 +++
 
-There' s point in our life when we all choose to stop being a child and grow up 
+There's a point in our life when we all choose to stop being a child and grow up 
 to be an adult. A critical situation or a circumstance that forces us to
 make the choice of letting go of our innate desires and will to be free,
 playful and joyful but instead take on the responsibilities and duties
 necessary to survive and live in the world.
 
 This choice however mostly comes as a coping mechanism, when we find ourselves
-alone, when suddenly everyone starts pretending to be an adult, when all are
+alone, when suddenly everyone starts pretending to be an adult, when all our
 friends are too busy trying to be someone. They all start playing a game we
 already know doesn't feel fun. Yet, it seems like we have no choice but just
 to "grow up" and play this game of life. 
