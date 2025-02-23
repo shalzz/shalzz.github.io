@@ -94,6 +94,7 @@ include_content = true
 
 [extra]
 keywords = "web, android, technology, docker, javascript, java, python, blog, computer engineering, shaleen jain, shalzz, shaleen, jain, C/C++, rust, C, C++, GO-lang"
+donate = true
 
 [extra.author]
 name = "Shaleen Jain"
