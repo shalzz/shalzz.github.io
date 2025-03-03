@@ -90,5 +90,4 @@ What we need is a world led by love, a global consciousness with enough space fo
 innumerable possibilities, diversity and expressions of life without mutilating it.
 This is what I envision as the New Earth.
 
-Follow along at [https://newcollective.earth](https://newcollective.earth) and
-signup and comment at [https://forum.newcollective.earth/](https://forum.newcollective.earth/)
+Follow along at [https://newgaia.earth](https://newgaia.earth)
