@@ -1,14 +1,14 @@
 +++
-title="Cellular Backup on OpenWRT with Multipath TCP"
+title="Failover to Cellular Network with Multipath TCP"
 date=2025-03-14
 draft=true
 [extra]
-image="router-crop.jpg"
+image="router-side-crop.jpg"
 tags=""
 +++
 
 <figure>
-{{ resize_image(path="router-crop.jpg") }}
+{{ resize_image(path="router-side-crop.jpg") }}
 <figcaption>Wifi Router with an attached 4G USB dongle</figcaption>
 </figure>
 
