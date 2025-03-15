@@ -1,10 +1,16 @@
 +++
-title="4G WAN backup/Cellular internet fallback for broadband outages for maximum uptime"
+title="Cellular Backup on OpenWRT with Multipath TCP"
 date=2025-03-14
 draft=true
 [extra]
+image="router-crop.jpg"
 tags=""
 +++
+
+<figure>
+{{ resize_image(path="router-crop.jpg") }}
+<figcaption>Wifi Router with an attached 4G USB dongle</figcaption>
+</figure>
 
 <!-- more -->
 
