@@ -1,14 +1,14 @@
 +++
-title="Failover to Cellular Network with Multipath TCP"
+title="Cellular Network backup with Multipath TCP"
 date=2025-03-14
 draft=true
 [extra]
-image="router-side-crop.jpg"
+image="router-side-crop-2.jpg"
 tags=""
 +++
 
 <figure>
-{{ resize_image(path="router-side-crop.jpg") }}
+{{ resize_image(path="router-side-crop-2.jpg") }}
 <figcaption>Wifi Router with an attached 4G USB dongle</figcaption>
 </figure>
 
