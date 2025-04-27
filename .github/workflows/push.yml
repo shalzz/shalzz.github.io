@@ -27,9 +27,9 @@ jobs:
       name: Update DNSLink
       with:
         cid: ${{ steps.deploy.outputs.cid }} # The CID of the build to update the DNSLink for
-        dnslink_domain: shaleenjain.com
+        dnslink_domain: 'shaleenjain.com'
         cf_record_id: ${{ secrets.CF_RECORD_ID }}
         cf_zone_id: ${{ secrets.CF_ZONE_ID }}
         cf_auth_token: ${{ secrets.CF_AUTH_TOKEN }}
-        set_github_status: false
-        github-token: ${{ github.token }}
+        github_token: ${{ github.token }}
+        set_github_status: true
