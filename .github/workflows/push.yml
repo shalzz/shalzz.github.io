@@ -21,3 +21,13 @@ jobs:
         storacha-key: ${{ secrets.STORACHA_KEY }}
         storacha-proof: ${{ secrets.STORACHA_PROOF }}
         github-token: ${{ github.token }}
+
+    - uses: ipfs/dnslink-action@v0.1
+      if: github.ref == 'refs/heads/zola' # only update the DNSLink on the main branch
+      name: Update DNSLink
+      with:
+        cid: ${{ steps.deploy.outputs.cid }} # The CID of the build to update the DNSLink for
+        dnslink_domain: shaleenjain.com
+        cf_record_id: ${{ secrets.CF_RECORD_ID }}
+        cf_zone_id: ${{ secrets.CF_ZONE_ID }}
+        cf_auth_token: ${{ secrets.CF_AUTH_TOKEN }}
