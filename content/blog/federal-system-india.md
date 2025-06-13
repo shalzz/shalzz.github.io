@@ -8,10 +8,11 @@ tags="political, governance, federal modal, india, indian governance, indian gov
 
 ## Closer to the people Governance
 
-> This is my rough draft on points I think are important to have a health
-> people-centric democracy. I'll update this post after I try and expand these
-> points to make them more coherent when I get the time to learn and research
-> more about political science. I'm publishing this in its current unfinished
+> This is my rough draft on points I think are important to have a healthy
+> people-centric democracy. I'll update this post as I try and expand these
+> points to make them more coherent while I learn and research more
+> about political science.
+> I'm publishing this in its current unfinished
 > form in the hope that someone else can take a cue from this in the mean time.
 
 <!-- more -->
