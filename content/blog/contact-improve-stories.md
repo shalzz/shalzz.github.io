@@ -1,6 +1,6 @@
 +++
 title="Contact Improvisation Stories"
-date=2025-01-06
+date=2025-06-14
 draft=true
 [extra]
 tags=""

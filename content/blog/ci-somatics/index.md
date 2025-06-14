@@ -3,7 +3,7 @@ title="Contact Improvisation as a Somatics Approach"
 date=2025-06-13
 draft=false
 [extra]
-tags=""
+tags="contract improvisation, somatics, dance, yoga, martial arts, space, time, awareness, touch, physical, gravity, soma"
 audience="dancers, researchers, CI practitioners, CI beginners"
 +++
 
