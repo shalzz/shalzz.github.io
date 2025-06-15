@@ -19,7 +19,7 @@ easily.
 
 <!-- more -->
 
-Having sensed this theme of trust issues with in the group, I chimed
+Having sensed this theme of trust issues within the group, I chimed
 in with my perspective on trust. I shared that indeed it is not only about
 trusting the other but more so trusting oneself, to be able to sense, perceive
 and catch myself in a fall. Being comfortable in different orientations and
@@ -36,7 +36,9 @@ to guide me into ways of catching myself from falls, having more spacial awarene
 and reading my partners intentions.
 
 This ties into the embodied aspect of Martial Arts as well. The more one is
-empty of emotions of fear, doubt and uncertainty the more one is grounded and
+empty of emotions, of fear, doubt and uncertainty the more one is grounded and
 rooted. Hence it becomes ever so spontaneous to visualize and read not only
-your physical trajectory in space-time but with time your opponents moves,
+your own physical trajectory in space-time but with practise the opponents moves,
 actions and eventually their subtle intentions.
+
+### Non-competing in CI
