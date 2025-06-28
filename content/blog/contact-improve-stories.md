@@ -7,7 +7,7 @@ tags=""
 audience="dancers, researchers, CI practitioners, CI beginners"
 +++
 
-### Grounding and Trusting oneself
+### Grounding and Trust
 
 While attending a CI workshop in Goa, at a wonderful space under a huge Banyan
 Tree with sunlight shimmering through it's leaves, having finished a set of
@@ -41,4 +41,30 @@ rooted. Hence it becomes ever so spontaneous to visualize and read not only
 your own physical trajectory in space-time but with practise the opponents moves,
 actions and eventually their subtle intentions.
 
-### Non-competing in CI
+###  Why I got into contact improvisation
+
+I was never really drawn to the art form of dancing, the choreographed,
+repeating patterns of steps shrieked me away from finding any joy in the act
+of dancing. I always felt like being judged and objectified based purely on
+how good I and my dance moves looked.
+
+Even Latin-American partner dances with their rules and structures but a few degrees
+of freedom and expression still felt restrictive.
+
+Only when I came across CI with it's somatic and awareness of body sensations
+aspect did I really begin to understand and connect with a dance
+form that truly feels like an art.
+
+Non-competing in CI
+* basketball - fun and joy corrupted with the intention of winning
+* Dance - sense of judgement v/s feels good. Non-competing
+
+### Competition
+
+Even though there's no element of competition in the structure of CI, we as
+humans or the society we grow up in invariable conditions us to be
+competitive. You can see the various personalities come out in the Jams,
+there are those you have been practising CI for at least a few years and so
+feel they are more experienced, skilled and just better than beginners.
+
+### Water CI
