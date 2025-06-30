@@ -1,9 +1,9 @@
 +++
 title="Dharmalaya - A Dysfunctional Institute"
-date=2025-06-28
+date=2025-06-30
 draft=false
 [extra]
-tags=""
+tags="dharmalaya, dsyfunctional, institute, contemplative, permaculture, natural building, didi contractor, earthville, arts, india, bir, community, himachal pradesh, contemplative arts, vernacular"
 image="view.jpg"
 +++
 
@@ -12,7 +12,7 @@ image="view.jpg"
 <figcaption>View from a village near Dharmalaya</figcaption>
 </figure>
 
-[Dharmalaya][0] is 6-acre eco-campus located near a Village in Bir, Himachal
+[Dharmalaya][0] is 6-acre eco-campus located near a village in Bir, Himachal
 Pradesh. The institute is intentioned as an alternate school with their main
 focus being on contemplative arts and teachings of the traditional practises
 of natural building and agriculture in-addition to now integrating that with
@@ -62,23 +62,22 @@ career out of it.
 
 Undoubtedly, she held a few online sessions with us while I was there, talking
 and sharing a Buddhist technique of connecting with the five elements.
-There's a reason many of these teaching in many spiritual and traditional
+Many of these teachings in various spiritual and traditional
 lineages are secret and are only passed down when the disciple is ready.
-Additionally because they cannot be taught by anyone and most definitely not
-in a generalised and abstract way which is exactly how Mai-Linh decided to
-share it with us.
+Additionally, they are not taught by just anyone and most definitely not
+in a generalised and abstract way.
 
-Not surprisingly it caused more confusion than help anyone while we were
-there. For me it was highly intellectualising and just stories created around
-the five elements, far from experiencing the reality and truth, not matter how
-many times she told us to "just experience it" and not think about it.
+Unsurprisingly it caused more confusion than help anyone while we were
+there. For me it was highly intellectualized and just stories created around
+the five elements, no matter how many times she told us to "just experience
+it" and not think.
 
 This really made me think of "Spiritual Materialism" as popularized by Chogyam
-Trungpa Rinpoche as a trick of the ego and using the nature, elements and
-eventually spiritually as just a way of enhancing our ego, not really coming
+Trungpa Rinpoche as a trick of the ego. Using the nature, elements and
+eventually spiritually as a way of enhancing our ego, not really coming
 any closer to truth and reality.
 
-A glimpse of her approach can inferred from this text she shared with us after
+A glimpse of her approach can be inferred from this text she shared with us after
 many people requested more information to understand the teachings.
 
 {{ resize_image(path="mai-linh.jpg") }}
@@ -144,7 +143,7 @@ Buildings, no matter what the prevailing cultural trend is.
 
 Mark Moore and Mai-Linh are the two main co-founders of Dharmalaya. However,
 they've both stepped back from their roles in stewarding the institute and no
-longer stay at the campus or actively grow and thrive with the community.
+longer stay at the campus to actively grow and thrive with the community.
 
 I see this in many communities: once led purely by the founders' vision and
 drive, they're left in a void and chaos, having to reorganize and self-govern
@@ -160,8 +159,8 @@ altruistic and well-intentioned founders see it as a point of failure, lacking
 redundancy.
 
 However, going straight from a hierarchy to a flat organizational model simply
-**does not** work. I don't see myself visiting Dharmalaya again, but I do now
-know how it feels to be in a dysfunctional community.
+**does not** work. I don't see myself visiting Dharmalaya again, but I do
+know how it feels to be in a dysfunctional community now.
 
 [0]: https://dharmalaya.in/
 [1]: https://en.wikipedia.org/wiki/Didi_Contractor
