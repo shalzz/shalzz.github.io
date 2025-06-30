@@ -1,7 +1,7 @@
 +++
 title="Dharmalaya - A Dysfunctional Institute"
 date=2025-06-28
-draft=true
+draft=false
 [extra]
 tags=""
 image="view.jpg"
@@ -12,54 +12,63 @@ image="view.jpg"
 <figcaption>View from a village near Dharmalaya</figcaption>
 </figure>
 
-[Dharmalaya][0] is 6-acres eco-campus located near a Village in Bir, Himachal Pradesh.
-The institute is intentioned as an alternate school with their main focus being
-on teaching while keeping alive the traditional practises of natural
-building and agriculture in-addition to now integrating that with permaculture principles.
+[Dharmalaya][0] is 6-acre eco-campus located near a Village in Bir, Himachal
+Pradesh. The institute is intentioned as an alternate school with their main
+focus being on contemplative arts and teachings of the traditional practises of
+natural building and agriculture in-addition to now integrating that with
+permaculture principles.
 
 <!-- more -->
+
+I visited the institute for a 3-month permaculture course led by an
+Australian Permaculture teacher Robyn Hewson. The course itself was quite
+helpful and enriching however here I will be focusing on sharing my experience with
+the community and how it was staying within the campus of Dharmalaya for an
+extended period of time.
 
 ### Community
 
 Never before have I been in a community so distraught, fractured and scattered.
 So many lost and jaded humans, trying to find a sense of purpose, respect and
 self-worth by trying to help others and building a "better world".
-However it all comes from a place of a moral high-ground and a sense of
-lacking and neediness rather than an overflowing of abundance and love.
+However it all comes from a place of a moral high-ground, a sense of
+lack and neediness. Rather instead an overflowing of abundance and love.
 
-The campus is completely isolated with there being a lack of collaboration
+The campus is completely isolated, with a lack of collaboration
 with the outside world. 
-The incentives for people staying in and volunteering for a long-term are also
+The incentives for people staying in and volunteering long-term are also
 misaligned. With them having to pay for their lodging and food while working
-on the garden beds, providing labour for the natural build constructions but
-mostly just doing logistics around the workshops, setting up for the new
+on the garden beds, providing labour for the natural build constructions
+or just doing logistics around the workshops, setting up for the new
 people coming in and administering the daily needs and chores of the
 community.
 
 There are some elements to the community that are inspiring, especially how
 they have the local native villagers integrated and a part of the workings of
 Dharmalaya. All of them work full time as staff; helping out with the
-maintainace of the buildings with regular plastering work, tending to the
+maintenance of the buildings with regular plastering work, tending to the
 garden beds, planting and growing annuals, growing and caring after many of
 the native trees within the land, cooking 3 meals a day in the Kitchen. 
 
 Some of the Buddhist cultural influences from the town of Bir, can be seen and felt
 within the campus and the way the teachings here are imparted. Like the "Short
-times, Many times" practise by Yongey Mingyur Rinpoche of meditating for even
+Times, Many Times" practise by Yongey Mingyur Rinpoche of meditating for even
 just 2 minutes before starting every circle.
 
 ### Spiritual Materialism 
 
-One of the founder of Dharmalaya Mai-Linh herself seems to be a spiritual healer
-of sorts, having practised and learned a lot of the Buddhist philosophy and
-teachings, she has made a career out of it.
-Undoubted she had a few sessions with us while I was there, talking and
+One of the founder of Dharmalaya, Mai-Linh seems to be a spiritual healer
+of sorts, having practised Buddhist philosophy and teachings,
+she has made a career out of it.
+
+Undoubtedly, she held a few online sessions with us while I was there, talking and
 sharing a Buddhist technique of connecting with the five elements.
 There's a reason many of these teaching in many spiritual and traditional 
 lineages are secret and are only passed down when the disciple is ready.
-Mostly because they cannot be taught by anyone and most definetly not in a
-generalised and abstract way which is exactly how Mi-Ling decided to share it
+Additionally because they cannot be taught by anyone and most definitely not in a
+generalised and abstract way which is exactly how Mai-Linh decided to share it
 with us.
+
 Not surprisingly it caused more confusion than help anyone while we
 were there. Intellectualising and creating stories from the teachings cannot
 really help anyone experience the reality and truth, not matter how many times
@@ -123,14 +132,40 @@ burnt bricks.
 In her own words:
 > "Cement buildings are all the trend now" -- Hariyali Devi
 
-And so Dharamalaya and all it's fanaticism hasn't done much good if the people
+And so Dharmalaya and all it's fanaticism hasn't done much good if the people
 working there themselves don't see and understand the benefits of Natural
 Buildings, no matter what the prevailing cultural trend is.
  
-### Permaculture
+### Founders
 
-I visited the institute for a 3-months permaculture course led by an
-Australian Permaculture teacher Robyn Hewson.
+Mark Moore and Mai-Linh are the main two co-founders of Dharmalaya however now
+they both have stepped back from their role of stewarding the
+institute and no longer stay at the campus or growing and thriving with and
+in the community.
+
+I see this in many communities where the communities once led purely by the
+vision and drive of the founders is left in a void and chaos of having to
+re-organise and self-govern themselves without the continued guidance and
+vision of the founding members, whether the founder step-back voluntary or
+non-voluntary by natural succession.
+
+Something that is overlooked by these communities and their founders is indeed
+this path of natural succession. How does a community grow and evolve with
+a completely or even a partially non-overlapping shift of community members.
+Often there is no governance system put in place, hierarchy is the most
+optimal and efficient organisational structure in the human society at low
+scale and many altruistic and well-intentioned founders see it as a
+point of failure with no-redundancy.
+
+However going straight from a hierarchy to a flat organisational model
+**does not** work. We see this clearly time and again in communities and societies
+like Auroville, Sri Aurobindo Ashram, OSHO International Resort, in Nation
+States and countries with the highest head, dead or replaced
+and the whole culture of the state is forced to change or there is civil war
+,distress, military coups and discord.
+
+I don't see myself visiting Dharmalay again but I know now how it feels to be
+in a dysfunctional community.
 
 [0]: https://dharmalaya.in/
 [1]: https://en.wikipedia.org/wiki/Didi_Contractor
