@@ -4,7 +4,13 @@ date=2025-06-28
 draft=true
 [extra]
 tags=""
+image="view.jpg"
 +++
+
+<figure>
+{{ resize_image(path="view.jpg") }}
+<figcaption>View from a village near Dharmalaya</figcaption>
+</figure>
 
 [Dharmalaya][0] is 6-acres eco-campus located near a Village in Bir, Himachal Pradesh.
 The institute is intentioned as an alternate school with their main focus being
@@ -17,8 +23,8 @@ building and agriculture in-addition to now integrating that with permaculture p
 
 Never before have I been in a community so distraught, fractured and scattered.
 So many lost and jaded humans, trying to find a sense of purpose, respect and
-self-worth by trying to help others and build a "better world".
-However it all comes from the place of a moral high-ground and a sense of
+self-worth by trying to help others and building a "better world".
+However it all comes from a place of a moral high-ground and a sense of
 lacking and neediness rather than an overflowing of abundance and love.
 
 The campus is completely isolated with there being a lack of collaboration
@@ -83,12 +89,12 @@ greatest architect of the world. All she did was bring back traditional
 building methods that had been used in India since generations but had lost its
 appeal because of western culture influences.
 
-Which is not surprising in India where a foreigner is given more respect and
-valued more than an Indian in his own land for the same ideas. It's no wonder
+Which is not surprising in India, where a foreigner is given more respect and
+value more than an Indian in his own land for the same ideas. It's no wonder
 then that a western had to start preaching about the values of natural buildings 
 for people to start paying attention. Of course she could explain the benefits in
 English, combine them with modern architecture principles and Vastu Shastra - 
-the ancient science of architecture from Hindu Mythology.
+the ancient science of architecture from Hindu Vedic Texts.
 
 Imagine an amateur self-taught Indian telling you to build your house
 with mud and the superstitious science of Vastu, such blasphemy!
@@ -106,19 +112,19 @@ community space where people often come together to play, chat and contemplate.
 Building anything over there will only dissipate the energy and in no way
 ever be able to enhance or preserve the essence of it.
 
-Being an architecture fanatic can't be the worst thing right? Well, the thing
-about fanaticism is that only non-grounded people fall for it. In my
-conversations with one of the local villagers who has been working at
-Dharmalaya for over 10 years I came across a surprising story.
+Being an Natural Building or Didi Contractor fanatic can't be the worst thing
+right? Well, the thing about fanaticism is that only non-grounded people
+fall for it. In my conversations with one of the local villagers who has been
+working at Dharmalaya for over 10 years I came across a surprising story.
 Hariyali Didi, who has built multiple mud houses and has learned it from her
 grandfathers, says she herself has built her most recent house with cement and
-burnt brick.
+burnt bricks.
 
 In her own words:
 > "Cement buildings are all the trend now" -- Hariyali Devi
 
 And so Dharamalaya and all it's fanaticism hasn't done much good if the people
-working there themselves don't see and believe in the benefits of Natural
+working there themselves don't see and understand the benefits of Natural
 Buildings, no matter what the prevailing cultural trend is.
  
 ### Permaculture
