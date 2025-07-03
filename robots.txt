@@ -1,0 +1,4 @@
+User-agent: *
+Sitemap: https://shaleenjain.com/sitemap.xml
+Content-Usage: tdm=n;exceptions=cc-cr-op
+Allow: /
