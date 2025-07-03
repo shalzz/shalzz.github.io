@@ -70,5 +70,3 @@ feel they are more experienced, skilled and just better than beginners.
 ### Water CI
 
 ### To begin with the act of giving
-
-
