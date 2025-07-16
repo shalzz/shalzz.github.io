@@ -8,9 +8,9 @@ audience="dancers, researchers, CI practitioners, CI beginners"
 +++
 
 While attending a CI workshop in Goa, at a wonderful space under a huge Banyan
-Tree with sunlight shimmering through it's leaves, having finished a set of
+Tree with sunlight shimmering through it's leaves, after finishing a set of
 partner exercises we sat down in a circle to share our experiences and
-feelings.  Two other participants began the sharing with how they where able
+feelings. Two other participants began the sharing with how they where able
 to trust each other letting them both share weight, lift and fly each other
 easily.
 

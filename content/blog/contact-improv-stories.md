@@ -1,7 +1,7 @@
 +++
 title="Contact Improvisation Stories"
-date=2025-07-01
-draft=true
+date=2025-07-11
+draft=false
 [extra]
 tags="contract improvisation, somatics, dance, yoga, martial arts, space, time, awareness, touch, physical, gravity, soma, trust, grounding, falling, catching, flying"
 audience="dancers, researchers, CI practitioners, CI beginners"
