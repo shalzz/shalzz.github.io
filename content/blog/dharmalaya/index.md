@@ -1,7 +1,7 @@
 +++
 title="Dharmalaya - A Dysfunctional Institute"
 date=2025-06-30
-draft=false
+draft=true
 [extra]
 tags="dharmalaya, dsyfunctional, institute, contemplative, permaculture, natural building, didi contractor, earthville, arts, india, bir, community, himachal pradesh, contemplative arts, vernacular"
 image="view.jpg"
