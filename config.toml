@@ -88,6 +88,11 @@ include_content = true
 #     title = "A title"
 #
 [translations]
+title = "Shaleen Jain"
+
+[languages]
+[languages.hi]
+title = "शालीन जैन"
 
 [extra]
 keywords = "web, android, technology, docker, javascript, java, python, blog, computer engineering, shaleen jain, shalzz, shaleen, jain, C/C++, rust, C, C++, GO-lang"
