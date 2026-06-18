@@ -1,7 +1,7 @@
 +++
 title="Shanti"
 date=2026-02-26
-draft=false
+draft=true
 [extra]
 tags="reflection, introspection, thought, meditation"
 +++
