@@ -8,7 +8,7 @@ tags=""
 +++
 
 <figure>
-{{ resize_image(path="router-side-crop-2.jpg") }}
+{{ <resize_image page path="router-side-crop-2.jpg" /> }}
 <figcaption>Wifi Router with an attached 4G USB dongle</figcaption>
 </figure>
 

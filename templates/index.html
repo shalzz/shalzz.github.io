@@ -1,6 +1,4 @@
 {% extends "butler/templates/index.html" %}
-{% import "lmacros.html" as macros %}
-
 
 {% block extra_css %}
 <!-- Begin Mailchimp Signup Form -->
@@ -60,7 +58,7 @@
 {% block subscribe %}
 <div>
     Sign up for my newsletter to be the first to know about a new post
-    {{ macros::subscribe() }}
+    {{ <subscribe /> }}
 </div>
 {% endblock subscribe %}
 

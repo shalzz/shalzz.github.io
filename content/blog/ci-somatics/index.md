@@ -38,8 +38,7 @@ questions and conflicts. In a duet, two planets cross the others orbit and
 there's a merging of their gravitational fields.  They have a play of
 spinning, spiraling, colliding and slingshotting into and out of each other.
 
-<figure style="width:75%;margin:auto;"> {{
-  resize_image(path="double-planet.jpg") }} <figcaption>Two bodies in motion
+<figure style="width:75%;margin:auto;"> {{ <resize_image page path="double-planet.jpg" /> }} <figcaption>Two bodies in motion
     sharing an orbital axis</figcaption> <br/> </figure>
 
 When there's harmony between these two dancers, they sense and exactly match

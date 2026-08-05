@@ -25,7 +25,7 @@ In the same vein, I recently tweeted about taking control of your messaging plat
 Helping you maintain a new layer of privacy via isolation as well as improving your quality of life by unifying your chatting platforms.
 This article though focuses only on voice and text communication.
 
-{{ tweet(url="https://twitter.com/shalzzj/status/1499689706367643649") }}
+{{ <tweet url="https://twitter.com/shalzzj/status/1499689706367643649" /> }}
 
 <!-- toc -->
 

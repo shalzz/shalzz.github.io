@@ -28,7 +28,7 @@ I explained and solved in the previous post of this series. After adapting that
 patch we were now able to discover and list any DLNA renderers available
 on the same network.
 
-{{ resize_image(path="vlc-dlna-discover-clip.jpg") }}
+{{ <resize_image page path="vlc-dlna-discover-clip.jpg" /> }}
 
 ## Casting to the Device
 

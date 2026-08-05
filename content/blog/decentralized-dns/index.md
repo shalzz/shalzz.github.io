@@ -193,7 +193,7 @@ For e.g. if your device IP address is `192.168.1.224` and the port of `hsd` is `
 use `tcp://192.168.1.224:54` as an upstream server address for both
 `Upstream DNS servers` and `Bootstrap DNS servers`
 
-<figure> {{ resize_image(path="adguard-dns.png") }}
+<figure> {{ <resize_image page path="adguard-dns.png" /> }}
 <figcaption> Adguard Dashboard on its DNS settings page </figcaption>
 <br/>
 </figure>
@@ -202,7 +202,7 @@ use `tcp://192.168.1.224:54` as an upstream server address for both
 Here is the complete `docker-compose.yaml` file for setting up both `hsd` and `adguard`.
 Customize for your setup.
 
-{{ gist(url="https://gist.github.com/shalzz/e30d41403f92feef0d2688d081336dbd") }}
+{{ <gist url="https://gist.github.com/shalzz/e30d41403f92feef0d2688d081336dbd" /> }}
 
 [^fn-1]: [A Deep Dive on the Recent Widespread DNS Hijacking Attacks][1]:
     "...hijacking the DNS servers for these targets, so that all email and virtual private networking (VPN) traffic was redirected to an Internet address controlled by the attackers..."

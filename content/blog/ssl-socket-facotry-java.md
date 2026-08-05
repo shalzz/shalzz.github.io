@@ -35,7 +35,7 @@ And for HttpUrlConnection set a custom SSLSocket to the connection as described 
 
 Here is a reference implementation that does just that.
 
-{{ gist(url="https://gist.github.com/shalzz/8125772") }}
+{{ <gist url="https://gist.github.com/shalzz/8125772" /> }}
 
 #### For HttpURLConnection
 

@@ -8,7 +8,7 @@ tags="mechanical, mechanical keyboard, cherry mx, gateron brown, tada68, india, 
 +++
 
 <figure>
-{{ resize_image(path="tada68-alu-top.jpg") }}
+{{ <resize_image page path="tada68-alu-top.jpg" /> }}
 <figcaption> TADA68 with the aluminium case</figcaption>
 </figure>
 
@@ -52,8 +52,8 @@ With all these factors it was a no-brainer to buy the TADA68 and so I did!
 
 <figure>
 <div class="image-row">
-    {{ resize_image(path="tada68-box.jpg",class="image-column") }}
-    {{ resize_image(path="tada68-plastic-top.jpg",class="image-column") }}
+    {{ <resize_image page path="tada68-box.jpg" class="image-column" /> }}
+    {{ <resize_image page path="tada68-plastic-top.jpg" class="image-column" /> }}
 </div>
 <figcaption>TADA68 in its original box and on the right with its stock plastic case</figcaption>
 </figure>
@@ -68,7 +68,7 @@ only Gateron switches which are Cherry MX clones by a Chinese company, which I h
 never tried before.
 
 <figure>
-    {{ resize_image(path="tada68-switch.jpg") }}
+    {{ <resize_image page path="tada68-switch.jpg" /> }}
 <figcaption>Gateron Brown switches with white leds.</figcaption>
 </figure>
 <br/>
@@ -103,8 +103,8 @@ it a premium product. I particularly like a low-profile case than a high-profile
 giving others a glimpse of the excellent technology and engineering that goes into the switches
 and the keyboard as a whole, adding to the mechanical keyboard aura.
 
-{{ resize_image(path="tada68-alu-profile.jpg") }}
-{{ resize_image(path="tada68-alu-profile-angled.jpg") }}
+{{ <resize_image page path="tada68-alu-profile.jpg" /> }}
+{{ <resize_image page path="tada68-alu-profile-angled.jpg" /> }}
 
 Switching out the plastic case with the aluminium one I found out that two screws
 were "missing" in the sense that they were not screwed into the cases but stuck between
@@ -116,7 +116,7 @@ the plates since they were indeed made of a ferrous metal and used them to repla
 the case.
 
 <figure>
-    {{ resize_image(path="tada68-alucase-bottomfeet.jpg") }}
+    {{ <resize_image page path="tada68-alucase-bottomfeet.jpg" /> }}
 <figcaption>The bottom of the aluminium case with the anodised feet.</figcaption>
 </figure>
 <br/>

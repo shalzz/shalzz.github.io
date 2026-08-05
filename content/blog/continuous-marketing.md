@@ -43,7 +43,7 @@ And my "Continuous Marketing" is still running with over 15000 emails sent alrea
 If you as well every find and are willing to exploit an insecure API for at least
 marketing gains perhaps this python script will make that a lot more easy for you.
 
-{{ gist(url="https://gist.github.com/shalzz/ff60ae09162112db067b9463c76469e0") }}
+{{ <gist url="https://gist.github.com/shalzz/ff60ae09162112db067b9463c76469e0" /> }}
 
 [Sendgrid]: https://sendgrid.com
 [2]: https://github.com/sendgrid/sendgrid-python

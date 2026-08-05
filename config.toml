@@ -23,6 +23,7 @@ generate_feeds = true
 # See below for list of allowed values.
 theme = "solarized-light"
 
+[markdown]
 # When set to "true", emoji aliases translated to their corresponding
 # Unicode emoji equivalent in the rendered Markdown files. (e.g.: :smile: => 😄)
 render_emoji = true

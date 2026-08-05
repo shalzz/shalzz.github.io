@@ -78,7 +78,7 @@ each of which I will explain in detail:
 * DDNS: Dynamic DNS to update our router IP address to a DNS record.
 
 <figure style="width:75%;margin:auto;">
-    {{ resize_image(path="streaming-server.png") }}
+    {{ <resize_image page path="streaming-server.png" /> }}
 <figcaption style="text-align:center;">Fig 1: Network Architecture</figcaption>
 <br/>
 </figure>
@@ -138,7 +138,7 @@ login from anywhere and queue up a torrent to download with the full bandwidth
 of your home connection directly onto the hard drive connected to your router.
 
 <figure style="width:85%;margin:auto;">
-    {{ resize_image(path="transmission-web.png") }}
+    {{ <resize_image page path="transmission-web.png" /> }}
 <figcaption style="text-align:center;">Fig 2: Transmission Web running on a home router</figcaption>
 <br/>
 </figure>

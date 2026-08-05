@@ -8,7 +8,7 @@ image="view.jpg"
 +++
 
 <figure>
-{{ resize_image(path="view.jpg") }}
+{{ <resize_image page path="view.jpg" /> }}
 <figcaption>View from a village near Dharmalaya</figcaption>
 </figure>
 
@@ -80,7 +80,7 @@ any closer to truth and reality.
 A glimpse of her approach can be inferred from this text she shared with us after
 many people requested more information to understand the teachings.
 
-{{ resize_image(path="mai-linh.jpg") }}
+{{ <resize_image page path="mai-linh.jpg" /> }}
 
 ### Natural Building and Didi Contractor
 
