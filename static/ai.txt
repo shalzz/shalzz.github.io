@@ -8,9 +8,9 @@ Site-URL: https://shaleenjain.com
 
 # Do NOT use this site's content to train or fine-tune AI models.
 Training: deny
-# Do NOT scrape / bulk-collect this site's content for any AI use.
-Scraping: deny
-# Do NOT build AI-powered indexes or answer engines from this content.
-Indexing: deny
-# Do NOT cache this content for AI retrieval / RAG pipelines.
-Caching: deny
+# AI scraping / retrieval is allowed.
+Scraping: allow
+# AI-powered indexes and answer engines may use this content.
+Indexing: allow
+# Caching for AI retrieval / RAG pipelines is allowed.
+Caching: allow
