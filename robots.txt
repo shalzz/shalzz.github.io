@@ -1,0 +1,61 @@
+# robots.txt for shaleenjain.com
+# Policy: ALLOW SEO + AI scraping/indexing/grounding.
+#         BLOCK only crawlers used to TRAIN / fine-tune models.
+# NOTE: robots.txt is honor-based — compliant bots obey it, malicious scrapers ignore it.
+#       For a machine-readable companion, see /ai.txt (Training: deny).
+
+# ----- Model-TRAINING crawlers (blocked) -----
+
+# OpenAI model training
+User-agent: GPTBot
+Disallow: /
+
+# Anthropic bulk model training
+User-agent: anthropic-ai
+Disallow: /
+
+# Google foundation-model training (Gemini etc.)
+User-agent: Google-Extended
+Disallow: /
+
+# Amazon model training
+User-agent: Amazonbot
+Disallow: /
+
+# Apple foundation-model training
+User-agent: Applebot-Extended
+Disallow: /
+
+# Meta model training
+User-agent: meta-externalagent
+Disallow: /
+
+# ByteDance model training
+User-agent: Bytespider
+Disallow: /
+
+# Common Crawl (widely used for model training)
+User-agent: CCBot
+Disallow: /
+
+# Allen Institute for AI
+User-agent: AI2Bot
+Disallow: /
+
+# Cohere model training
+User-agent: cohere-ai
+Disallow: /
+
+# Commercial data-extraction / training feeds
+User-agent: Diffbot
+Disallow: /
+User-agent: omgili
+Disallow: /
+User-agent: omgilibot
+Disallow: /
+
+# Everything else (search engines + AI search/grounding bots) is ALLOWED:
+# e.g. Googlebot, Bingbot, OAI-SearchBot, ChatGPT-User, ClaudeBot, claude-web,
+#       PerplexityBot, Perplexity-User, FacebookBot, Applebot, DuckAssistBot, YouBot, etc.
+User-agent: *
+Allow: /

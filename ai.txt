@@ -1,0 +1,16 @@
+# ai.txt — AI usage preferences for this website.
+# Format spec: https://www.ietf.org/archive/id/draft-car-ai-txt-wellknown-00.html
+# This is a machine-readable complement to robots.txt.
+
+Spec-Version: 1.0
+Site-Name: Shaleen Jain
+Site-URL: https://shaleenjain.com
+
+# Do NOT use this site's content to train or fine-tune AI models.
+Training: deny
+# AI scraping / retrieval is allowed.
+Scraping: allow
+# AI-powered indexes and answer engines may use this content.
+Indexing: allow
+# Caching for AI retrieval / RAG pipelines is allowed.
+Caching: allow
